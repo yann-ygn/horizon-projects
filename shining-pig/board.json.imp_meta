@@ -19,11 +19,11 @@
         "mode": "square",
         "origin_x": 0,
         "origin_y": 0,
-        "spacing_square": 50000,
+        "spacing_square": 100000,
         "spacing_x": 1250000,
         "spacing_y": 1250000
     },
-    "grid_spacing": 50000,
+    "grid_spacing": 100000,
     "layer_display": {
         "layer_opacity": 20.0,
         "layers": {
@@ -102,7 +102,10 @@
         }
     },
     "nets": {
-        "airwires_visible": null,
+        "airwires_visible": {
+            "bc1a8b66-24ad-4416-ae0a-06515ad111a5": true,
+            "cf778b57-449c-4397-a790-292f85918f29": true
+        },
         "net_colors": null
     },
     "parts": {
