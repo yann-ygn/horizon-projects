@@ -1,0 +1,38 @@
+{
+    "manufacturer": "",
+    "name": "Opamp offset",
+    "pins": {
+        "1156113b-0025-4d43-8474-0d8f297c11cc": {
+            "direction": "output",
+            "names": [],
+            "primary_name": "OUT",
+            "swap_group": 0
+        },
+        "2516cc70-62c1-43f4-8d17-63cd98089725": {
+            "direction": "passive",
+            "names": [],
+            "primary_name": "N1",
+            "swap_group": 0
+        },
+        "406b8de1-1070-4327-b586-6e8597674970": {
+            "direction": "input",
+            "names": [],
+            "primary_name": "-",
+            "swap_group": 0
+        },
+        "770399da-94ae-48e4-949e-ebaa55a0ec6e": {
+            "direction": "input",
+            "names": [],
+            "primary_name": "+",
+            "swap_group": 0
+        },
+        "f82dfd95-2d08-47f9-bf2e-2fb415d41250": {
+            "direction": "passive",
+            "names": [],
+            "primary_name": "N2",
+            "swap_group": 0
+        }
+    },
+    "type": "unit",
+    "uuid": "cd19aecf-3e77-4750-b282-55faa6545f50"
+}
