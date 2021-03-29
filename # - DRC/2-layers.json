@@ -144,7 +144,7 @@
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 0,
                         "types": [
                             "pad",
                             "pad"
@@ -533,7 +533,7 @@
         "clearance_silkscreen_exposed_copper": {
             "clearance_bottom": 100000,
             "clearance_top": 100000,
-            "enabled": true,
+            "enabled": false,
             "order": -1
         },
         "diffpair": {},
@@ -547,7 +547,32 @@
             "solder_mask_expansion": 100000,
             "via_solder_mask_expansion": 100000
         },
-        "plane": {},
+        "plane": {
+            "1affe0bf-1123-458c-a1c7-7db5661ba23d": {
+                "enabled": true,
+                "layer": 10000,
+                "match": {
+                    "mode": "all",
+                    "net": "00000000-0000-0000-0000-000000000000",
+                    "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+                    "net_name_regex": ""
+                },
+                "order": 1,
+                "settings": {
+                    "connect_style": "thermal",
+                    "fill_style": "solid",
+                    "hatch_border_width": 500000,
+                    "hatch_line_spacing": 500000,
+                    "hatch_line_width": 200000,
+                    "keep_orphans": false,
+                    "min_width": 100000,
+                    "style": "miter",
+                    "text_style": "expand",
+                    "thermal_gap_width": 200000,
+                    "thermal_spoke_width": 200000
+                }
+            }
+        },
         "track_width": {
             "f907d0d5-7c18-4e35-b1e3-c7c39b55983f": {
                 "enabled": true,
@@ -560,21 +585,37 @@
                 "order": 0,
                 "widths": {
                     "-100": {
-                        "def": 200000,
-                        "max": 10000000,
-                        "min": 100000
+                        "def": 300000,
+                        "max": 800000,
+                        "min": 300000
                     },
                     "0": {
-                        "def": 200000,
-                        "max": 10000000,
-                        "min": 100000
+                        "def": 300000,
+                        "max": 800000,
+                        "min": 300000
                     }
                 }
             }
         },
-        "via": {}
+        "via": {
+            "7987e724-e917-4599-8a0a-11a07507b6f9": {
+                "enabled": true,
+                "match": {
+                    "mode": "all",
+                    "net": "00000000-0000-0000-0000-000000000000",
+                    "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+                    "net_name_regex": ""
+                },
+                "order": 3,
+                "padstack": "3c4a52fe-3ae0-4c3e-a108-824b53d6d6da",
+                "parameter_set": {
+                    "hole_diameter": 350000,
+                    "via_diameter": 700000
+                }
+            }
+        }
     },
     "rules_type": "board",
     "type": "rules",
-    "uuid": "3d8063a5-fbe4-4ff9-8237-e21c15af87c3"
+    "uuid": "ace24f42-fccd-4055-b076-a24bb864e415"
 }

@@ -242,7 +242,25 @@
     },
     "polygons": {},
     "text_placements": {},
-    "texts": {},
+    "texts": {
+        "2f348881-f38b-4224-8b78-2e7d6b12bb03": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -5000000,
+                    3750000
+                ]
+            },
+            "size": 1500000,
+            "text": "$REFDES",
+            "width": 0
+        }
+    },
     "type": "symbol",
     "unit": "07c42ecc-8b64-43eb-95bf-1b8d5ae8532a",
     "uuid": "bee201d6-3b1c-4aa4-9300-cbf14d76fb45"

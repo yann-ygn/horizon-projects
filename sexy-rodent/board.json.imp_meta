@@ -28,7 +28,7 @@
         "layer_opacity": 20.0,
         "layers": {
             "-100": {
-                "display_mode": "fill",
+                "display_mode": "outline",
                 "visible": true
             },
             "-110": {
@@ -37,7 +37,7 @@
             },
             "-120": {
                 "display_mode": "fill_only",
-                "visible": true
+                "visible": false
             },
             "-130": {
                 "display_mode": "fill",
@@ -60,7 +60,7 @@
                 "visible": true
             },
             "0": {
-                "display_mode": "fill",
+                "display_mode": "outline",
                 "visible": true
             },
             "10": {
@@ -77,7 +77,7 @@
             },
             "20": {
                 "display_mode": "fill_only",
-                "visible": true
+                "visible": false
             },
             "200": {
                 "display_mode": "fill",
