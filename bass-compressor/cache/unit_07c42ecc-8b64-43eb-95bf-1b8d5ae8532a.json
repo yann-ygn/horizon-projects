@@ -1,0 +1,26 @@
+{
+    "manufacturer": "",
+    "name": "Switch SPDT",
+    "pins": {
+        "38fbe0ab-a6a6-44a4-975e-b172f2eaa1ad": {
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "COMMON",
+            "swap_group": 0
+        },
+        "6004a4b8-5428-4c68-b73d-f8477e0f013c": {
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "NC",
+            "swap_group": 0
+        },
+        "968d243c-d34b-4cbb-9208-082d93acad0b": {
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "NO",
+            "swap_group": 0
+        }
+    },
+    "type": "unit",
+    "uuid": "07c42ecc-8b64-43eb-95bf-1b8d5ae8532a"
+}
