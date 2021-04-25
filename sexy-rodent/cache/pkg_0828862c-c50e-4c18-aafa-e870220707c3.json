@@ -5,25 +5,25 @@
     "junctions": {
         "678a4bc4-869e-4712-9994-8c968c327b2c": {
             "position": [
-                -350000,
+                -125000,
                 650000
             ]
         },
         "897bd7b8-0702-4917-be38-5806b68fb873": {
             "position": [
-                -350000,
+                -125000,
                 -650000
             ]
         },
         "d61a97f4-5f9b-4b84-a16e-8bef37cbc437": {
             "position": [
-                350000,
+                125000,
                 650000
             ]
         },
         "ee1683e4-c9c8-405b-9402-15ce29b8daad": {
             "position": [
-                350000,
+                125000,
                 -650000
             ]
         }
@@ -90,8 +90,10 @@
             }
         }
     },
-    "parameter_program": "",
-    "parameter_set": {},
+    "parameter_program": "3.400mm 1.900mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle 0.000mm 0.000mm ]",
+    "parameter_set": {
+        "courtyard_expansion": 50000
+    },
     "polygons": {
         "3588c29e-ce77-4b37-9537-478bbdfbacda": {
             "layer": 60,
@@ -104,8 +106,8 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -1700000,
-                        -950000
+                        -1750000,
+                        -1000000
                     ],
                     "type": "line"
                 },
@@ -116,8 +118,8 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        1700000,
-                        -950000
+                        -1750000,
+                        1000000
                     ],
                     "type": "line"
                 },
@@ -128,8 +130,8 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        1700000,
-                        950000
+                        1750000,
+                        1000000
                     ],
                     "type": "line"
                 },
@@ -140,8 +142,8 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -1700000,
-                        950000
+                        1750000,
+                        -1000000
                     ],
                     "type": "line"
                 }
@@ -200,6 +202,60 @@
                     "type": "line"
                 }
             ]
+        },
+        "86b76b7a-24b0-4128-9016-7684e1aa29d7": {
+            "layer": 50,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1000000,
+                        -650000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1000000,
+                        650000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        1000000,
+                        650000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        1000000,
+                        -650000
+                    ],
+                    "type": "line"
+                }
+            ]
         }
     },
     "rules": {
@@ -225,13 +281,30 @@
                 "angle": 0,
                 "mirror": false,
                 "shift": [
-                    -1250000,
-                    1600000
+                    -1450000,
+                    1750000
                 ]
             },
-            "size": 800000,
+            "size": 1000000,
             "text": "$RD",
             "width": 150000
+        },
+        "bec682de-c1cb-48a8-82ba-27474975c6cb": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 50,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -1400000,
+                    -25000
+                ]
+            },
+            "size": 1000000,
+            "text": "$RD",
+            "width": 0
         }
     },
     "type": "package",
