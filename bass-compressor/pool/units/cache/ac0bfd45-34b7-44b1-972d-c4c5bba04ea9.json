@@ -1,0 +1,40 @@
+{
+    "manufacturer": "",
+    "name": "Photorelay",
+    "pins": {
+        "09099975-02f6-4d57-8eed-d5a644f4c878": {
+            "direction": "passive",
+            "names": [
+                "Drain"
+            ],
+            "primary_name": "4",
+            "swap_group": 0
+        },
+        "72bfb729-b453-4282-91c7-0cb2ed18470b": {
+            "direction": "passive",
+            "names": [
+                "Drain"
+            ],
+            "primary_name": "3",
+            "swap_group": 0
+        },
+        "7a593022-80f1-4285-ae09-ac0e652e2d1b": {
+            "direction": "passive",
+            "names": [
+                "Cathode"
+            ],
+            "primary_name": "2",
+            "swap_group": 0
+        },
+        "861aae49-2866-4efa-aa9a-8be5408e6b5f": {
+            "direction": "passive",
+            "names": [
+                "Anode"
+            ],
+            "primary_name": "1",
+            "swap_group": 0
+        }
+    },
+    "type": "unit",
+    "uuid": "ac0bfd45-34b7-44b1-972d-c4c5bba04ea9"
+}

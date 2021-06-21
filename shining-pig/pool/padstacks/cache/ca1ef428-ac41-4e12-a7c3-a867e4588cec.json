@@ -1,0 +1,116 @@
+{
+    "holes": {
+        "056fa8e5-8b21-454e-a805-467fd49763b6": {
+            "diameter": 400000,
+            "length": 500000,
+            "parameter_class": "hole",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    0,
+                    0
+                ]
+            },
+            "plated": true,
+            "shape": "round"
+        }
+    },
+    "name": "Circular Hole",
+    "padstack_type": "hole",
+    "parameter_program": "get-parameter [ hole_diameter ]\ndup dup\nset-hole [ hole round ]\n\nget-parameter [ hole_solder_mask_expansion ] 2 *\n+\nset-shape [ mask circle ]\n\nget-parameter [ hole_annular_ring ] 2 *\n+\nset-shape [ pad circle ]",
+    "parameter_set": {
+        "hole_annular_ring": 200000,
+        "hole_diameter": 400000,
+        "hole_solder_mask_expansion": 100000
+    },
+    "parameters_required": [
+        "hole_diameter",
+        "hole_annular_ring"
+    ],
+    "polygons": {},
+    "shapes": {
+        "0fcc5be3-fa35-464c-ac89-7bfaea0821da": {
+            "form": "circle",
+            "layer": -110,
+            "parameter_class": "mask",
+            "params": [
+                600000
+            ],
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "1919564e-4dfd-4afa-ae6b-b06ddcefb9e6": {
+            "form": "circle",
+            "layer": 10,
+            "parameter_class": "mask",
+            "params": [
+                600000
+            ],
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "3d4a1caa-13a9-4828-aee6-4ec776b4f007": {
+            "form": "circle",
+            "layer": -1,
+            "parameter_class": "pad",
+            "params": [
+                800000
+            ],
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "587492a5-d20b-4258-b1a8-04da900ea393": {
+            "form": "circle",
+            "layer": -100,
+            "parameter_class": "pad",
+            "params": [
+                800000
+            ],
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "c0afc6ea-f577-42ee-8860-16eaf52721bf": {
+            "form": "circle",
+            "layer": 0,
+            "parameter_class": "pad",
+            "params": [
+                800000
+            ],
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    0,
+                    0
+                ]
+            }
+        }
+    },
+    "type": "padstack",
+    "uuid": "ca1ef428-ac41-4e12-a7c3-a867e4588cec"
+}
