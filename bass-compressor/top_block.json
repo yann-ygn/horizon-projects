@@ -356,7 +356,7 @@
                     "net": "d5d6f743-588d-4052-8245-4d5afc41c37a"
                 },
                 "5610005f-9b05-4651-b010-cae82a83b9e7/c48e9b1a-de93-4e14-b725-310682130816": {
-                    "net": "efa1503c-62e6-4c81-a22d-55e5fde9879e"
+                    "net": "e0b72c17-8e1a-4dea-8eaf-9559f5a54555"
                 },
                 "5610005f-9b05-4651-b010-cae82a83b9e7/d50a4828-ae34-48e8-b80f-e7367ec68514": {
                     "net": "f46fc3e0-8a45-4e15-a930-92f48a2b8247"
@@ -428,7 +428,7 @@
                     "net": "bc1a8b66-24ad-4416-ae0a-06515ad111a5"
                 },
                 "23766b63-6ffc-4831-baee-ba1635a735b3/bb8460b5-34e6-41b0-9a9f-10eed3a3d8d6": {
-                    "net": "efa1503c-62e6-4c81-a22d-55e5fde9879e"
+                    "net": "e0b72c17-8e1a-4dea-8eaf-9559f5a54555"
                 }
             },
             "custom_pin_names": {},
@@ -449,7 +449,7 @@
                     "net": "bc1a8b66-24ad-4416-ae0a-06515ad111a5"
                 },
                 "a6bdcc7e-9eef-4c0c-90ae-c0e67c57b0c0/befe5543-8617-4612-b57d-e1f21918bd88": {
-                    "net": "efa1503c-62e6-4c81-a22d-55e5fde9879e"
+                    "net": "e0b72c17-8e1a-4dea-8eaf-9559f5a54555"
                 }
             },
             "custom_pin_names": {},
@@ -782,7 +782,7 @@
                     "net": "bc1a8b66-24ad-4416-ae0a-06515ad111a5"
                 },
                 "9bfcf213-2a7e-444e-8312-ce57209fc9ec/852f1fe6-06dc-4661-8a14-61a9a6ebb26a": {
-                    "net": "efa1503c-62e6-4c81-a22d-55e5fde9879e"
+                    "net": "e0b72c17-8e1a-4dea-8eaf-9559f5a54555"
                 }
             },
             "custom_pin_names": {},
@@ -947,7 +947,7 @@
                     "net": "bc1a8b66-24ad-4416-ae0a-06515ad111a5"
                 },
                 "9bfcf213-2a7e-444e-8312-ce57209fc9ec/852f1fe6-06dc-4661-8a14-61a9a6ebb26a": {
-                    "net": "efa1503c-62e6-4c81-a22d-55e5fde9879e"
+                    "net": "e0b72c17-8e1a-4dea-8eaf-9559f5a54555"
                 }
             },
             "custom_pin_names": {},
@@ -1650,6 +1650,13 @@
         "dd18f3c4-540c-4044-a90d-cb6ef293f8e4": {
             "is_power": true,
             "name": "Vb",
+            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "power_symbol_name_visible": true,
+            "power_symbol_style": "antenna"
+        },
+        "e0b72c17-8e1a-4dea-8eaf-9559f5a54555": {
+            "is_power": true,
+            "name": "+5V",
             "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
             "power_symbol_name_visible": true,
             "power_symbol_style": "antenna"
