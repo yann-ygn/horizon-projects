@@ -1,0 +1,146 @@
+{
+    "arcs": {},
+    "can_expand": false,
+    "junctions": {
+        "24395ec9-88f9-4a75-b07f-14a2da9825a9": {
+            "position": [
+                -2500000,
+                -2500000
+            ]
+        },
+        "373e66b0-2a7c-4e9a-ad66-7d88e065c690": {
+            "position": [
+                2500000,
+                0
+            ]
+        },
+        "4056a1ff-d736-49af-b201-f97839bf5538": {
+            "position": [
+                -2500000,
+                2500000
+            ]
+        },
+        "7483374f-5d70-4efd-b710-a710d0e0ffed": {
+            "position": [
+                2500000,
+                0
+            ]
+        },
+        "7d5d3f1c-47f4-414b-9faa-aa56ff685cf4": {
+            "position": [
+                2500000,
+                0
+            ]
+        },
+        "a39dd070-d195-4480-88d2-8d2e624a4d95": {
+            "position": [
+                2500000,
+                0
+            ]
+        },
+        "f2b7f37c-ee04-4ace-a0db-dd76e1baec9c": {
+            "position": [
+                2500000,
+                0
+            ]
+        }
+    },
+    "lines": {
+        "56e3f408-a2cf-4b43-8adb-e98b220a3d5c": {
+            "from": "4056a1ff-d736-49af-b201-f97839bf5538",
+            "layer": 0,
+            "to": "24395ec9-88f9-4a75-b07f-14a2da9825a9",
+            "width": 0
+        },
+        "86ee6d64-49b2-4c0e-8c66-2dd06bc773d8": {
+            "from": "24395ec9-88f9-4a75-b07f-14a2da9825a9",
+            "layer": 0,
+            "to": "7483374f-5d70-4efd-b710-a710d0e0ffed",
+            "width": 0
+        },
+        "a7b13821-f3f1-4813-9ac8-246b7576a260": {
+            "from": "a39dd070-d195-4480-88d2-8d2e624a4d95",
+            "layer": 0,
+            "to": "4056a1ff-d736-49af-b201-f97839bf5538",
+            "width": 0
+        }
+    },
+    "name": "Inverter",
+    "pins": {
+        "2b3cd2eb-3cd0-494c-832c-a6035e108e62": {
+            "decoration": {
+                "clock": false,
+                "dot": true,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": false,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                5000000,
+                0
+            ]
+        },
+        "6c9d6be3-a60f-47c5-a4b9-12f730f51210": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": false,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -5000000,
+                0
+            ]
+        }
+    },
+    "polygons": {},
+    "text_placements": {},
+    "texts": {
+        "5e15955b-2dac-4bab-9d79-791bcd536dcc": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -2500000,
+                    -3750000
+                ]
+            },
+            "size": 1500000,
+            "text": "$VALUE",
+            "width": 0
+        },
+        "ea48bf1a-92bf-41a8-8db9-53838820434e": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -2500000,
+                    3750000
+                ]
+            },
+            "size": 1500000,
+            "text": "$REFDES",
+            "width": 0
+        }
+    },
+    "type": "symbol",
+    "unit": "0e7f054e-6c4b-4ae2-93b5-6c1decf09294",
+    "uuid": "871664c7-ded5-4dcf-94f6-9bd386d0e4fb"
+}

@@ -1,0 +1,24 @@
+{
+    "manufacturer": "",
+    "name": "Inverter",
+    "pins": {
+        "2b3cd2eb-3cd0-494c-832c-a6035e108e62": {
+            "direction": "output",
+            "names": [
+                "OUT"
+            ],
+            "primary_name": "Y",
+            "swap_group": 0
+        },
+        "6c9d6be3-a60f-47c5-a4b9-12f730f51210": {
+            "direction": "input",
+            "names": [
+                "IN"
+            ],
+            "primary_name": "A",
+            "swap_group": 0
+        }
+    },
+    "type": "unit",
+    "uuid": "0e7f054e-6c4b-4ae2-93b5-6c1decf09294"
+}
