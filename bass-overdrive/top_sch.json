@@ -5429,12 +5429,6 @@
                     "net": "1be02a82-8bef-4834-9f47-cb44cf642c52",
                     "orientation": "up"
                 },
-                "273ede50-5a2b-4870-8866-37db998f9c89": {
-                    "junction": "f6fe632e-6548-434d-9214-53b3624f7274",
-                    "mirror": false,
-                    "net": "1be02a82-8bef-4834-9f47-cb44cf642c52",
-                    "orientation": "up"
-                },
                 "27cb208a-9b52-4658-801f-eec10d15ba71": {
                     "junction": "0a6a6a18-399e-4088-9421-7a800f699576",
                     "mirror": false,
@@ -5542,6 +5536,12 @@
                     "mirror": false,
                     "net": "bc1a8b66-24ad-4416-ae0a-06515ad111a5",
                     "orientation": "down"
+                },
+                "64573e53-5603-4106-a5c4-8dc7ffe24c19": {
+                    "junction": "f6fe632e-6548-434d-9214-53b3624f7274",
+                    "mirror": false,
+                    "net": "32e645d1-7246-47b7-9e44-e6a3d87f943b",
+                    "orientation": "up"
                 },
                 "648a75fa-005e-4db3-998d-369bc0906923": {
                     "junction": "266e1668-8f47-4cbc-bd85-39744b07a559",
@@ -6089,7 +6089,7 @@
                     "display_all_pads": false,
                     "display_directions": false,
                     "expand": 0,
-                    "gate": "09a8569a-aa60-4826-bd2a-38a77b62a2de",
+                    "gate": "edcf7000-3160-4d20-aa8e-870cb6a353e4",
                     "pin_display_mode": "selected_only",
                     "placement": {
                         "angle": 0,
@@ -7875,7 +7875,7 @@
                     "display_all_pads": false,
                     "display_directions": false,
                     "expand": 0,
-                    "gate": "edcf7000-3160-4d20-aa8e-870cb6a353e4",
+                    "gate": "09a8569a-aa60-4826-bd2a-38a77b62a2de",
                     "pin_display_mode": "selected_only",
                     "placement": {
                         "angle": 32768,
