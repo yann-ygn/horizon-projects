@@ -3516,7 +3516,7 @@
                     "to": {
                         "bus_ripper": null,
                         "junc": null,
-                        "pin": "a874df73-d410-4cb1-800a-3b6e60625dbd/29995253-b4b1-4c7c-a049-b6db2713ca7c"
+                        "pin": "3a1c4c51-bd6d-4e03-9c77-74e62a05f0a7/29995253-b4b1-4c7c-a049-b6db2713ca7c"
                     }
                 },
                 "5de5d761-1ee2-413e-85ff-55754034eac5": {
@@ -4975,7 +4975,7 @@
                     "from": {
                         "bus_ripper": null,
                         "junc": null,
-                        "pin": "a874df73-d410-4cb1-800a-3b6e60625dbd/852f1fe6-06dc-4661-8a14-61a9a6ebb26a"
+                        "pin": "3a1c4c51-bd6d-4e03-9c77-74e62a05f0a7/852f1fe6-06dc-4661-8a14-61a9a6ebb26a"
                     },
                     "to": {
                         "bus_ripper": null,
@@ -6331,6 +6331,25 @@
                     "symbol": "7259d3dd-c723-41b7-994c-df2d545a3dfe",
                     "texts": []
                 },
+                "3a1c4c51-bd6d-4e03-9c77-74e62a05f0a7": {
+                    "component": "2dc5da49-2e52-42a2-8dd2-2640c225e122",
+                    "display_all_pads": false,
+                    "display_directions": false,
+                    "expand": 0,
+                    "gate": "9bfcf213-2a7e-444e-8312-ce57209fc9ec",
+                    "pin_display_mode": "selected_only",
+                    "placement": {
+                        "angle": 49152,
+                        "mirror": false,
+                        "shift": [
+                            258750000,
+                            -8750000
+                        ]
+                    },
+                    "smashed": false,
+                    "symbol": "1f176305-dbe6-4349-a3c0-fe0927faaec4",
+                    "texts": []
+                },
                 "3a5fd075-4783-407c-af62-314c162853c8": {
                     "component": "ec7ea236-a813-4224-ac26-ce4952d7c82d",
                     "display_all_pads": false,
@@ -7294,25 +7313,6 @@
                         "shift": [
                             146250000,
                             -13750000
-                        ]
-                    },
-                    "smashed": false,
-                    "symbol": "1f176305-dbe6-4349-a3c0-fe0927faaec4",
-                    "texts": []
-                },
-                "a874df73-d410-4cb1-800a-3b6e60625dbd": {
-                    "component": "affab9a7-b6c1-4ed4-9814-cd1a823cc38a",
-                    "display_all_pads": false,
-                    "display_directions": false,
-                    "expand": 0,
-                    "gate": "9bfcf213-2a7e-444e-8312-ce57209fc9ec",
-                    "pin_display_mode": "selected_only",
-                    "placement": {
-                        "angle": 49152,
-                        "mirror": false,
-                        "shift": [
-                            258750000,
-                            -8750000
                         ]
                     },
                     "smashed": false,
