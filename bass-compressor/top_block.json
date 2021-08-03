@@ -3,11 +3,11 @@
         "concrete_parts": {},
         "csv_settings": {
             "columns": [
+                "refdes",
                 "QTY",
                 "MPN",
                 "value",
-                "manufacturer",
-                "refdes"
+                "manufacturer"
             ],
             "order": "asc",
             "sort_column": "refdes"
