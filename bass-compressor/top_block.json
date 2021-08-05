@@ -5,15 +5,15 @@
             "columns": [
                 "refdes",
                 "QTY",
-                "MPN",
                 "value",
-                "manufacturer"
+                "MPN",
+                "description"
             ],
             "order": "asc",
             "sort_column": "refdes"
         },
         "orderable_MPNs": {},
-        "output_filename": ""
+        "output_filename": "/home/yann/Desktop/2.csv"
     },
     "buses": {},
     "components": {
