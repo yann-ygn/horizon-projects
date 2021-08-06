@@ -144,7 +144,7 @@
                         ]
                     },
                     {
-                        "clearance": 0,
+                        "clearance": 200000,
                         "types": [
                             "pad",
                             "pad"
@@ -538,6 +538,7 @@
         },
         "diffpair": {},
         "hole_size": {},
+        "layer_pair": {},
         "parameters": {
             "courtyard_expansion": 250000,
             "enabled": true,
@@ -565,7 +566,7 @@
                     "hatch_line_spacing": 500000,
                     "hatch_line_width": 200000,
                     "keep_orphans": false,
-                    "min_width": 100000,
+                    "min_width": 200000,
                     "style": "miter",
                     "text_style": "expand",
                     "thermal_gap_width": 200000,
@@ -582,7 +583,7 @@
                     "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
                     "net_name_regex": ""
                 },
-                "order": 0,
+                "order": 4,
                 "widths": {
                     "-100": {
                         "def": 300000,
@@ -598,7 +599,7 @@
             }
         },
         "via": {
-            "7987e724-e917-4599-8a0a-11a07507b6f9": {
+            "dfc28450-2f35-4b3f-b451-cdab3d08fa1a": {
                 "enabled": true,
                 "match": {
                     "mode": "all",
@@ -606,7 +607,7 @@
                     "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
                     "net_name_regex": ""
                 },
-                "order": 3,
+                "order": 5,
                 "padstack": "3c4a52fe-3ae0-4c3e-a108-824b53d6d6da",
                 "parameter_set": {
                     "hole_diameter": 350000,
@@ -617,5 +618,5 @@
     },
     "rules_type": "board",
     "type": "rules",
-    "uuid": "ace24f42-fccd-4055-b076-a24bb864e415"
+    "uuid": "55047310-5e0e-4cc0-934a-cb101d71c769"
 }
