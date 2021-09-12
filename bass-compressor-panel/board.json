@@ -1,6 +1,32 @@
 {
     "arcs": {},
     "block": "0f042d69-82b8-4663-a873-a0c898b897a8",
+    "board_panels": {
+        "8d907201-5680-45a4-b193-431295dd2a85": {
+            "included_board": "087441f6-ec12-4ef6-b1c2-5e41192f9461",
+            "omit_outline": false,
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    10000000,
+                    10000000
+                ]
+            }
+        },
+        "abfe64d3-a2c0-49e9-b398-e76d9547ee81": {
+            "included_board": "087441f6-ec12-4ef6-b1c2-5e41192f9461",
+            "omit_outline": false,
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    81000000,
+                    10000000
+                ]
+            }
+        }
+    },
     "colors": {
         "silkscreen": {
             "b": 1.0,
@@ -75,7 +101,85 @@
         "prefix": "bass-preamp-panel",
         "zip_output": false
     },
-    "holes": {},
+    "grid_settings": {
+        "current": {
+            "mode": "square",
+            "name": "",
+            "origin": [
+                0,
+                0
+            ],
+            "spacing_rect": [
+                1250000,
+                1250000
+            ],
+            "spacing_square": 1000000
+        },
+        "grids": {}
+    },
+    "holes": {
+        "27727cd2-241f-4fcb-bcb7-45e83464ce64": {
+            "padstack": "762c84c2-187d-454a-af81-d3381bec5257",
+            "parameter_set": {
+                "hole_diameter": 3000000
+            },
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    147000000,
+                    3000000
+                ]
+            }
+        },
+        "38966cd0-6faa-495f-8048-3fcefdc5eafc": {
+            "padstack": "762c84c2-187d-454a-af81-d3381bec5257",
+            "parameter_set": {
+                "hole_diameter": 3000000
+            },
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    3000000,
+                    97000000
+                ]
+            }
+        },
+        "50f2bdac-0352-4b6b-9b7b-23d2470b54e4": {
+            "padstack": "762c84c2-187d-454a-af81-d3381bec5257",
+            "parameter_set": {
+                "hole_diameter": 3000000
+            },
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    3000000,
+                    3000000
+                ]
+            }
+        },
+        "c5fbffcb-6bce-4be3-9fdd-002737eb7dfc": {
+            "padstack": "762c84c2-187d-454a-af81-d3381bec5257",
+            "parameter_set": {
+                "hole_diameter": 3000000
+            },
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    147000000,
+                    97000000
+                ]
+            }
+        }
+    },
+    "included_boards": {
+        "087441f6-ec12-4ef6-b1c2-5e41192f9461": {
+            "project_filename": "/home/yann/_dev/06 - Horizon/horizon-projects/bass-compressor/bass-compressor.hprj"
+        }
+    },
     "junctions": {},
     "keepouts": {},
     "lines": {},
@@ -257,7 +361,74 @@
         "position_format": "",
         "top_side": ""
     },
-    "polygons": {},
+    "polygons": {
+        "ab69c66a-0bd7-4770-9a59-e57fa1d88938": {
+            "layer": 100,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        0,
+                        100000000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        150000000,
+                        0
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        150000000,
+                        100000000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        150000000,
+                        100000000
+                    ],
+                    "type": "line"
+                }
+            ]
+        }
+    },
     "rules": {
         "clearance_copper": {
             "f2f1d1bb-61ca-4a31-bdee-0d006eeb14e9": {
