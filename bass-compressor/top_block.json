@@ -7,13 +7,15 @@
                 "QTY",
                 "value",
                 "MPN",
-                "description"
+                "description",
+                "manufacturer",
+                "package"
             ],
             "order": "asc",
             "sort_column": "refdes"
         },
         "orderable_MPNs": {},
-        "output_filename": "/home/yann/Desktop/2.csv"
+        "output_filename": "BOM.csv"
     },
     "buses": {},
     "components": {

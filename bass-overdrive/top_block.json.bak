@@ -3,18 +3,17 @@
         "concrete_parts": {},
         "csv_settings": {
             "columns": [
-                "refdes",
                 "QTY",
-                "value",
                 "MPN",
-                "description",
-                "manufacturer"
+                "value",
+                "manufacturer",
+                "refdes"
             ],
             "order": "asc",
             "sort_column": "refdes"
         },
         "orderable_MPNs": {},
-        "output_filename": "/home/yann/Desktop/1.csv"
+        "output_filename": ""
     },
     "buses": {},
     "components": {
