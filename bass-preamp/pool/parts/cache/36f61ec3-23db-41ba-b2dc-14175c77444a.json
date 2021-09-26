@@ -1,0 +1,48 @@
+{
+    "MPN": [
+        false,
+        "MCVVT025M470EA1L"
+    ],
+    "datasheet": [
+        false,
+        ""
+    ],
+    "description": [
+        false,
+        "CAPACITOR ALUM 47UF 25V ±20%"
+    ],
+    "entity": "b0c2b8f8-aecf-4873-9458-c06eee2f7a00",
+    "inherit_model": false,
+    "inherit_tags": false,
+    "manufacturer": [
+        false,
+        "Multicomp"
+    ],
+    "model": "052d6252-f399-4ba3-9349-f61a9949721d",
+    "package": "7189e13e-3c42-4660-ad51-8c044b6395ff",
+    "pad_map": {
+        "39dc34da-b7d2-43e0-b4f2-c93a7b8a9d9f": {
+            "gate": "23766b63-6ffc-4831-baee-ba1635a735b3",
+            "pin": "1e7cd34f-86db-4b34-9e0b-c276756301ab"
+        },
+        "5fa85fad-290a-4c34-af25-3e2b8273073f": {
+            "gate": "23766b63-6ffc-4831-baee-ba1635a735b3",
+            "pin": "bb8460b5-34e6-41b0-9a9f-10eed3a3d8d6"
+        }
+    },
+    "parametric": {
+        "price": "0.0875",
+        "table": "capacitors",
+        "tolerance": "20",
+        "type": "Electrolytic",
+        "value": "4.7e-05",
+        "wvdc": "25"
+    },
+    "tags": [],
+    "type": "part",
+    "uuid": "36f61ec3-23db-41ba-b2dc-14175c77444a",
+    "value": [
+        false,
+        "47u"
+    ]
+}

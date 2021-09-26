@@ -1,0 +1,56 @@
+{
+    "manufacturer": "Intersil",
+    "name": "Icl7660s",
+    "pins": {
+        "087784b4-2fd4-4f08-bc1b-de382da50ead": {
+            "direction": "power_output",
+            "names": [],
+            "primary_name": "VOUT",
+            "swap_group": 0
+        },
+        "3187f14e-416b-4921-b6e2-bfab7e05cb6f": {
+            "direction": "passive",
+            "names": [],
+            "primary_name": "CAP+",
+            "swap_group": 0
+        },
+        "67a7aa38-ef01-4b63-b4a2-364034ad9890": {
+            "direction": "power_input",
+            "names": [],
+            "primary_name": "GND",
+            "swap_group": 0
+        },
+        "6d88fafb-6f4e-40ed-ab87-cce120b91985": {
+            "direction": "passive",
+            "names": [],
+            "primary_name": "CAP-",
+            "swap_group": 0
+        },
+        "de0828e4-fbf2-4c54-8ab3-0f9093926b52": {
+            "direction": "passive",
+            "names": [],
+            "primary_name": "LV",
+            "swap_group": 0
+        },
+        "f4ad3a4a-5bb5-49e1-9da4-cac26d5c62e7": {
+            "direction": "power_input",
+            "names": [],
+            "primary_name": "V+",
+            "swap_group": 0
+        },
+        "f66eab8e-6258-4a7a-83fa-31e6bb59450f": {
+            "direction": "power_input",
+            "names": [],
+            "primary_name": "BOOST",
+            "swap_group": 0
+        },
+        "f9375009-a3c3-4b75-b631-0da0156227ca": {
+            "direction": "passive",
+            "names": [],
+            "primary_name": "OSC",
+            "swap_group": 0
+        }
+    },
+    "type": "unit",
+    "uuid": "f77fcea3-1836-44e2-8626-e1cfb10ad3ec"
+}
