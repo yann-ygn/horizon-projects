@@ -2,6 +2,22 @@
     "arcs": {},
     "default_model": "42a10a71-178c-4394-9215-b2b62b8b9326",
     "dimensions": {},
+    "grid_settings": {
+        "current": {
+            "mode": "square",
+            "name": "",
+            "origin": [
+                0,
+                0
+            ],
+            "spacing_rect": [
+                1250000,
+                1250000
+            ],
+            "spacing_square": 50000
+        },
+        "grids": {}
+    },
     "junctions": {
         "175a68e3-bae6-40b4-9cfa-3eaca4fc8f36": {
             "position": [
@@ -176,11 +192,11 @@
                 "angle": 0,
                 "mirror": false,
                 "shift": [
-                    -1150000,
+                    -1250000,
                     5900000
                 ]
             },
-            "size": 800000,
+            "size": 1000000,
             "text": "$RD",
             "width": 150000
         }
