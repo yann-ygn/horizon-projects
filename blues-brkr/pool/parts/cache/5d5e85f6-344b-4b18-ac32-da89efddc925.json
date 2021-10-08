@@ -1,0 +1,48 @@
+{
+    "MPN": [
+        false,
+        "EEEFC1V220P"
+    ],
+    "datasheet": [
+        false,
+        ""
+    ],
+    "description": [
+        false,
+        "CAPACITOR ALUM 22UF 35V LESR ±20%"
+    ],
+    "entity": "b0c2b8f8-aecf-4873-9458-c06eee2f7a00",
+    "inherit_model": false,
+    "inherit_tags": false,
+    "manufacturer": [
+        false,
+        "Panasonic"
+    ],
+    "model": "052d6252-f399-4ba3-9349-f61a9949721d",
+    "package": "7189e13e-3c42-4660-ad51-8c044b6395ff",
+    "pad_map": {
+        "39dc34da-b7d2-43e0-b4f2-c93a7b8a9d9f": {
+            "gate": "23766b63-6ffc-4831-baee-ba1635a735b3",
+            "pin": "1e7cd34f-86db-4b34-9e0b-c276756301ab"
+        },
+        "5fa85fad-290a-4c34-af25-3e2b8273073f": {
+            "gate": "23766b63-6ffc-4831-baee-ba1635a735b3",
+            "pin": "bb8460b5-34e6-41b0-9a9f-10eed3a3d8d6"
+        }
+    },
+    "parametric": {
+        "price": "0.187",
+        "table": "capacitors",
+        "tolerance": "20",
+        "type": "Electrolytic",
+        "value": "2.2e-05",
+        "wvdc": "35"
+    },
+    "tags": [],
+    "type": "part",
+    "uuid": "5d5e85f6-344b-4b18-ac32-da89efddc925",
+    "value": [
+        false,
+        "22u"
+    ]
+}
