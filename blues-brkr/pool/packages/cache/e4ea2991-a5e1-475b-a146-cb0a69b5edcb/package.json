@@ -2,6 +2,22 @@
     "arcs": {},
     "default_model": "41efc881-c704-4fe8-b462-d840e3cfcdc4",
     "dimensions": {},
+    "grid_settings": {
+        "current": {
+            "mode": "square",
+            "name": "",
+            "origin": [
+                0,
+                0
+            ],
+            "spacing_rect": [
+                1250000,
+                1250000
+            ],
+            "spacing_square": 100000
+        },
+        "grids": {}
+    },
     "junctions": {
         "76f3b07d-7dea-4937-8227-dab459606b51": {
             "position": [
@@ -238,6 +254,23 @@
     },
     "tags": [],
     "texts": {
+        "58efa707-4e43-4f4d-a979-1a2a6997ac9a": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 50,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -1340000,
+                    0
+                ]
+            },
+            "size": 1000000,
+            "text": "$RD",
+            "width": 0
+        },
         "e2d53d1a-fc5d-45ed-b5bd-f31f711323ef": {
             "font": "simplex",
             "from_smash": false,

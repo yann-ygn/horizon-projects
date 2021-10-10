@@ -1,0 +1,52 @@
+{
+    "MPN": [
+        false,
+        "TLP175A"
+    ],
+    "datasheet": [
+        false,
+        ""
+    ],
+    "description": [
+        false,
+        "MOSFET OUTPUT PHOTOCOUPLER"
+    ],
+    "entity": "231d9e9c-12ab-44af-bde9-e8106f10a82e",
+    "inherit_model": false,
+    "inherit_tags": false,
+    "manufacturer": [
+        false,
+        "Toshiba"
+    ],
+    "model": "218d075b-046f-4e5c-a1b0-947e8215bb29",
+    "package": "1f2bf2c0-9642-47c1-b782-f690d8ccf9bb",
+    "pad_map": {
+        "2234b599-b18f-433a-a682-c8d6c024764c": {
+            "gate": "c7d89f5a-e58e-4148-997f-f55a4eaf0a49",
+            "pin": "09099975-02f6-4d57-8eed-d5a644f4c878"
+        },
+        "353fbfbc-2636-4006-ad51-a93661262b94": {
+            "gate": "c7d89f5a-e58e-4148-997f-f55a4eaf0a49",
+            "pin": "7a593022-80f1-4285-ae09-ac0e652e2d1b"
+        },
+        "3d86f5e4-2579-46c2-a8d9-3a4247a67bcf": {
+            "gate": "c7d89f5a-e58e-4148-997f-f55a4eaf0a49",
+            "pin": "861aae49-2866-4efa-aa9a-8be5408e6b5f"
+        },
+        "44b9ab5f-7e95-470e-8fc5-3f119c25b4a0": {
+            "gate": "c7d89f5a-e58e-4148-997f-f55a4eaf0a49",
+            "pin": "72bfb729-b453-4282-91c7-0cb2ed18470b"
+        }
+    },
+    "parametric": {
+        "price": "0.465",
+        "table": "general"
+    },
+    "tags": [],
+    "type": "part",
+    "uuid": "34ebf8a9-bdd0-43a6-8430-b3d7edb935ab",
+    "value": [
+        false,
+        ""
+    ]
+}
