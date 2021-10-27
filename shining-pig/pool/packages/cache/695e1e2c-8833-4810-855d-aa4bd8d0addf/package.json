@@ -5,73 +5,67 @@
     "junctions": {
         "163de12a-5dfc-4b36-9d26-499dcbd3a7a3": {
             "position": [
-                650000,
+                477500,
                 975000
             ]
         },
         "4f565a1d-5a4b-42ac-b16b-ffc9d33d2066": {
             "position": [
-                650000,
+                475000,
                 -975000
             ]
         },
         "5acb1487-db57-4165-a70d-2b29199b0b1a": {
             "position": [
-                -550000,
+                -425000,
                 975000
             ]
         },
         "5c17304b-fb76-4a6e-976a-a06e3deb3b33": {
             "position": [
-                -450000,
+                -350000,
                 975000
             ]
         },
         "7fec3d71-d134-4708-940f-0bd56ea85e3c": {
             "position": [
-                -500000,
+                -375000,
                 975000
             ]
         },
         "a096b4c9-29fc-416b-918a-3e7fdf767ab6": {
             "position": [
-                -600000,
+                -475000,
                 975000
             ]
         },
         "a6182170-9b48-4a35-9afb-070ba9a549aa": {
             "position": [
-                -600000,
+                -475000,
                 -975000
             ]
         },
         "bd894fc3-e6ba-45e7-b64d-f3d32cf068e1": {
             "position": [
-                -650000,
+                -525000,
                 -975000
             ]
         },
         "c79c0806-b826-44c9-94c0-e7c06389f3eb": {
             "position": [
-                -650000,
+                -525000,
                 975000
             ]
         },
         "c8b44325-4393-4e28-bcbd-8fe588e99f31": {
             "position": [
-                -550000,
-                -975000
-            ]
-        },
-        "f7c3c459-bdf1-4283-b090-19f5db6df045": {
-            "position": [
-                -450000,
+                -425000,
                 -975000
             ]
         },
         "fe77508a-d2bf-4047-9499-5bde764abf7c": {
             "position": [
-                -500000,
+                -375000,
                 -975000
             ]
         }
@@ -94,12 +88,6 @@
             "from": "5acb1487-db57-4165-a70d-2b29199b0b1a",
             "layer": 20,
             "to": "c8b44325-4393-4e28-bcbd-8fe588e99f31",
-            "width": 50000
-        },
-        "a1c42482-7683-4879-ba7b-acf3a2143746": {
-            "from": "5c17304b-fb76-4a6e-976a-a06e3deb3b33",
-            "layer": 20,
-            "to": "f7c3c459-bdf1-4283-b090-19f5db6df045",
             "width": 50000
         },
         "a7134190-4136-4ce5-9ab9-cf672a862c20": {
@@ -192,8 +180,10 @@
             }
         }
     },
-    "parameter_program": "",
-    "parameter_set": {},
+    "parameter_program": "4.716mm 2.450mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle 0.000mm 0.000mm ]",
+    "parameter_set": {
+        "courtyard_expansion": 50000
+    },
     "polygons": {
         "418336c4-169e-49a6-9c84-28923ecc6774": {
             "layer": 60,
@@ -206,8 +196,8 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -2358220,
-                        -1225000
+                        -2408000,
+                        -1275000
                     ],
                     "type": "line"
                 },
@@ -218,8 +208,8 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        2358220,
-                        -1225000
+                        -2408000,
+                        1275000
                     ],
                     "type": "line"
                 },
@@ -230,8 +220,8 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        2358220,
-                        1225000
+                        2408000,
+                        1275000
                     ],
                     "type": "line"
                 },
@@ -242,8 +232,62 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -2358220,
-                        1225000
+                        2408000,
+                        -1275000
+                    ],
+                    "type": "line"
+                }
+            ]
+        },
+        "57584e28-7835-4ff7-bddf-75aa600faecb": {
+            "layer": 50,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1500000,
+                        -975000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        1500000,
+                        -975000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        1500000,
+                        975000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1500000,
+                        975000
                     ],
                     "type": "line"
                 }
@@ -318,6 +362,23 @@
     },
     "tags": [],
     "texts": {
+        "c1e89c5a-52cf-4a68-b168-09889f556876": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 50,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -1150000,
+                    0
+                ]
+            },
+            "size": 800000,
+            "text": "$RD",
+            "width": 0
+        },
         "efec8868-dd09-4601-939c-ca7a168179aa": {
             "font": "simplex",
             "from_smash": false,
@@ -327,11 +388,11 @@
                 "angle": 0,
                 "mirror": false,
                 "shift": [
-                    -1225000,
-                    1850000
+                    -1425000,
+                    2050000
                 ]
             },
-            "size": 800000,
+            "size": 1000000,
             "text": "$RD",
             "width": 150000
         }

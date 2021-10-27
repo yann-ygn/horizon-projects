@@ -9,9 +9,33 @@
                 1850000
             ]
         },
+        "28d1103e-590f-4d34-8da3-7359cfcb06ea": {
+            "position": [
+                2250000,
+                650000
+            ]
+        },
+        "356396e2-50b3-45b6-9146-633f8f2a8756": {
+            "position": [
+                -2250000,
+                -650000
+            ]
+        },
+        "76410956-6111-47d7-9cd0-92baaa2ebb4a": {
+            "position": [
+                2250000,
+                -650000
+            ]
+        },
         "8eaa3ce8-c311-435b-957e-07132720f655": {
             "position": [
                 2250000,
+                -1850000
+            ]
+        },
+        "90f67ae8-d6bb-4158-8528-f3d628fb0e08": {
+            "position": [
+                -1700000,
                 -1850000
             ]
         },
@@ -21,31 +45,49 @@
                 -1850000
             ]
         },
+        "b86f33b1-dfa5-4bee-acba-affa1d9525dd": {
+            "position": [
+                -1700000,
+                1850000
+            ]
+        },
         "e5ae6d78-904d-484c-a32b-d40bc0442bc5": {
             "position": [
                 -2250000,
                 1850000
             ]
+        },
+        "fbb77ae0-d2c2-4991-88b3-fec7b17310e2": {
+            "position": [
+                -2250000,
+                650000
+            ]
         }
     },
     "keepouts": {},
     "lines": {
-        "2f156791-580b-4da7-890f-201805e46e6f": {
-            "from": "8eaa3ce8-c311-435b-957e-07132720f655",
+        "3cdfccd0-72c3-4832-b185-9e5ff7452ec0": {
+            "from": "b86f33b1-dfa5-4bee-acba-affa1d9525dd",
             "layer": 20,
-            "to": "11fdfe2b-2c11-41c7-9d72-7c5c081c5c16",
-            "width": 50000
-        },
-        "4870f7ac-d792-4fda-bc55-d8c61ac80ce5": {
-            "from": "e5ae6d78-904d-484c-a32b-d40bc0442bc5",
-            "layer": 20,
-            "to": "a65241aa-96af-4498-92f0-c83af3279400",
+            "to": "90f67ae8-d6bb-4158-8528-f3d628fb0e08",
             "width": 50000
         },
         "5122d00d-e4a2-4ab5-8c1e-91bc0a20937c": {
             "from": "11fdfe2b-2c11-41c7-9d72-7c5c081c5c16",
             "layer": 20,
             "to": "e5ae6d78-904d-484c-a32b-d40bc0442bc5",
+            "width": 50000
+        },
+        "79356a56-6153-4c15-82f1-9e59880f9bbc": {
+            "from": "28d1103e-590f-4d34-8da3-7359cfcb06ea",
+            "layer": 20,
+            "to": "76410956-6111-47d7-9cd0-92baaa2ebb4a",
+            "width": 50000
+        },
+        "92a54f47-4d18-44d2-8283-8bc24c22257e": {
+            "from": "fbb77ae0-d2c2-4991-88b3-fec7b17310e2",
+            "layer": 20,
+            "to": "356396e2-50b3-45b6-9146-633f8f2a8756",
             "width": 50000
         },
         "abb26c0d-06d7-44ec-b53e-9d7984c4f6e5": {
@@ -134,8 +176,10 @@
             }
         }
     },
-    "parameter_program": "",
-    "parameter_set": {},
+    "parameter_program": "8.600mm 4.200mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle 0.000mm 0.000mm ]",
+    "parameter_set": {
+        "courtyard_expansion": 50000
+    },
     "polygons": {
         "04c765a9-438f-45c6-a413-b99e1cfc3e6e": {
             "layer": 60,
@@ -148,8 +192,8 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -4300000,
-                        -2100000
+                        -4350000,
+                        -2150000
                     ],
                     "type": "line"
                 },
@@ -160,8 +204,8 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        4300000,
-                        -2100000
+                        -4350000,
+                        2150000
                     ],
                     "type": "line"
                 },
@@ -172,8 +216,8 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        4300000,
-                        2100000
+                        4350000,
+                        2150000
                     ],
                     "type": "line"
                 },
@@ -184,40 +228,10 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -4300000,
-                        2100000
+                        4350000,
+                        -2150000
                     ],
                     "type": "line"
-                }
-            ]
-        },
-        "88a6ea27-149e-48ba-89e9-01e5019fdfde": {
-            "layer": 20,
-            "parameter_class": "",
-            "vertices": [
-                {
-                    "arc_center": [
-                        -750000,
-                        -650000
-                    ],
-                    "arc_reverse": false,
-                    "position": [
-                        -1450000,
-                        1600000
-                    ],
-                    "type": "line"
-                },
-                {
-                    "arc_center": [
-                        -1350000,
-                        1250000
-                    ],
-                    "arc_reverse": true,
-                    "position": [
-                        -1450000,
-                        1600000
-                    ],
-                    "type": "arc"
                 }
             ]
         },
@@ -274,6 +288,60 @@
                     "type": "line"
                 }
             ]
+        },
+        "d69bc974-4d01-4f3a-adaf-8fda5482a9fd": {
+            "layer": 50,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -2250000,
+                        1850000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        2250000,
+                        1850000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        2250000,
+                        -1850000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -2250000,
+                        -1850000
+                    ],
+                    "type": "line"
+                }
+            ]
         }
     },
     "rules": {
@@ -290,6 +358,23 @@
     },
     "tags": [],
     "texts": {
+        "5b208c9f-8e97-426e-9722-5946d9b45b40": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 50,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -1300000,
+                    -50000
+                ]
+            },
+            "size": 1000000,
+            "text": "$RD",
+            "width": 0
+        },
         "d58ea46a-fcd6-4650-a569-30a654a5e9d8": {
             "font": "simplex",
             "from_smash": false,
@@ -299,11 +384,11 @@
                 "angle": 0,
                 "mirror": false,
                 "shift": [
-                    -1050000,
-                    2900000
+                    -1150000,
+                    2950000
                 ]
             },
-            "size": 800000,
+            "size": 1000000,
             "text": "$RD",
             "width": 150000
         }
