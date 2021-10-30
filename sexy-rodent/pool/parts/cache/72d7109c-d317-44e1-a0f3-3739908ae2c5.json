@@ -30,7 +30,14 @@
             "pin": "bb8460b5-34e6-41b0-9a9f-10eed3a3d8d6"
         }
     },
-    "parametric": {},
+    "parametric": {
+        "price": "0.133",
+        "table": "capacitors",
+        "tolerance": "20",
+        "type": "Electrolytic",
+        "value": "1e-06",
+        "wvdc": "50"
+    },
     "tags": [],
     "type": "part",
     "uuid": "72d7109c-d317-44e1-a0f3-3739908ae2c5",
