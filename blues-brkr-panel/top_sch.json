@@ -1,0 +1,50 @@
+{
+    "annotation": {
+        "fill_gaps": true,
+        "ignore_unknown": false,
+        "keep": true,
+        "mode": "sheet_100",
+        "order": "right_down"
+    },
+    "block": "0f042d69-82b8-4663-a873-a0c898b897a8",
+    "group_tag_visible": false,
+    "name": "",
+    "pdf_export_settings": {
+        "min_line_width": 0,
+        "output_filename": ""
+    },
+    "rules": {
+        "single_pin_net": {
+            "enabled": true,
+            "include_unnamed": true,
+            "order": -1
+        }
+    },
+    "sheets": {
+        "3781ea8a-85f7-4c97-a514-daf4eb16c1e8": {
+            "arcs": {},
+            "bus_labels": {},
+            "bus_rippers": {},
+            "index": 1,
+            "junctions": {},
+            "lines": {},
+            "name": "First sheet",
+            "net_labels": {},
+            "net_lines": {},
+            "power_symbols": {},
+            "symbols": {},
+            "texts": {},
+            "title_block_values": {}
+        }
+    },
+    "title_block_values": {
+        "author": "Yann",
+        "date": "2021-07-14",
+        "project_name": "blues-brkr-panel",
+        "project_title": "Blues Brkr panel",
+        "rev": "1"
+    },
+    "type": "schematic_block",
+    "uuid": "299738ff-e521-4e55-b087-a89797960c86",
+    "version": 1
+}
