@@ -2,6 +2,22 @@
     "arcs": {},
     "default_model": "be562a19-7fa4-49e2-b943-f7cd997b40a8",
     "dimensions": {},
+    "grid_settings": {
+        "current": {
+            "mode": "square",
+            "name": "",
+            "origin": [
+                0,
+                0
+            ],
+            "spacing_rect": [
+                1250000,
+                1250000
+            ],
+            "spacing_square": 254000
+        },
+        "grids": {}
+    },
     "junctions": {
         "15dc3eca-12fd-46f1-a8ca-220ee70bb41b": {
             "position": [
@@ -168,7 +184,62 @@
     },
     "parameter_program": "",
     "parameter_set": {},
-    "polygons": {},
+    "polygons": {
+        "c98f657e-ccef-488b-918f-36c8696ae56f": {
+            "layer": 50,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -3300000,
+                        -3500000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -3300000,
+                        3500000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        3300000,
+                        3500000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        3300000,
+                        -3500000
+                    ],
+                    "type": "line"
+                }
+            ]
+        }
+    },
     "rules": {
         "clearance_package": {
             "clearance_silkscreen_cu": 200000,
@@ -199,6 +270,23 @@
             "size": 1000000,
             "text": "$RD",
             "width": 150000
+        },
+        "85d9b03b-f886-4b7b-8c08-9d904db6a471": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 50,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -1778000,
+                    2286000
+                ]
+            },
+            "size": 1000000,
+            "text": "$RD",
+            "width": 0
         }
     },
     "type": "package",
