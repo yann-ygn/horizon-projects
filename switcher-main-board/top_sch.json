@@ -1,0 +1,50 @@
+{
+    "annotation": {
+        "fill_gaps": true,
+        "ignore_unknown": false,
+        "keep": true,
+        "mode": "sheet_100",
+        "order": "right_down"
+    },
+    "block": "bcf76749-c5f0-41de-9b9d-b05ad7ddbafa",
+    "group_tag_visible": false,
+    "name": "",
+    "pdf_export_settings": {
+        "min_line_width": 0,
+        "output_filename": ""
+    },
+    "rules": {
+        "single_pin_net": {
+            "enabled": true,
+            "include_unnamed": true,
+            "order": -1
+        }
+    },
+    "sheets": {
+        "c0eac43b-48de-4533-8496-dbc4c7fb29ac": {
+            "arcs": {},
+            "bus_labels": {},
+            "bus_rippers": {},
+            "index": 1,
+            "junctions": {},
+            "lines": {},
+            "name": "First sheet",
+            "net_labels": {},
+            "net_lines": {},
+            "power_symbols": {},
+            "symbols": {},
+            "texts": {},
+            "title_block_values": {}
+        }
+    },
+    "title_block_values": {
+        "author": "yann",
+        "date": "2021-12-04",
+        "project_name": "switcher-main-board",
+        "project_title": "Switcher main board",
+        "rev": "1"
+    },
+    "type": "schematic_block",
+    "uuid": "449da6c0-a647-42ad-8e43-306624c2066c",
+    "version": 1
+}

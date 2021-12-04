@@ -1,0 +1,38 @@
+{
+    "bom_export_settings": {
+        "concrete_parts": {},
+        "csv_settings": {
+            "columns": [
+                "QTY",
+                "MPN",
+                "value",
+                "manufacturer",
+                "refdes"
+            ],
+            "order": "asc",
+            "sort_column": "refdes"
+        },
+        "orderable_MPNs": {},
+        "output_filename": ""
+    },
+    "buses": {},
+    "components": {},
+    "group_names": {},
+    "name": "",
+    "net_class_default": "a3cde221-c45e-448f-8428-fbae809e4440",
+    "net_classes": {
+        "a3cde221-c45e-448f-8428-fbae809e4440": {
+            "name": "default"
+        }
+    },
+    "nets": {},
+    "project_meta": {
+        "author": "yann",
+        "date": "2021-12-04",
+        "project_name": "switcher-main-board",
+        "project_title": "Switcher main board",
+        "rev": "1"
+    },
+    "tag_names": {},
+    "uuid": "bcf76749-c5f0-41de-9b9d-b05ad7ddbafa"
+}
