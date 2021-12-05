@@ -1,0 +1,56 @@
+{
+    "manufacturer": "ST",
+    "name": "M95",
+    "pins": {
+        "38eb1bc0-2deb-4729-bbdb-a9435637aafc": {
+            "direction": "input",
+            "names": [],
+            "primary_name": "S",
+            "swap_group": 0
+        },
+        "5df72ff0-535b-4ad0-9105-3aed131fcd9e": {
+            "direction": "input",
+            "names": [],
+            "primary_name": "C",
+            "swap_group": 0
+        },
+        "671c00c0-87f7-468a-9b45-8a3784e58a17": {
+            "direction": "power_input",
+            "names": [],
+            "primary_name": "VSS",
+            "swap_group": 0
+        },
+        "7d3f9eeb-34a3-4076-b59f-49bd0339fdd5": {
+            "direction": "power_input",
+            "names": [],
+            "primary_name": "VCC",
+            "swap_group": 0
+        },
+        "acda1fb2-da02-4f96-847e-e3933faffeaf": {
+            "direction": "output",
+            "names": [],
+            "primary_name": "Q",
+            "swap_group": 0
+        },
+        "d765050d-5ffa-4c15-a203-4ba11795837b": {
+            "direction": "input",
+            "names": [],
+            "primary_name": "W",
+            "swap_group": 0
+        },
+        "e4b6e71c-0c06-4bdb-b6ca-2f573e0fb5a3": {
+            "direction": "input",
+            "names": [],
+            "primary_name": "D",
+            "swap_group": 0
+        },
+        "e925eece-2158-42ac-9e97-9c651eb33949": {
+            "direction": "input",
+            "names": [],
+            "primary_name": "HOLD",
+            "swap_group": 0
+        }
+    },
+    "type": "unit",
+    "uuid": "9cc78f5a-a1db-45ce-8ecd-fe93910b87b0"
+}
