@@ -17,6 +17,22 @@
     },
     "default_model": "db7b02e7-e4e9-4ec7-875a-f4b9b9e17460",
     "dimensions": {},
+    "grid_settings": {
+        "current": {
+            "mode": "square",
+            "name": "",
+            "origin": [
+                0,
+                0
+            ],
+            "spacing_rect": [
+                1250000,
+                1250000
+            ],
+            "spacing_square": 500000
+        },
+        "grids": {}
+    },
     "junctions": {
         "446e9fbc-d9be-42e8-98d6-af2921eaefa9": {
             "position": [
@@ -253,12 +269,29 @@
             "order": -1
         },
         "package_checks": {
-            "enabled": true,
+            "enabled": false,
             "order": -1
         }
     },
     "tags": [],
     "texts": {
+        "39e6699e-b239-4ec7-ba94-560e99582db5": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 50,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -1500000,
+                    -10500000
+                ]
+            },
+            "size": 1000000,
+            "text": "$RD",
+            "width": 0
+        },
         "3d9e15e7-79dc-4322-9db1-1b36a5ee875c": {
             "font": "simplex",
             "from_smash": false,
@@ -272,7 +305,7 @@
                     -10500000
                 ]
             },
-            "size": 800000,
+            "size": 1000000,
             "text": "$RD",
             "width": 150000
         }
