@@ -1,0 +1,68 @@
+{
+    "MPN": [
+        false,
+        "ICL7660SCBAZ"
+    ],
+    "datasheet": [
+        false,
+        ""
+    ],
+    "description": [
+        false,
+        "DC DC CHARGE PUMP"
+    ],
+    "entity": "e60e12d6-8a27-449b-b6e8-e9680709941c",
+    "inherit_model": false,
+    "inherit_tags": false,
+    "manufacturer": [
+        false,
+        "Intersil"
+    ],
+    "model": "a5878e67-afc7-461b-a020-700c574470c2",
+    "package": "e9e193c1-ec21-46d7-842b-02266d06f4cb",
+    "pad_map": {
+        "3a5386ab-3e3f-4016-9a85-9c9c2315c9e9": {
+            "gate": "ece7f40e-b40b-41cb-9170-199f73934e98",
+            "pin": "f4ad3a4a-5bb5-49e1-9da4-cac26d5c62e7"
+        },
+        "413d3e7a-addb-4a0f-a94d-c98779119ec6": {
+            "gate": "ece7f40e-b40b-41cb-9170-199f73934e98",
+            "pin": "de0828e4-fbf2-4c54-8ab3-0f9093926b52"
+        },
+        "48bd9388-8520-406b-9d85-090d992c5a9e": {
+            "gate": "ece7f40e-b40b-41cb-9170-199f73934e98",
+            "pin": "087784b4-2fd4-4f08-bc1b-de382da50ead"
+        },
+        "820f4c6b-5a44-4bec-88f5-18a275096696": {
+            "gate": "ece7f40e-b40b-41cb-9170-199f73934e98",
+            "pin": "6d88fafb-6f4e-40ed-ab87-cce120b91985"
+        },
+        "98100bd0-1066-4d26-9a56-75ff1afd842b": {
+            "gate": "ece7f40e-b40b-41cb-9170-199f73934e98",
+            "pin": "3187f14e-416b-4921-b6e2-bfab7e05cb6f"
+        },
+        "a6605fe8-fe10-4168-9790-5c82df7534cd": {
+            "gate": "ece7f40e-b40b-41cb-9170-199f73934e98",
+            "pin": "f9375009-a3c3-4b75-b631-0da0156227ca"
+        },
+        "c7d96e1c-df84-4b5b-be8d-0144d9ba88ca": {
+            "gate": "ece7f40e-b40b-41cb-9170-199f73934e98",
+            "pin": "f66eab8e-6258-4a7a-83fa-31e6bb59450f"
+        },
+        "de9159bc-124a-4dd0-8254-1c965604ff86": {
+            "gate": "ece7f40e-b40b-41cb-9170-199f73934e98",
+            "pin": "67a7aa38-ef01-4b63-b4a2-364034ad9890"
+        }
+    },
+    "parametric": {
+        "price": "1.41",
+        "table": "general"
+    },
+    "tags": [],
+    "type": "part",
+    "uuid": "2f832934-763b-4568-9285-08b8a565dc6d",
+    "value": [
+        false,
+        "ICL7660S"
+    ]
+}
