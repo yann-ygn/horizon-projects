@@ -119,7 +119,7 @@
                     "net": "7b731e6a-255d-4203-9862-c0513582b7bb"
                 },
                 "9bfcf213-2a7e-444e-8312-ce57209fc9ec/852f1fe6-06dc-4661-8a14-61a9a6ebb26a": {
-                    "net": "2dbdac6f-cce1-4ffa-9f4f-2771ec1070d5"
+                    "net": "c099922c-beda-47fc-9c10-3c29bf57577e"
                 }
             },
             "custom_pin_names": {},
@@ -548,7 +548,7 @@
                     "net": "7b731e6a-255d-4203-9862-c0513582b7bb"
                 },
                 "9bfcf213-2a7e-444e-8312-ce57209fc9ec/852f1fe6-06dc-4661-8a14-61a9a6ebb26a": {
-                    "net": "2dbdac6f-cce1-4ffa-9f4f-2771ec1070d5"
+                    "net": "d7e9dae2-9b18-4dc9-840b-60190236bd35"
                 }
             },
             "custom_pin_names": {},
@@ -796,7 +796,7 @@
         },
         "ad4f334c-37bc-4b87-bae9-b241c723811e": {
             "is_power": false,
-            "name": "EEPROM-SS",
+            "name": "EEPROM-CS",
             "net_class": "a3cde221-c45e-448f-8428-fbae809e4440",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -810,7 +810,7 @@
         },
         "bf8f7b7d-b740-48d8-82fb-34834a89f0bc": {
             "is_power": false,
-            "name": "MATRIX-SS",
+            "name": "MATRIX-CS",
             "net_class": "a3cde221-c45e-448f-8428-fbae809e4440",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
