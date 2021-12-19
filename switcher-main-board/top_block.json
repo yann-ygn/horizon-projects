@@ -350,6 +350,24 @@
             "tag": "5d1d6f73-c9fd-4053-9019-b2575ff49f5a",
             "value": ""
         },
+        "753d0475-7dc0-4215-a133-eeeb2e6e6756": {
+            "connections": {
+                "23cb4ab2-082f-47f3-9247-6b1aa08bfa04/c843be6b-4356-46e1-abba-2966a4332a27": {
+                    "net": "c099922c-beda-47fc-9c10-3c29bf57577e"
+                },
+                "23cb4ab2-082f-47f3-9247-6b1aa08bfa04/f584d8b9-86c0-41d5-bda9-72b0c0d84fb6": {
+                    "net": "7b731e6a-255d-4203-9862-c0513582b7bb"
+                }
+            },
+            "custom_pin_names": {},
+            "entity": "08add184-d25b-48fc-ae48-1f241ab20a3c",
+            "group": "00000000-0000-0000-0000-000000000000",
+            "part": "c03c413f-8cd4-4cd2-9692-1e6651e31574",
+            "pin_names": {},
+            "refdes": "D2",
+            "tag": "caaec442-3528-458f-909f-8e0c7ad155a2",
+            "value": ""
+        },
         "8373cf06-622f-449a-85a5-6cb8fc38d9e1": {
             "connections": {
                 "9bfcf213-2a7e-444e-8312-ce57209fc9ec/29995253-b4b1-4c7c-a049-b6db2713ca7c": {
@@ -489,6 +507,24 @@
             "pin_names": {},
             "refdes": "R3",
             "tag": "1d012596-7e51-4a38-9896-ae640e9e4d4f",
+            "value": ""
+        },
+        "be6b1ec4-bc63-4067-ac99-00152e61d1d0": {
+            "connections": {
+                "23cb4ab2-082f-47f3-9247-6b1aa08bfa04/c843be6b-4356-46e1-abba-2966a4332a27": {
+                    "net": "2dbdac6f-cce1-4ffa-9f4f-2771ec1070d5"
+                },
+                "23cb4ab2-082f-47f3-9247-6b1aa08bfa04/f584d8b9-86c0-41d5-bda9-72b0c0d84fb6": {
+                    "net": "d7e9dae2-9b18-4dc9-840b-60190236bd35"
+                }
+            },
+            "custom_pin_names": {},
+            "entity": "08add184-d25b-48fc-ae48-1f241ab20a3c",
+            "group": "00000000-0000-0000-0000-000000000000",
+            "part": "c03c413f-8cd4-4cd2-9692-1e6651e31574",
+            "pin_names": {},
+            "refdes": "D3",
+            "tag": "caaec442-3528-458f-909f-8e0c7ad155a2",
             "value": ""
         },
         "c0d3b8ac-f26c-42c6-b496-6d5f8261a742": {
@@ -896,6 +932,7 @@
         "93e816c2-06ed-4089-becf-7f2385f2bf9a": "13",
         "9729c03d-a23e-49ce-82d3-d51c93b08ed1": "16",
         "a3be08a9-e607-4d6f-9087-5498330d65d9": "5",
+        "caaec442-3528-458f-909f-8e0c7ad155a2": "18",
         "d1b83eed-0364-4c1d-bc24-22d7702d97ff": "6",
         "e17cbf80-b66b-47db-ae0e-fd6beacae5ff": "11"
     },
