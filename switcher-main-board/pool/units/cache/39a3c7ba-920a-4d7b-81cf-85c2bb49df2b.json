@@ -1,0 +1,104 @@
+{
+    "manufacturer": "ST",
+    "name": "STP08CP05",
+    "pins": {
+        "062cd577-dd08-4d34-87a8-b2798c20ecb7": {
+            "direction": "output",
+            "names": [],
+            "primary_name": "OUT7",
+            "swap_group": 0
+        },
+        "0907aea3-1bae-4d76-b615-d0cfe8756de9": {
+            "direction": "output",
+            "names": [],
+            "primary_name": "SDO",
+            "swap_group": 0
+        },
+        "195d331f-6264-4cdd-9266-666e4de98d86": {
+            "direction": "output",
+            "names": [],
+            "primary_name": "OUT0",
+            "swap_group": 0
+        },
+        "2043b37f-06d2-4f72-a76e-4172c319cfda": {
+            "direction": "power_input",
+            "names": [],
+            "primary_name": "VDD",
+            "swap_group": 0
+        },
+        "21c6a6c8-968e-468f-abfe-abf6f84e37cd": {
+            "direction": "power_input",
+            "names": [],
+            "primary_name": "GND",
+            "swap_group": 0
+        },
+        "34edd3a2-4778-4b31-9894-bc2d77134cb2": {
+            "direction": "output",
+            "names": [],
+            "primary_name": "OUT2",
+            "swap_group": 0
+        },
+        "3791ca48-7562-4dab-96f3-3640553c3f13": {
+            "direction": "input",
+            "names": [],
+            "primary_name": "OE",
+            "swap_group": 0
+        },
+        "3c7a6b5d-505c-483f-a935-b911b1fb39d3": {
+            "direction": "output",
+            "names": [],
+            "primary_name": "OUT4",
+            "swap_group": 0
+        },
+        "3d671e56-a8db-4e7a-a93c-6a24a5c7d4cb": {
+            "direction": "input",
+            "names": [],
+            "primary_name": "CLK",
+            "swap_group": 0
+        },
+        "6e49dcd2-70c2-4e6a-8e97-9a52146b2619": {
+            "direction": "output",
+            "names": [],
+            "primary_name": "OUT1",
+            "swap_group": 0
+        },
+        "88f38dc8-199a-4caa-992f-c9b955ef1969": {
+            "direction": "output",
+            "names": [],
+            "primary_name": "OUT6",
+            "swap_group": 0
+        },
+        "9e9c3241-2a4d-44d3-803d-f777c89adb7b": {
+            "direction": "output",
+            "names": [],
+            "primary_name": "OUT5",
+            "swap_group": 0
+        },
+        "cc00b4fb-79df-472c-bbdd-b675e04df793": {
+            "direction": "output",
+            "names": [],
+            "primary_name": "OUT3",
+            "swap_group": 0
+        },
+        "eac7ed2c-6145-425a-abca-c624afd593e5": {
+            "direction": "input",
+            "names": [],
+            "primary_name": "LE",
+            "swap_group": 0
+        },
+        "ee0ad445-0777-4e79-9db9-556c861e5f21": {
+            "direction": "passive",
+            "names": [],
+            "primary_name": "R-EXT",
+            "swap_group": 0
+        },
+        "fa3b4a4f-5029-418a-b747-4543c0c7b7fe": {
+            "direction": "input",
+            "names": [],
+            "primary_name": "SDI",
+            "swap_group": 0
+        }
+    },
+    "type": "unit",
+    "uuid": "39a3c7ba-920a-4d7b-81cf-85c2bb49df2b"
+}
