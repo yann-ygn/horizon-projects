@@ -330,7 +330,42 @@
     },
     "polygons": {},
     "text_placements": {},
-    "texts": {},
+    "texts": {
+        "b658b7c3-3853-48cc-96b7-7d70349e3f5a": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -10000000,
+                    -16250000
+                ]
+            },
+            "size": 1500000,
+            "text": "$VALUE",
+            "width": 0
+        },
+        "c5529011-5340-43ac-a71f-b5e6c02ea9c4": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -10000000,
+                    16250000
+                ]
+            },
+            "size": 1500000,
+            "text": "$REFDES",
+            "width": 0
+        }
+    },
     "type": "symbol",
     "unit": "39a3c7ba-920a-4d7b-81cf-85c2bb49df2b",
     "uuid": "1da1d0ba-df2f-4466-9eb4-f43ed3051c9f"
