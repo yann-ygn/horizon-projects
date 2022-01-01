@@ -1,0 +1,24 @@
+{
+    "gates": {
+        "6774ce18-ba52-4285-ace5-6c8af73c7137": {
+            "name": "POWER",
+            "suffix": "P",
+            "swap_group": 0,
+            "unit": "d74b6471-1ef3-4dc0-b9ad-37ec94994e92"
+        },
+        "96855b9e-3959-4cb5-b3a9-91f198a71db5": {
+            "name": "BUFFER",
+            "suffix": "B",
+            "swap_group": 0,
+            "unit": "cc05604f-7b7a-4cd7-9941-b96937b8ae67"
+        }
+    },
+    "manufacturer": "",
+    "name": "Single Schmitt-Trigger buffer",
+    "prefix": "IC",
+    "tags": [
+        "inverter"
+    ],
+    "type": "entity",
+    "uuid": "520368aa-e33b-47eb-877d-de6b710485fe"
+}

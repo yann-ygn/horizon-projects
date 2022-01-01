@@ -1,0 +1,38 @@
+{
+    "manufacturer": "",
+    "name": "Photocoupler",
+    "pins": {
+        "163e7724-203b-4082-aa59-4fdbbcc5837a": {
+            "direction": "output",
+            "names": [],
+            "primary_name": "VO",
+            "swap_group": 0
+        },
+        "3f309ca6-44cd-4c11-b0ea-def98c7beb9a": {
+            "direction": "power_input",
+            "names": [],
+            "primary_name": "VCC",
+            "swap_group": 0
+        },
+        "63b2be45-b898-4c81-ac3b-483c98ffa8e7": {
+            "direction": "input",
+            "names": [],
+            "primary_name": "K",
+            "swap_group": 0
+        },
+        "815e9118-f7ba-46ac-a3ea-173d1ff709fc": {
+            "direction": "input",
+            "names": [],
+            "primary_name": "A",
+            "swap_group": 0
+        },
+        "b8362a2f-a1ec-4f3a-87d5-f2376d2298a7": {
+            "direction": "power_input",
+            "names": [],
+            "primary_name": "GND",
+            "swap_group": 0
+        }
+    },
+    "type": "unit",
+    "uuid": "bca60d3d-a1a0-4d45-a885-0366b8dfb989"
+}

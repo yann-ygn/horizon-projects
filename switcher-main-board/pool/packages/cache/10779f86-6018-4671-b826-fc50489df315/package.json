@@ -894,7 +894,7 @@
     },
     "parameter_program": "20.500mm 20.500mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle 0.000mm 0.000mm ]",
     "parameter_set": {
-        "courtyard_expansion": -550000
+        "courtyard_expansion": -450000
     },
     "polygons": {
         "bd724a72-e7ff-4898-8ecf-c1c3a7f464b2": {
@@ -908,8 +908,8 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -9700000,
-                        -9700000
+                        -9800000,
+                        -9800000
                     ],
                     "type": "line"
                 },
@@ -920,8 +920,8 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -9700000,
-                        9700000
+                        -9800000,
+                        9800000
                     ],
                     "type": "line"
                 },
@@ -932,8 +932,8 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        9700000,
-                        9700000
+                        9800000,
+                        9800000
                     ],
                     "type": "line"
                 },
@@ -944,8 +944,8 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        9700000,
-                        -9700000
+                        9800000,
+                        -9800000
                     ],
                     "type": "line"
                 }
