@@ -1,0 +1,32 @@
+{
+    "manufacturer": "ADAFRUIT",
+    "name": "SSD1306 I2C",
+    "pins": {
+        "18b9a214-b313-4157-8429-0103a56bd0f7": {
+            "direction": "input",
+            "names": [],
+            "primary_name": "SCL",
+            "swap_group": 0
+        },
+        "4f43a255-bdbb-4b2b-8242-02211cae8d8d": {
+            "direction": "power_input",
+            "names": [],
+            "primary_name": "GND",
+            "swap_group": 0
+        },
+        "79245a48-5220-4afc-bab5-bb640f2bc9a3": {
+            "direction": "input",
+            "names": [],
+            "primary_name": "SDA",
+            "swap_group": 0
+        },
+        "a660af77-08f8-4c19-a8fe-766fedf9c153": {
+            "direction": "power_input",
+            "names": [],
+            "primary_name": "VCC",
+            "swap_group": 0
+        }
+    },
+    "type": "unit",
+    "uuid": "b0ca1f77-3fa1-42d7-aafc-25b02756250d"
+}

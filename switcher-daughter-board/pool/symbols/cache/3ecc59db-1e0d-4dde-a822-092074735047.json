@@ -1,0 +1,151 @@
+{
+    "arcs": {},
+    "can_expand": false,
+    "junctions": {
+        "02301308-2239-467a-a7b3-5924c0a63e04": {
+            "position": [
+                3750000,
+                -6250000
+            ]
+        },
+        "47c0832b-afac-411e-8846-6e442c948652": {
+            "position": [
+                3750000,
+                6250000
+            ]
+        },
+        "6d4f8dd0-4e13-47ff-8a19-d3e5a63e1fe5": {
+            "position": [
+                -3750000,
+                6250000
+            ]
+        },
+        "da435a04-b97c-459a-9eac-5978061e5b71": {
+            "position": [
+                -3750000,
+                -6250000
+            ]
+        }
+    },
+    "lines": {
+        "304d44bd-8e28-445a-80a2-4e42c2f34477": {
+            "from": "02301308-2239-467a-a7b3-5924c0a63e04",
+            "layer": 0,
+            "to": "da435a04-b97c-459a-9eac-5978061e5b71",
+            "width": 0
+        },
+        "7f47463d-b25b-4101-b4d7-9c2ade020faa": {
+            "from": "6d4f8dd0-4e13-47ff-8a19-d3e5a63e1fe5",
+            "layer": 0,
+            "to": "47c0832b-afac-411e-8846-6e442c948652",
+            "width": 0
+        },
+        "7febcafa-9872-404b-bfd2-5db286097a31": {
+            "from": "da435a04-b97c-459a-9eac-5978061e5b71",
+            "layer": 0,
+            "to": "6d4f8dd0-4e13-47ff-8a19-d3e5a63e1fe5",
+            "width": 0
+        },
+        "cb52f48f-6d14-4051-b934-1d8e25953e48": {
+            "from": "47c0832b-afac-411e-8846-6e442c948652",
+            "layer": 0,
+            "to": "02301308-2239-467a-a7b3-5924c0a63e04",
+            "width": 0
+        }
+    },
+    "name": "SSD1306 I2C",
+    "pins": {
+        "18b9a214-b313-4157-8429-0103a56bd0f7": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                6250000,
+                1250000
+            ]
+        },
+        "4f43a255-bdbb-4b2b-8242-02211cae8d8d": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                6250000,
+                -3750000
+            ]
+        },
+        "79245a48-5220-4afc-bab5-bb640f2bc9a3": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                6250000,
+                3750000
+            ]
+        },
+        "a660af77-08f8-4c19-a8fe-766fedf9c153": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                6250000,
+                -1250000
+            ]
+        }
+    },
+    "polygons": {},
+    "text_placements": {},
+    "texts": {
+        "129344cf-5546-415a-ad8b-6c6a2d1a84cc": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -3750000,
+                    7500000
+                ]
+            },
+            "size": 1500000,
+            "text": "$REFDES",
+            "width": 0
+        }
+    },
+    "type": "symbol",
+    "unit": "b0ca1f77-3fa1-42d7-aafc-25b02756250d",
+    "uuid": "3ecc59db-1e0d-4dde-a822-092074735047"
+}
