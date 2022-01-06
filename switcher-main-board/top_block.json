@@ -155,6 +155,24 @@
             "tag": "98f5c81f-09ea-4b50-9ed4-3a706b43101d",
             "value": ""
         },
+        "1cacb77a-217b-4f0e-8f33-c13dcd39841d": {
+            "connections": {
+                "48af78e5-730e-44eb-977a-cf188e4fcb39/6a44037c-65e2-4876-9359-42890048841d": {
+                    "net": "bcd4a9ed-9a68-4313-a099-30579d228d4b"
+                },
+                "48af78e5-730e-44eb-977a-cf188e4fcb39/dda0ec99-5d70-4fbe-a8db-897542e7554e": {
+                    "net": "33d4197b-f951-43cd-850b-76b7925ebf44"
+                }
+            },
+            "custom_pin_names": {},
+            "entity": "3ce770af-7be0-4f72-b2af-2c8010911aaf",
+            "group": "00000000-0000-0000-0000-000000000000",
+            "part": "5623d939-a793-4059-8342-d86505c2f599",
+            "pin_names": {},
+            "refdes": "R12",
+            "tag": "edfaf777-4fda-4c4f-b1ab-0dbfbe218322",
+            "value": ""
+        },
         "1f2ed907-a02d-4a63-ac24-3f8f5314f7b2": {
             "connections": {
                 "23766b63-6ffc-4831-baee-ba1635a735b3/1e7cd34f-86db-4b34-9e0b-c276756301ab": {
@@ -207,6 +225,30 @@
             "pin_names": {},
             "refdes": "R10",
             "tag": "d3af1f04-1aee-4de8-8043-70531d29ed96",
+            "value": ""
+        },
+        "24ec81f8-7571-49f3-b8b5-45ac07c91d8a": {
+            "connections": {
+                "c7d89f5a-e58e-4148-997f-f55a4eaf0a49/09099975-02f6-4d57-8eed-d5a644f4c878": {
+                    "net": "7fa803fe-48ee-4d71-aa6a-2da828dca58d"
+                },
+                "c7d89f5a-e58e-4148-997f-f55a4eaf0a49/72bfb729-b453-4282-91c7-0cb2ed18470b": {
+                    "net": "7b731e6a-255d-4203-9862-c0513582b7bb"
+                },
+                "c7d89f5a-e58e-4148-997f-f55a4eaf0a49/7a593022-80f1-4285-ae09-ac0e652e2d1b": {
+                    "net": "7b731e6a-255d-4203-9862-c0513582b7bb"
+                },
+                "c7d89f5a-e58e-4148-997f-f55a4eaf0a49/861aae49-2866-4efa-aa9a-8be5408e6b5f": {
+                    "net": "33d4197b-f951-43cd-850b-76b7925ebf44"
+                }
+            },
+            "custom_pin_names": {},
+            "entity": "231d9e9c-12ab-44af-bde9-e8106f10a82e",
+            "group": "00000000-0000-0000-0000-000000000000",
+            "part": "34ebf8a9-bdd0-43a6-8430-b3d7edb935ab",
+            "pin_names": {},
+            "refdes": "OK2",
+            "tag": "fed8359f-173a-43df-885e-fa0f7bfaf684",
             "value": ""
         },
         "27eb6ecf-d154-4082-938f-0c2b00795f1d": {
@@ -1429,6 +1471,9 @@
                 "5b705be2-9f09-450b-9374-cac9000d8722/5682866e-b1fa-4089-beaf-6eb330b9cce0": {
                     "net": "36f15b1e-ff37-4760-9580-15f556996194"
                 },
+                "5b705be2-9f09-450b-9374-cac9000d8722/5c60edd3-9c9b-4400-bd56-f784ba65c3e5": {
+                    "net": "bcd4a9ed-9a68-4313-a099-30579d228d4b"
+                },
                 "5b705be2-9f09-450b-9374-cac9000d8722/5d1ad87f-cbcc-40da-bddf-c58d3eccb72c": {
                     "net": "f11775a8-7efe-431a-9dff-ebd433fa470b"
                 },
@@ -1762,6 +1807,13 @@
             "power_symbol_name_visible": true,
             "power_symbol_style": "antenna"
         },
+        "33d4197b-f951-43cd-850b-76b7925ebf44": {
+            "is_power": false,
+            "name": "",
+            "net_class": "a3cde221-c45e-448f-8428-fbae809e4440",
+            "power_symbol_name_visible": true,
+            "power_symbol_style": "gnd"
+        },
         "34c555ed-9545-4bd8-b051-07ff0139c16d": {
             "is_power": false,
             "name": "PRESETLED3",
@@ -2032,6 +2084,13 @@
             "is_power": false,
             "name": "LOOP2-R",
             "net_class": "fb70573a-de10-4e54-87e4-575aeeca09a0",
+            "power_symbol_name_visible": true,
+            "power_symbol_style": "gnd"
+        },
+        "bcd4a9ed-9a68-4313-a099-30579d228d4b": {
+            "is_power": false,
+            "name": "MUTE",
+            "net_class": "7ff34b03-3758-4476-b729-f446dec1ca27",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
         },
