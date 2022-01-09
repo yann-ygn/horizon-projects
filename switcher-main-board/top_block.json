@@ -7,13 +7,14 @@
                 "MPN",
                 "value",
                 "manufacturer",
-                "refdes"
+                "refdes",
+                "description"
             ],
             "order": "asc",
             "sort_column": "refdes"
         },
         "orderable_MPNs": {},
-        "output_filename": ""
+        "output_filename": "BOM"
     },
     "buses": {},
     "components": {
@@ -351,6 +352,24 @@
             "pin_names": {},
             "refdes": "C19",
             "tag": "5d1d6f73-c9fd-4053-9019-b2575ff49f5a",
+            "value": ""
+        },
+        "387b7b6a-3073-423d-9115-4ea8a7c2b9de": {
+            "connections": {
+                "6f39d703-5395-47c6-b270-710ea05bcf44/8108e444-2929-466c-8ee3-b3cd8e974805": {
+                    "net": "2dbdac6f-cce1-4ffa-9f4f-2771ec1070d5"
+                },
+                "6f39d703-5395-47c6-b270-710ea05bcf44/eae3a78b-c7a9-4022-8748-b6eae13b9606": {
+                    "net": "f4045747-9c99-4571-841f-6bc850c5118a"
+                }
+            },
+            "custom_pin_names": {},
+            "entity": "db0eba4d-f724-4de0-8010-942431e0c85d",
+            "group": "00000000-0000-0000-0000-000000000000",
+            "part": "129416b7-6d8b-47a7-8f33-8095e8783c5c",
+            "pin_names": {},
+            "refdes": "L1",
+            "tag": "46d2ffbc-13c4-4fd1-ac0d-2c26627d9c21",
             "value": ""
         },
         "3f2d7780-9b20-4e5c-b037-f534e3d7d902": {
@@ -1070,7 +1089,7 @@
                     "net": "7b731e6a-255d-4203-9862-c0513582b7bb"
                 },
                 "9bfcf213-2a7e-444e-8312-ce57209fc9ec/852f1fe6-06dc-4661-8a14-61a9a6ebb26a": {
-                    "net": "2dbdac6f-cce1-4ffa-9f4f-2771ec1070d5"
+                    "net": "f4045747-9c99-4571-841f-6bc850c5118a"
                 }
             },
             "custom_pin_names": {},
@@ -1520,7 +1539,7 @@
                     "net": "e4e24ac6-9048-4524-9795-c8b633548567"
                 },
                 "5b705be2-9f09-450b-9374-cac9000d8722/a3096525-82f8-4cf4-8e73-0c2c6e6bbeaf": {
-                    "net": "2dbdac6f-cce1-4ffa-9f4f-2771ec1070d5"
+                    "net": "f4045747-9c99-4571-841f-6bc850c5118a"
                 },
                 "5b705be2-9f09-450b-9374-cac9000d8722/ae9ff084-0477-4da0-9d70-b2cd2e3b61d4": {
                     "net": "f7f7b366-1ed0-4f29-a4c9-17044aa9d1a2"
@@ -2277,6 +2296,13 @@
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
         },
+        "f4045747-9c99-4571-841f-6bc850c5118a": {
+            "is_power": false,
+            "name": "AVCC",
+            "net_class": "a3cde221-c45e-448f-8428-fbae809e4440",
+            "power_symbol_name_visible": true,
+            "power_symbol_style": "gnd"
+        },
         "f796bbea-d406-4feb-a088-8cc9c876a3b3": {
             "is_power": false,
             "name": "PRESETLED1",
@@ -2329,6 +2355,7 @@
         "31ca4326-76de-4e00-a7fb-1513e2c25075": "7",
         "36f35639-1b40-4c39-bb87-1fddaaff59e7": "35",
         "3aaaad4f-2d79-4b31-bc84-cbd24d970ab4": "39",
+        "46d2ffbc-13c4-4fd1-ac0d-2c26627d9c21": "41",
         "491e3e02-a503-4e3e-b741-e547b4fac8db": "14",
         "49910177-3187-408b-9116-f7e05135efcd": "28",
         "49b48100-c59a-4ea6-86cd-475999e6987b": "1",

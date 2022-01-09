@@ -7,13 +7,14 @@
                 "MPN",
                 "value",
                 "manufacturer",
-                "refdes"
+                "refdes",
+                "description"
             ],
             "order": "asc",
             "sort_column": "refdes"
         },
         "orderable_MPNs": {},
-        "output_filename": ""
+        "output_filename": "BOM.csv"
     },
     "buses": {},
     "components": {
