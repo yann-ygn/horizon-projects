@@ -25631,6 +25631,7 @@
                     ]
                 }
             ],
+            "from_rules": true,
             "net": "bc1a8b66-24ad-4416-ae0a-06515ad111a5",
             "polygon": "f77fd3d2-29e1-4a8c-8ee4-492cbed97f18",
             "priority": 0,
@@ -41246,6 +41247,7 @@
                     ]
                 }
             ],
+            "from_rules": true,
             "net": "bc1a8b66-24ad-4416-ae0a-06515ad111a5",
             "polygon": "44461507-6c7f-4b9f-b363-edf17ccb2175",
             "priority": 0,
@@ -42273,7 +42275,8 @@
             "clearance_bottom": 100000,
             "clearance_top": 100000,
             "enabled": false,
-            "order": -1
+            "order": -1,
+            "pads_only": false
         },
         "diffpair": {},
         "hole_size": {},
@@ -42337,6 +42340,7 @@
                 }
             }
         },
+        "shorted_pads": {},
         "track_width": {
             "11d78a77-628c-4846-a3f9-c157789366a2": {
                 "enabled": true,
@@ -46564,7 +46568,7 @@
     },
     "type": "board",
     "uuid": "f62ffa2d-6629-424e-8c49-5213425fbd53",
-    "version": 4,
+    "version": 7,
     "vias": {
         "003c0b2b-285b-4c37-af4e-6492303c283a": {
             "from_rules": true,
