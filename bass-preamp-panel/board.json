@@ -67,7 +67,7 @@
                 "layer": -120
             },
             "-130": {
-                "enabled": true,
+                "enabled": false,
                 "filename": ".gbp",
                 "layer": -130
             },
@@ -97,9 +97,9 @@
                 "layer": 30
             }
         },
-        "output_directory": "",
+        "output_directory": "_ouput",
         "prefix": "bass-preamp-panel",
-        "zip_output": false
+        "zip_output": true
     },
     "grid_settings": {
         "current": {
@@ -1421,7 +1421,8 @@
             "clearance_bottom": 100000,
             "clearance_top": 100000,
             "enabled": true,
-            "order": -1
+            "order": -1,
+            "pads_only": false
         },
         "diffpair": {},
         "hole_size": {},
@@ -1461,6 +1462,7 @@
                 }
             }
         },
+        "shorted_pads": {},
         "track_width": {
             "45580056-6bfb-4b8d-ad3a-b3016d8a5e68": {
                 "enabled": true,
@@ -1506,6 +1508,6 @@
     "tracks": {},
     "type": "board",
     "uuid": "6e584e34-d2f9-4618-91d1-5a77f6f95b1d",
-    "version": 4,
+    "version": 7,
     "vias": {}
 }
