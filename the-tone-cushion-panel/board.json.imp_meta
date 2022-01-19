@@ -1,6 +1,7 @@
 {
     "board_display_options": {
         "-100": {
+            "keepouts_outline": true,
             "planes_outline": false
         },
         "-120": {
@@ -8,6 +9,7 @@
             "text": true
         },
         "0": {
+            "keepouts_outline": true,
             "planes_outline": false
         },
         "20": {
@@ -68,8 +70,8 @@
                 "visible": true
             },
             "20": {
-                "display_mode": "fill_only",
-                "visible": false
+                "display_mode": "fill",
+                "visible": true
             },
             "200": {
                 "display_mode": "fill",
@@ -77,11 +79,11 @@
             },
             "30": {
                 "display_mode": "fill",
-                "visible": false
+                "visible": true
             },
             "40": {
                 "display_mode": "outline",
-                "visible": false
+                "visible": true
             },
             "50": {
                 "display_mode": "outline",

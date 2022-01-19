@@ -2,6 +2,22 @@
     "arcs": {},
     "default_model": "218d075b-046f-4e5c-a1b0-947e8215bb29",
     "dimensions": {},
+    "grid_settings": {
+        "current": {
+            "mode": "square",
+            "name": "",
+            "origin": [
+                0,
+                0
+            ],
+            "spacing_rect": [
+                1250000,
+                1250000
+            ],
+            "spacing_square": 50000
+        },
+        "grids": {}
+    },
     "junctions": {
         "11fdfe2b-2c11-41c7-9d72-7c5c081c5c16": {
             "position": [
@@ -109,7 +125,7 @@
             "z": 0
         }
     },
-    "name": "smd-photorelay-so6",
+    "name": "smd-photorelay-so4",
     "pads": {
         "2234b599-b18f-433a-a682-c8d6c024764c": {
             "name": "4",
