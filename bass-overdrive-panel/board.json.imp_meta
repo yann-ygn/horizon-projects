@@ -1,6 +1,7 @@
 {
     "board_display_options": {
         "-100": {
+            "keepouts_outline": true,
             "planes_outline": false
         },
         "-120": {
@@ -8,6 +9,7 @@
             "text": true
         },
         "0": {
+            "keepouts_outline": true,
             "planes_outline": false
         },
         "20": {
@@ -77,7 +79,7 @@
             },
             "30": {
                 "display_mode": "fill",
-                "visible": false
+                "visible": true
             },
             "40": {
                 "display_mode": "outline",

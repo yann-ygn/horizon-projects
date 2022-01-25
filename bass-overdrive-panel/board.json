@@ -67,7 +67,7 @@
                 "layer": -120
             },
             "-130": {
-                "enabled": true,
+                "enabled": false,
                 "filename": ".gbp",
                 "layer": -130
             },
@@ -97,9 +97,9 @@
                 "layer": 30
             }
         },
-        "output_directory": "",
+        "output_directory": "_output",
         "prefix": "bass-preamp-panel",
-        "zip_output": false
+        "zip_output": true
     },
     "grid_settings": {
         "current": {
@@ -922,6 +922,96 @@
         "top_side": ""
     },
     "polygons": {
+        "1601b3ec-a98e-441d-bc93-b6e82b0666f5": {
+            "layer": 30,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        4500000,
+                        97000000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        3000000,
+                        97000000
+                    ],
+                    "arc_reverse": true,
+                    "position": [
+                        4500000,
+                        97000000
+                    ],
+                    "type": "arc"
+                }
+            ]
+        },
+        "316812a1-2d4d-4b99-bb44-f4e598d51d9c": {
+            "layer": 30,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        4500000,
+                        3100000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        3000000,
+                        3000000
+                    ],
+                    "arc_reverse": true,
+                    "position": [
+                        4500000,
+                        3100000
+                    ],
+                    "type": "arc"
+                }
+            ]
+        },
+        "4ee663d0-88fa-4833-8c38-e4e45da941e2": {
+            "layer": 30,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        148500000,
+                        3100000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        147000000,
+                        3000000
+                    ],
+                    "arc_reverse": true,
+                    "position": [
+                        148500000,
+                        3100000
+                    ],
+                    "type": "arc"
+                }
+            ]
+        },
         "ab69c66a-0bd7-4770-9a59-e57fa1d88938": {
             "layer": 100,
             "parameter_class": "",
@@ -985,6 +1075,36 @@
                         100000000
                     ],
                     "type": "line"
+                }
+            ]
+        },
+        "d0c610fa-cbbf-4234-bd68-82d9cb5ec33a": {
+            "layer": 30,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        148500000,
+                        97000000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        147000000,
+                        97000000
+                    ],
+                    "arc_reverse": true,
+                    "position": [
+                        148500000,
+                        97000000
+                    ],
+                    "type": "arc"
                 }
             ]
         }
@@ -1418,7 +1538,8 @@
             "clearance_bottom": 100000,
             "clearance_top": 100000,
             "enabled": true,
-            "order": -1
+            "order": -1,
+            "pads_only": false
         },
         "diffpair": {},
         "hole_size": {},
@@ -1458,6 +1579,7 @@
                 }
             }
         },
+        "shorted_pads": {},
         "track_width": {
             "45580056-6bfb-4b8d-ad3a-b3016d8a5e68": {
                 "enabled": true,
@@ -1503,6 +1625,6 @@
     "tracks": {},
     "type": "board",
     "uuid": "6e584e34-d2f9-4618-91d1-5a77f6f95b1d",
-    "version": 4,
+    "version": 7,
     "vias": {}
 }
