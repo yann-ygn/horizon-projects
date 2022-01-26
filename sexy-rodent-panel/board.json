@@ -925,6 +925,96 @@
         "top_side": ""
     },
     "polygons": {
+        "69e991e9-d653-4977-9ebc-eb8584a1792f": {
+            "layer": 30,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        148500000,
+                        97000000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        147000000,
+                        97000000
+                    ],
+                    "arc_reverse": true,
+                    "position": [
+                        148500000,
+                        97000000
+                    ],
+                    "type": "arc"
+                }
+            ]
+        },
+        "77095794-a3e0-4cf8-8b3a-a03d42d7156f": {
+            "layer": 30,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        4500000,
+                        97000000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        3000000,
+                        97000000
+                    ],
+                    "arc_reverse": true,
+                    "position": [
+                        4500000,
+                        97000000
+                    ],
+                    "type": "arc"
+                }
+            ]
+        },
+        "a4df575a-5cb5-414b-a1b3-7efae5cc0632": {
+            "layer": 30,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        148500000,
+                        3000000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        147000000,
+                        3000000
+                    ],
+                    "arc_reverse": true,
+                    "position": [
+                        148500000,
+                        3000000
+                    ],
+                    "type": "arc"
+                }
+            ]
+        },
         "ab69c66a-0bd7-4770-9a59-e57fa1d88938": {
             "layer": 100,
             "parameter_class": "",
@@ -988,6 +1078,36 @@
                         100000000
                     ],
                     "type": "line"
+                }
+            ]
+        },
+        "f050c43c-99f9-49e5-9421-b13fc7233eec": {
+            "layer": 30,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        4500000,
+                        3000000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        3000000,
+                        3000000
+                    ],
+                    "arc_reverse": true,
+                    "position": [
+                        4500000,
+                        3000000
+                    ],
+                    "type": "arc"
                 }
             ]
         }
@@ -1421,7 +1541,8 @@
             "clearance_bottom": 100000,
             "clearance_top": 100000,
             "enabled": true,
-            "order": -1
+            "order": -1,
+            "pads_only": false
         },
         "diffpair": {},
         "hole_size": {},
@@ -1461,6 +1582,7 @@
                 }
             }
         },
+        "shorted_pads": {},
         "track_width": {
             "45580056-6bfb-4b8d-ad3a-b3016d8a5e68": {
                 "enabled": true,
@@ -1506,6 +1628,6 @@
     "tracks": {},
     "type": "board",
     "uuid": "6e584e34-d2f9-4618-91d1-5a77f6f95b1d",
-    "version": 4,
+    "version": 7,
     "vias": {}
 }
