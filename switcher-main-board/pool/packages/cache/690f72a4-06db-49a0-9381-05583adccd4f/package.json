@@ -45,7 +45,7 @@
         },
         "46c85f71-bb6b-443b-8326-942a04191380": {
             "position": [
-                17000000,
+                17100000,
                 0
             ]
         },
@@ -237,6 +237,60 @@
     "parameter_program": "",
     "parameter_set": {},
     "polygons": {
+        "6600865c-4058-4a74-bf28-dc7807ea1ba2": {
+            "layer": 50,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        13400000,
+                        200000
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        17100000,
+                        0
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        13400000,
+                        200000
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        17100000,
+                        100000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        13400000,
+                        200000
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        17900000,
+                        100000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        13400000,
+                        200000
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        17900000,
+                        0
+                    ],
+                    "type": "line"
+                }
+            ]
+        },
         "91989afe-50b7-421e-851f-f9f9193083d0": {
             "layer": 50,
             "parameter_class": "",
@@ -285,6 +339,60 @@
                     "arc_reverse": false,
                     "position": [
                         0,
+                        0
+                    ],
+                    "type": "line"
+                }
+            ]
+        },
+        "a0e418ba-f0e7-4f35-9490-de5a290090aa": {
+            "layer": 50,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        -1600000,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        2000000,
+                        0
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        -1600000,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        2000000,
+                        100000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        -1600000,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        2800000,
+                        100000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        -1600000,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        2800000,
                         0
                     ],
                     "type": "line"

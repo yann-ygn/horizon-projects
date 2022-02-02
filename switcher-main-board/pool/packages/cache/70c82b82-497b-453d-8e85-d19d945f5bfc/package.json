@@ -14,7 +14,7 @@
                 1000000,
                 1000000
             ],
-            "spacing_square": 2500000
+            "spacing_square": 100000
         },
         "grids": {}
     },
@@ -51,7 +51,7 @@
         },
         "8fb5c074-f122-42d7-9574-85b8e7eb8255": {
             "position": [
-                22000000,
+                22100000,
                 0
             ]
         },
@@ -269,6 +269,60 @@
     "parameter_program": "",
     "parameter_set": {},
     "polygons": {
+        "5513da43-cebe-41da-8b6d-327b47506c09": {
+            "layer": 50,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        -1600000,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        22100000,
+                        0
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        -1600000,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        22100000,
+                        100000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        -1600000,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        22900000,
+                        100000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        -1600000,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        22900000,
+                        0
+                    ],
+                    "type": "line"
+                }
+            ]
+        },
         "6109bd49-8508-45ed-b8dd-bf1253fea1b8": {
             "layer": 50,
             "parameter_class": "",
@@ -371,6 +425,60 @@
                     "arc_reverse": false,
                     "position": [
                         0,
+                        0
+                    ],
+                    "type": "line"
+                }
+            ]
+        },
+        "fc369044-c883-4dc7-8c79-b0214c66d6de": {
+            "layer": 50,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        -2000000,
+                        100000
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        2000000,
+                        0
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        -2000000,
+                        100000
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        2000000,
+                        100000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        -2000000,
+                        100000
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        2800000,
+                        100000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        -2000000,
+                        100000
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        2800000,
                         0
                     ],
                     "type": "line"

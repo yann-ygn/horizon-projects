@@ -2,6 +2,22 @@
     "arcs": {},
     "default_model": "5a5ee115-bdf9-4708-a9f9-4e4fa74fd71d",
     "dimensions": {},
+    "grid_settings": {
+        "current": {
+            "mode": "square",
+            "name": "",
+            "origin": [
+                0,
+                0
+            ],
+            "spacing_rect": [
+                1250000,
+                1250000
+            ],
+            "spacing_square": 25000
+        },
+        "grids": {}
+    },
     "junctions": {
         "087f6482-208f-432c-b669-fff0c150fdce": {
             "position": [
@@ -251,6 +267,60 @@
                 }
             ]
         },
+        "7cb7bd24-9297-4870-90e7-bcc6885011f9": {
+            "layer": 50,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -575000,
+                        650000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -500000,
+                        650000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -500000,
+                        -650000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -575000,
+                        -650000
+                    ],
+                    "type": "line"
+                }
+            ]
+        },
         "d38a5b5d-e1b0-4314-b64e-83c2def210a5": {
             "layer": 50,
             "parameter_class": "",
@@ -400,7 +470,7 @@
                 "angle": 0,
                 "mirror": false,
                 "shift": [
-                    -725000,
+                    -500000,
                     -25000
                 ]
             },

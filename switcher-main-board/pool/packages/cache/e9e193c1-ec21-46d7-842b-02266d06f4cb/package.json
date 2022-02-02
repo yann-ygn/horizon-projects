@@ -2,6 +2,22 @@
     "arcs": {},
     "default_model": "a5878e67-afc7-461b-a020-700c574470c2",
     "dimensions": {},
+    "grid_settings": {
+        "current": {
+            "mode": "square",
+            "name": "",
+            "origin": [
+                0,
+                0
+            ],
+            "spacing_rect": [
+                1250000,
+                1250000
+            ],
+            "spacing_square": 50000
+        },
+        "grids": {}
+    },
     "junctions": {
         "16b08b7c-2aa2-43c2-9e15-2e64609aded4": {
             "position": [
@@ -317,6 +333,48 @@
                 }
             ]
         },
+        "aede60d9-c376-4b16-990a-50d809c37381": {
+            "layer": 50,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1350000,
+                        2500000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1350000,
+                        -2500000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1350000,
+                        2500000
+                    ],
+                    "type": "line"
+                }
+            ]
+        },
         "e14e38cc-a89a-4e72-a32c-33acd18a9b1c": {
             "layer": 60,
             "parameter_class": "courtyard",
@@ -395,7 +453,7 @@
                 "angle": 0,
                 "mirror": false,
                 "shift": [
-                    -1450000,
+                    -1250000,
                     0
                 ]
             },
