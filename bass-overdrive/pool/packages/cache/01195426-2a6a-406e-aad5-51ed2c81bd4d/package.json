@@ -435,6 +435,48 @@
                 }
             ]
         },
+        "79f4720d-62bc-4eaa-a081-79a9852937df": {
+            "layer": 50,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1400000,
+                        4375000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1400000,
+                        -4375000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1400000,
+                        4375000
+                    ],
+                    "type": "line"
+                }
+            ]
+        },
         "7e6f9ca9-362a-4c80-81dc-e92ef047bc25": {
             "layer": 40,
             "parameter_class": "",
@@ -513,7 +555,7 @@
                 "angle": 0,
                 "mirror": false,
                 "shift": [
-                    -1400000,
+                    -1200000,
                     0
                 ]
             },
