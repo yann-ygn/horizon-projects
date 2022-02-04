@@ -2,6 +2,22 @@
     "arcs": {},
     "default_model": "0ef467f9-0259-4403-a983-2d69b99dd729",
     "dimensions": {},
+    "grid_settings": {
+        "current": {
+            "mode": "square",
+            "name": "",
+            "origin": [
+                0,
+                0
+            ],
+            "spacing_rect": [
+                1250000,
+                1250000
+            ],
+            "spacing_square": 10000
+        },
+        "grids": {}
+    },
     "junctions": {
         "109ef604-b6bb-4dd1-938e-dc38a2dcc6ac": {
             "position": [
@@ -105,6 +121,60 @@
     "parameter_program": "",
     "parameter_set": {},
     "polygons": {
+        "155db900-632a-4eba-9916-105f0ad93820": {
+            "layer": 50,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -2200000,
+                        -1075000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -2200000,
+                        1075000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        2200000,
+                        1075000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        2200000,
+                        -1075000
+                    ],
+                    "type": "line"
+                }
+            ]
+        },
         "606b25a6-234b-4ea8-97c2-498551f15255": {
             "layer": 40,
             "parameter_class": "",
@@ -153,6 +223,60 @@
                     "arc_reverse": false,
                     "position": [
                         2200000,
+                        -1075000
+                    ],
+                    "type": "line"
+                }
+            ]
+        },
+        "8ca2b602-75aa-4271-915c-79e529db54ad": {
+            "layer": 50,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1540000,
+                        -1075000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1540000,
+                        1075000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1440000,
+                        1075000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1440000,
                         -1075000
                     ],
                     "type": "line"
@@ -244,6 +368,23 @@
             "size": 800000,
             "text": "$RD",
             "width": 150000
+        },
+        "ede62d0c-0f35-44d2-9201-cf343fa83d9d": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 50,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -1100000,
+                    0
+                ]
+            },
+            "size": 1000000,
+            "text": "$RD",
+            "width": 0
         }
     },
     "type": "package",

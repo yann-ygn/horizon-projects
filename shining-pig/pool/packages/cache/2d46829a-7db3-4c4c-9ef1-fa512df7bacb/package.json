@@ -2,6 +2,22 @@
     "arcs": {},
     "default_model": "b8e53f31-557d-43b7-bdc5-a2e414df6361",
     "dimensions": {},
+    "grid_settings": {
+        "current": {
+            "mode": "square",
+            "name": "",
+            "origin": [
+                0,
+                0
+            ],
+            "spacing_rect": [
+                1250000,
+                1250000
+            ],
+            "spacing_square": 25000
+        },
+        "grids": {}
+    },
     "junctions": {
         "17d3d326-8fe2-48b8-927c-4ce03dafb522": {
             "position": [
@@ -376,6 +392,60 @@
                     "type": "line"
                 }
             ]
+        },
+        "b47b25f4-4378-4da2-9f30-e1dcbd701040": {
+            "layer": 50,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1100000,
+                        -1500000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1100000,
+                        1500000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -900000,
+                        1500000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -900000,
+                        -1500000
+                    ],
+                    "type": "line"
+                }
+            ]
         }
     },
     "rules": {
@@ -418,8 +488,8 @@
                 "angle": 0,
                 "mirror": false,
                 "shift": [
-                    -1450000,
-                    50000
+                    -750000,
+                    -50000
                 ]
             },
             "size": 1000000,

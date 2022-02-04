@@ -175,6 +175,60 @@
                 }
             ]
         },
+        "6b14484f-bfe5-4c14-8144-81f7037c1862": {
+            "layer": 50,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1230000,
+                        -875000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1230000,
+                        875000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1160000,
+                        875000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1160000,
+                        -875000
+                    ],
+                    "type": "line"
+                }
+            ]
+        },
         "d56eeb89-b505-4a40-8e28-14e86ebd8b7b": {
             "layer": 20,
             "parameter_class": "",
@@ -324,7 +378,7 @@
                 "angle": 0,
                 "mirror": false,
                 "shift": [
-                    -1390000,
+                    -1190000,
                     -20000
                 ]
             },

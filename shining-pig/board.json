@@ -362,6 +362,12 @@
                 36100000
             ]
         },
+        "1af65031-2536-448b-b7e8-ee30f41e9e5a": {
+            "position": [
+                44766117,
+                30740000
+            ]
+        },
         "1b33b0cf-c2d7-46d7-a303-225ecfb70a89": {
             "position": [
                 13300000,
@@ -890,12 +896,6 @@
                 38750000
             ]
         },
-        "4fb28f78-3f27-4c5e-bed9-2f50f0ddf031": {
-            "position": [
-                40500000,
-                19800000
-            ]
-        },
         "50d6b5cf-0ef7-48ed-b3dc-b9571341b791": {
             "position": [
                 8500000,
@@ -1248,6 +1248,12 @@
             "position": [
                 32665000,
                 61000000
+            ]
+        },
+        "7ac34fdf-004d-4011-bd78-0b20855acb51": {
+            "position": [
+                46773617,
+                30740000
             ]
         },
         "7bdd4611-b9bd-458c-8616-4d0e2baec73e": {
@@ -2106,12 +2112,6 @@
             "position": [
                 51230000,
                 4560000
-            ]
-        },
-        "e4879767-5886-44d5-9176-ef58928ebc88": {
-            "position": [
-                46631383,
-                30882234
             ]
         },
         "e5558f68-84c9-47cd-b60b-36bc8f4dfb9c": {
@@ -13056,11 +13056,11 @@
                             ],
                             [
                                 46368883,
-                                30527234
+                                30385000
                             ],
                             [
                                 45678883,
-                                30527234
+                                30385000
                             ],
                             [
                                 45678883,
@@ -13080,11 +13080,11 @@
                             ],
                             [
                                 45678883,
-                                31237234
+                                31095000
                             ],
                             [
                                 46365000,
-                                31237234
+                                31095000
                             ],
                             [
                                 46365000,
@@ -42937,6 +42937,20 @@
             "width": 800000,
             "width_from_net_class": true
         },
+        "3a835ddb-7f09-4fb1-a624-924d094653a4": {
+            "from": {
+                "junc": null,
+                "pad": "58d9fb0d-b4b6-4852-8778-6df390236803/a5f99093-aed2-417a-bd75-2bb3d3de1b1a"
+            },
+            "layer": 0,
+            "locked": false,
+            "to": {
+                "junc": "1af65031-2536-448b-b7e8-ee30f41e9e5a",
+                "pad": null
+            },
+            "width": 300000,
+            "width_from_net_class": false
+        },
         "3c26ce34-9cd8-4da1-ad61-4e6124129c4b": {
             "from": {
                 "junc": "306f250e-2e28-4e67-b48d-5eebeccb73aa",
@@ -43763,6 +43777,20 @@
             "width": 600000,
             "width_from_net_class": true
         },
+        "76d2976f-685a-4401-ae37-d3eaa9af55b4": {
+            "from": {
+                "junc": "1af65031-2536-448b-b7e8-ee30f41e9e5a",
+                "pad": null
+            },
+            "layer": 0,
+            "locked": false,
+            "to": {
+                "junc": "7ac34fdf-004d-4011-bd78-0b20855acb51",
+                "pad": null
+            },
+            "width": 300000,
+            "width_from_net_class": false
+        },
         "78b3508b-793b-4c43-a7d0-035f0573b2da": {
             "from": {
                 "junc": "04895ae1-9f2d-4d04-8002-9bcc44ff6946",
@@ -44295,20 +44323,6 @@
             "width": 300000,
             "width_from_net_class": false
         },
-        "a23bb0a7-e24d-4d0a-9f66-e6af3a3f1c11": {
-            "from": {
-                "junc": null,
-                "pad": "58d9fb0d-b4b6-4852-8778-6df390236803/a5f99093-aed2-417a-bd75-2bb3d3de1b1a"
-            },
-            "layer": 0,
-            "locked": false,
-            "to": {
-                "junc": "e4879767-5886-44d5-9176-ef58928ebc88",
-                "pad": null
-            },
-            "width": 300000,
-            "width_from_net_class": true
-        },
         "a36640fc-4174-4078-8dcb-0ac192e249d4": {
             "from": {
                 "junc": "4283d94a-1a78-4560-acdf-f107d4403107",
@@ -44392,20 +44406,6 @@
             },
             "width": 300000,
             "width_from_net_class": false
-        },
-        "ae4b0d7d-988d-4165-92e3-8f8835b3dd2e": {
-            "from": {
-                "junc": "e4879767-5886-44d5-9176-ef58928ebc88",
-                "pad": null
-            },
-            "layer": 0,
-            "locked": false,
-            "to": {
-                "junc": null,
-                "pad": "06f671e0-4769-484c-8352-41bc7c10ba1f/8a5105dd-bc81-4f58-abab-3cae4471357b"
-            },
-            "width": 300000,
-            "width_from_net_class": true
         },
         "af2b3dfd-0646-4390-8e0c-0b96aa349323": {
             "from": {
@@ -45078,6 +45078,20 @@
             },
             "width": 300000,
             "width_from_net_class": true
+        },
+        "e2df6f27-c44b-4fbc-9d7f-2baeba0afd4e": {
+            "from": {
+                "junc": "7ac34fdf-004d-4011-bd78-0b20855acb51",
+                "pad": null
+            },
+            "layer": 0,
+            "locked": false,
+            "to": {
+                "junc": null,
+                "pad": "06f671e0-4769-484c-8352-41bc7c10ba1f/8a5105dd-bc81-4f58-abab-3cae4471357b"
+            },
+            "width": 300000,
+            "width_from_net_class": false
         },
         "e4a25374-47e1-4b49-b28a-3a5e9ddb2c65": {
             "from": {
@@ -46733,17 +46747,6 @@
             "junction": "77797e08-4cae-46bc-9976-d74fe7d2ccfe",
             "locked": false,
             "padstack": "3c4a52fe-3ae0-4c3e-a108-824b53d6d6da",
-            "parameter_set": {
-                "hole_diameter": 350000,
-                "via_diameter": 700000
-            }
-        },
-        "9626fdd2-fee6-4885-8bf3-c4c881cc467b": {
-            "from_rules": true,
-            "junction": "4fb28f78-3f27-4c5e-bed9-2f50f0ddf031",
-            "locked": false,
-            "net_set": "bc1a8b66-24ad-4416-ae0a-06515ad111a5",
-            "padstack": "8b6dee4b-af88-4c0f-b38b-c5364649e65e",
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
