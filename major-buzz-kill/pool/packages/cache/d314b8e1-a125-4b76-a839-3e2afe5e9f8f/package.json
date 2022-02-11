@@ -2,6 +2,22 @@
     "arcs": {},
     "default_model": "8de639fa-7eee-4ac2-8d31-9286ed0e40d2",
     "dimensions": {},
+    "grid_settings": {
+        "current": {
+            "mode": "square",
+            "name": "",
+            "origin": [
+                0,
+                0
+            ],
+            "spacing_rect": [
+                1250000,
+                1250000
+            ],
+            "spacing_square": 50000
+        },
+        "grids": {}
+    },
     "junctions": {
         "1ba66e6a-0e9e-423d-9679-5b1eb3952d50": {
             "position": [
@@ -312,6 +328,48 @@
                     "position": [
                         -2700000,
                         -2650000
+                    ],
+                    "type": "line"
+                }
+            ]
+        },
+        "96bded8e-6898-4643-9697-b5c398eb7d66": {
+            "layer": 50,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -2050000,
+                        2650000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -2050000,
+                        -2650000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -2050000,
+                        2650000
                     ],
                     "type": "line"
                 }
