@@ -1,0 +1,42 @@
+{
+    "gates": {
+        "301ebbdf-7607-49a5-9a48-b4eb87c858bd": {
+            "name": "BUFFER1",
+            "suffix": "B",
+            "swap_group": 2,
+            "unit": "5329f7bb-c84f-4670-90f0-eb46bebe8f2e"
+        },
+        "3b8cd0b4-f4fd-4a2f-9b52-2371e27527ba": {
+            "name": "OTA1",
+            "suffix": "A",
+            "swap_group": 1,
+            "unit": "08dfa09c-46f2-4ffc-aca7-2d2d6d694d52"
+        },
+        "52299fa1-9a1c-43e6-8b8d-9bdac25c9e88": {
+            "name": "BUFFER2",
+            "suffix": "D",
+            "swap_group": 2,
+            "unit": "5329f7bb-c84f-4670-90f0-eb46bebe8f2e"
+        },
+        "77183cc5-3c05-4a29-b8d5-474346410c06": {
+            "name": "OTA2",
+            "suffix": "C",
+            "swap_group": 1,
+            "unit": "08dfa09c-46f2-4ffc-aca7-2d2d6d694d52"
+        },
+        "e65274c3-64cf-4a11-9fd6-b201eb6d4dea": {
+            "name": "POWER",
+            "suffix": "E",
+            "swap_group": 0,
+            "unit": "d74b6471-1ef3-4dc0-b9ad-37ec94994e92"
+        }
+    },
+    "manufacturer": "Texas Instrument",
+    "name": "LM13700M",
+    "prefix": "IC",
+    "tags": [
+        "ota"
+    ],
+    "type": "entity",
+    "uuid": "a8822157-e67c-4573-b72a-b3826f002d0f"
+}

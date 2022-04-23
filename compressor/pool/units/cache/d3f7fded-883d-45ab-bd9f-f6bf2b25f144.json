@@ -1,0 +1,32 @@
+{
+    "manufacturer": "",
+    "name": "Opamp",
+    "pins": {
+        "276bd8ce-1c37-4de3-bd84-2026a3989cd8": {
+            "direction": "output",
+            "names": [
+                "OUTPUT"
+            ],
+            "primary_name": "Out",
+            "swap_group": 0
+        },
+        "9dcc6dfb-e5e9-4b32-9b18-e074ade4923a": {
+            "direction": "input",
+            "names": [
+                "IN+"
+            ],
+            "primary_name": "+",
+            "swap_group": 0
+        },
+        "c1945fd1-da7b-4cc2-af40-cf6465850b8e": {
+            "direction": "input",
+            "names": [
+                "IN-"
+            ],
+            "primary_name": "-",
+            "swap_group": 0
+        }
+    },
+    "type": "unit",
+    "uuid": "d3f7fded-883d-45ab-bd9f-f6bf2b25f144"
+}
