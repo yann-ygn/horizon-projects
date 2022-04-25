@@ -223,17 +223,6 @@
             "tag": "6a1dcbd6-80ae-42ca-a82c-8ce3820d438a",
             "value": ""
         },
-        "21d4bb22-aff3-4045-b400-0a1877a9ff14": {
-            "connections": {},
-            "custom_pin_names": {},
-            "entity": "e56d286e-744d-4059-b070-2fd855e01ff6",
-            "group": "00000000-0000-0000-0000-000000000000",
-            "part": "e6ad9436-ceb6-4437-b66c-5fed942b534b",
-            "pin_names": {},
-            "refdes": "VOL2",
-            "tag": "752184ce-24c7-42e6-b6d2-6a3d24ba419d",
-            "value": ""
-        },
         "25c3e877-f45b-4867-aa86-560f7b0e9fb1": {
             "connections": {
                 "021fb08d-f5a0-487c-97b3-32e35a0ab22f/38fbe0ab-a6a6-44a4-975e-b172f2eaa1ad": {
@@ -1323,17 +1312,6 @@
             "tag": "99969a04-743d-4eee-b517-a81404629feb",
             "value": ""
         },
-        "d1bdf2ab-9e49-4778-b045-7ece9f601605": {
-            "connections": {},
-            "custom_pin_names": {},
-            "entity": "e56d286e-744d-4059-b070-2fd855e01ff6",
-            "group": "00000000-0000-0000-0000-000000000000",
-            "part": "122c4ed0-1e0c-4e9b-acce-c4385e3a0c60",
-            "pin_names": {},
-            "refdes": "TONE",
-            "tag": "1ac17425-fce6-4985-8786-8fee6d7cc0d7",
-            "value": ""
-        },
         "d3f8d44b-2136-436c-8f15-39e47f19fe42": {
             "connections": {
                 "48af78e5-730e-44eb-977a-cf188e4fcb39/6a44037c-65e2-4876-9359-42890048841d": {
@@ -1668,17 +1646,6 @@
             "pin_names": {},
             "refdes": "R26",
             "tag": "cfde931c-c1f4-4223-8e8a-ce967ffed34f",
-            "value": ""
-        },
-        "fb8b9e49-0490-4ecd-85e9-b261fc8459b1": {
-            "connections": {},
-            "custom_pin_names": {},
-            "entity": "e56d286e-744d-4059-b070-2fd855e01ff6",
-            "group": "00000000-0000-0000-0000-000000000000",
-            "part": "e47bd726-8d3f-403f-b979-03cb4668a49e",
-            "pin_names": {},
-            "refdes": "GAIN",
-            "tag": "48eb92e7-df30-4d27-a1d7-131ab3dbda03",
             "value": ""
         },
         "fb93f326-14d0-4af7-8561-abe4e0cb7f22": {
@@ -2192,26 +2159,24 @@
         "19e31890-dcec-45fa-a07b-4ef3f6f63fa6": "49",
         "1a42acb9-682a-468c-9909-1036a874b33f": "44",
         "1a6ed992-eb0c-405c-8897-3753f8427403": "50",
-        "1ac17425-fce6-4985-8786-8fee6d7cc0d7": "56",
         "213c44ae-e91d-43b9-9121-99001ee67952": "55",
         "24f21493-2504-48e9-8246-1fe0a457c893": "43",
         "2a146c36-cdfa-49f5-8a89-eab4b129ca23": "10",
         "2ab5c339-5180-4eeb-8e3e-3622f409ed8b": "46",
         "3848e1a5-671e-40ab-a7ce-385e5a39605b": "29",
         "3f3774e3-e9c3-440c-b2c9-be155f6fc3fa": "41",
-        "48eb92e7-df30-4d27-a1d7-131ab3dbda03": "35",
         "4a9b52ad-ae1b-46c1-b700-e64518c1ad6b": "9",
         "544656dd-d35a-4add-af84-3cd63ef190ac": "7",
         "58241470-0f59-4ebc-8180-a6cd1cdda031": "8",
         "5ad8df46-cfcd-4fb4-9808-e43b4c14ddf6": "56",
         "6001542b-9524-432f-812d-e5daea24e122": "21",
+        "638776f8-2bb6-4d66-9172-574205c0bf85": "61",
         "6a1dcbd6-80ae-42ca-a82c-8ce3820d438a": "11",
         "6c08c04b-ab70-43ec-a1b7-2dcb4ef36fba": "23",
         "6dfcecd5-0e25-4790-8269-8445f4b2788e": "35",
         "6f87c980-a588-429d-b1b8-82610817afd7": "38",
         "74aa458a-2e05-4bb8-95ec-7db3cf880488": "42",
         "74ed8bfe-dceb-4337-bc73-07796b28904d": "37",
-        "752184ce-24c7-42e6-b6d2-6a3d24ba419d": "65",
         "7aa0764e-7545-492a-87b3-b54c9ca990d7": "28",
         "7cc43486-29e6-45f3-90e6-68b9ab377e2e": "51",
         "7f506e25-4ab6-40fb-8e90-07d91df995d1": "24",
@@ -2229,6 +2194,7 @@
         "aa1c88bc-2c32-4446-8b91-b99ada69ac47": "48",
         "aaa5b9aa-23a8-4e70-b567-9f8a3e476d1b": "47",
         "acbfd579-49a6-4d8c-b594-f8b560037be8": "58",
+        "b0176f96-1b53-4696-b254-0d673d34b097": "60",
         "b03fc31e-efbf-443a-8be1-e0b2dd895f5b": "33",
         "b59c9cee-abbc-461d-b52d-43dacc1995bc": "60",
         "b666229c-b5fb-404b-9408-00e69cc2b9a5": "14",
