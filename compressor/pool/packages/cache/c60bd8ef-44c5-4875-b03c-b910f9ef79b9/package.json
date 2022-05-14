@@ -2,6 +2,22 @@
     "arcs": {},
     "default_model": "00874cbf-8ae6-436b-b223-284098efaa12",
     "dimensions": {},
+    "grid_settings": {
+        "current": {
+            "mode": "square",
+            "name": "",
+            "origin": [
+                0,
+                0
+            ],
+            "spacing_rect": [
+                1250000,
+                1250000
+            ],
+            "spacing_square": 25000
+        },
+        "grids": {}
+    },
     "junctions": {
         "06df1313-2f8d-49d3-81fe-0336a30fa80f": {
             "position": [
@@ -340,7 +356,7 @@
                 "mirror": false,
                 "shift": [
                     0,
-                    -1125000
+                    -1475000
                 ]
             },
             "size": 800000,

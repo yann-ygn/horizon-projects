@@ -2,6 +2,22 @@
     "arcs": {},
     "default_model": "7f4af184-3fc4-4f8e-bc11-cafc5b59ecc2",
     "dimensions": {},
+    "grid_settings": {
+        "current": {
+            "mode": "square",
+            "name": "",
+            "origin": [
+                0,
+                0
+            ],
+            "spacing_rect": [
+                1250000,
+                1250000
+            ],
+            "spacing_square": 25000
+        },
+        "grids": {}
+    },
     "junctions": {
         "37b19527-b56d-4ebd-a281-a1a419f3714d": {
             "position": [
@@ -139,6 +155,60 @@
                     "arc_center": [
                         0,
                         0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1600000,
+                        1250000
+                    ],
+                    "type": "line"
+                }
+            ]
+        },
+        "840c50b4-9e91-4b76-ab02-0af752ce6210": {
+            "layer": 50,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        3325000,
+                        1800000
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1600000,
+                        -1250000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        3325000,
+                        1800000
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        1600000,
+                        -1250000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        3325000,
+                        1800000
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        1600000,
+                        1250000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        3325000,
+                        1800000
                     ],
                     "arc_reverse": false,
                     "position": [
