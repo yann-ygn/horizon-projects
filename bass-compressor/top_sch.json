@@ -14,7 +14,7 @@
         "output_filename": ""
     },
     "rules": {
-        "single_pin_net": {
+        "connectivity": {
             "enabled": true,
             "include_unnamed": true,
             "order": -1
@@ -5819,5 +5819,5 @@
     },
     "type": "schematic_block",
     "uuid": "3513f737-b343-453d-b2f5-e322ab98bf7a",
-    "version": 3
+    "version": 6
 }
