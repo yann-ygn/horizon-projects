@@ -4,6 +4,16 @@
     "bom_export_settings": {
         "concrete_parts": {},
         "csv_settings": {
+            "column_names": {
+                "MPN": "MPN",
+                "QTY": "QTY",
+                "datasheet": "Datasheet",
+                "description": "Description",
+                "manufacturer": "Manufacturer",
+                "package": "Package",
+                "refdes": "Ref. Des.",
+                "value": "Value"
+            },
             "columns": [
                 "QTY",
                 "MPN",
@@ -12,6 +22,7 @@
                 "refdes",
                 "description"
             ],
+            "custom_column_names": true,
             "order": "asc",
             "sort_column": "refdes"
         },
@@ -1426,6 +1437,7 @@
         "56e10e69-2991-4f6c-88b9-fe7249a24752": "11",
         "6001542b-9524-432f-812d-e5daea24e122": "20",
         "6174764e-882a-4f33-b37f-64bce3dd12d5": "12",
+        "638776f8-2bb6-4d66-9172-574205c0bf85": "37",
         "6a1dcbd6-80ae-42ca-a82c-8ce3820d438a": "25",
         "6b15308a-3f9e-417f-8b64-cf0bf9d6e746": "14",
         "6c08c04b-ab70-43ec-a1b7-2dcb4ef36fba": "29",
@@ -1443,6 +1455,7 @@
         "a433ed72-714d-4c04-b763-22d071d7103c": "19",
         "a636f2fa-c81a-47ef-b9e7-48b400cbabf6": "39",
         "abfc2352-8a07-4209-94c1-e7fa866f9bbd": "38",
+        "b0176f96-1b53-4696-b254-0d673d34b097": "36",
         "b666229c-b5fb-404b-9408-00e69cc2b9a5": "30",
         "bf9799a9-3e11-4d57-bcfb-563d58ee79f3": "0",
         "c5d6e95c-d29b-41f8-82ab-e216323b1b98": "18",
