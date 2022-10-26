@@ -1,0 +1,92 @@
+{
+    "manufacturer": "",
+    "name": "SSM2166",
+    "pins": {
+        "01deb948-d481-42a8-8016-c280aaab462a": {
+            "direction": "passive",
+            "names": [],
+            "primary_name": "POWER DOWN",
+            "swap_group": 0
+        },
+        "0b9f3177-2499-4492-a5e6-9cbf62eab1e4": {
+            "direction": "input",
+            "names": [],
+            "primary_name": "VCA R",
+            "swap_group": 0
+        },
+        "1f4ab9b8-75f6-4e64-9e42-c6f41e60e053": {
+            "direction": "passive",
+            "names": [],
+            "primary_name": "ROTATION SET",
+            "swap_group": 0
+        },
+        "20306fb9-2e81-440a-b3b6-a4375fcfa937": {
+            "direction": "output",
+            "names": [],
+            "primary_name": "OUTPUT",
+            "swap_group": 0
+        },
+        "430d7dc9-ab7e-44ad-97a9-4da1b3f281a4": {
+            "direction": "passive",
+            "names": [],
+            "primary_name": "COMP RATIO SET",
+            "swap_group": 0
+        },
+        "4f73305b-12b2-4fe0-abd7-8f8c12545df6": {
+            "direction": "passive",
+            "names": [],
+            "primary_name": "GAIN ADJUST",
+            "swap_group": 0
+        },
+        "5d93d2bd-42e8-40e1-a797-24894de70abb": {
+            "direction": "passive",
+            "names": [],
+            "primary_name": "NOISE GATE SET",
+            "swap_group": 0
+        },
+        "6b57a2e4-bdb0-46e9-b22a-164641d18ea6": {
+            "direction": "power_input",
+            "names": [],
+            "primary_name": "V+",
+            "swap_group": 0
+        },
+        "a6518253-98f6-4599-aaf5-49b6c42107f6": {
+            "direction": "input",
+            "names": [],
+            "primary_name": "VCA IN",
+            "swap_group": 0
+        },
+        "dfbe432b-9c66-44a1-83d8-dba9631fa3a4": {
+            "direction": "input",
+            "names": [],
+            "primary_name": "AUDIO +IN",
+            "swap_group": 0
+        },
+        "e12d692b-976b-4400-9e20-21185104b746": {
+            "direction": "passive",
+            "names": [],
+            "primary_name": "AVG CAP",
+            "swap_group": 0
+        },
+        "e2ef7c8b-56e0-4465-b735-b75b0ab0f226": {
+            "direction": "input",
+            "names": [],
+            "primary_name": "-IN",
+            "swap_group": 0
+        },
+        "f0439b43-1f66-40b1-a304-cacf0d9cebde": {
+            "direction": "output",
+            "names": [],
+            "primary_name": "BUFF OUT",
+            "swap_group": 0
+        },
+        "fbeae297-c702-4fbc-986e-cdc20be44159": {
+            "direction": "power_input",
+            "names": [],
+            "primary_name": "GND",
+            "swap_group": 0
+        }
+    },
+    "type": "unit",
+    "uuid": "759a90b7-b070-4d46-ad4f-3a317323ceb8"
+}
