@@ -1,0 +1,48 @@
+{
+    "MPN": [
+        false,
+        "EEEFC1H2R2R"
+    ],
+    "datasheet": [
+        false,
+        ""
+    ],
+    "description": [
+        false,
+        "CAPACITOR ALUM 2.2UF 50V LESR ±20%"
+    ],
+    "entity": "b0c2b8f8-aecf-4873-9458-c06eee2f7a00",
+    "inherit_model": false,
+    "inherit_tags": false,
+    "manufacturer": [
+        false,
+        "Panasonic"
+    ],
+    "model": "014fb735-3d50-4b69-8818-78e46ffc9d8f",
+    "package": "8788d11a-e385-42a5-aa9b-44aa689245d8",
+    "pad_map": {
+        "2c796120-073c-4504-9663-72805c246546": {
+            "gate": "23766b63-6ffc-4831-baee-ba1635a735b3",
+            "pin": "1e7cd34f-86db-4b34-9e0b-c276756301ab"
+        },
+        "ff00f8ad-52a5-44bf-8bcc-5459d8e16b8c": {
+            "gate": "23766b63-6ffc-4831-baee-ba1635a735b3",
+            "pin": "bb8460b5-34e6-41b0-9a9f-10eed3a3d8d6"
+        }
+    },
+    "parametric": {
+        "price": "0.127",
+        "table": "capacitors",
+        "tolerance": "20",
+        "type": "Electrolytic",
+        "value": "2.2e-06",
+        "wvdc": "50"
+    },
+    "tags": [],
+    "type": "part",
+    "uuid": "a3f731a9-ff9a-4475-ac81-7f20d63482ea",
+    "value": [
+        false,
+        "2.2u"
+    ]
+}
