@@ -1,5 +1,9 @@
 {
     "board_display_options": {
+        "-1": {
+            "keepouts_outline": true,
+            "planes_outline": false
+        },
         "-100": {
             "keepouts_outline": true,
             "planes_outline": false
@@ -7,6 +11,10 @@
         "-120": {
             "gfx": true,
             "text": true
+        },
+        "-2": {
+            "keepouts_outline": true,
+            "planes_outline": false
         },
         "0": {
             "keepouts_outline": true,
@@ -17,10 +25,14 @@
             "text": true
         }
     },
-    "grid_spacing": 100000,
+    "grid_spacing": 1000000,
     "layer_display": {
         "layer_opacity": 20.0,
         "layers": {
+            "-1": {
+                "display_mode": "outline",
+                "visible": true
+            },
             "-100": {
                 "display_mode": "outline",
                 "visible": true
@@ -46,6 +58,10 @@
                 "visible": false
             },
             "-160": {
+                "display_mode": "outline",
+                "visible": true
+            },
+            "-2": {
                 "display_mode": "outline",
                 "visible": true
             },
