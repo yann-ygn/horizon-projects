@@ -1250,7 +1250,7 @@
             "group": "00000000-0000-0000-0000-000000000000",
             "part": "817c3f97-c794-447d-aa23-4786662841b2",
             "pin_names": {},
-            "refdes": "SW?",
+            "refdes": "TREBLE",
             "tag": "f1c336d6-1d1a-46b1-b374-5c67536efbd4",
             "value": ""
         },
@@ -1460,6 +1460,15 @@
     "name": "",
     "net_class_default": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
     "net_classes": {
+        "1e23dc14-a460-4166-b815-b9818316eb7c": {
+            "name": "Power"
+        },
+        "79bc8090-ff52-406d-bd7a-cf6e877a2619": {
+            "name": "Analog"
+        },
+        "7f3ccf8b-0e02-488e-9e2f-e1925b6a5552": {
+            "name": "Digital"
+        },
         "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf": {
             "name": "default"
         }
@@ -1469,7 +1478,7 @@
             "is_port": false,
             "is_power": false,
             "name": "RETURN",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "79bc8090-ff52-406d-bd7a-cf6e877a2619",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -1478,7 +1487,7 @@
             "is_port": false,
             "is_power": false,
             "name": "",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "79bc8090-ff52-406d-bd7a-cf6e877a2619",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -1487,7 +1496,7 @@
             "is_port": false,
             "is_power": false,
             "name": "",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "79bc8090-ff52-406d-bd7a-cf6e877a2619",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -1496,7 +1505,7 @@
             "is_port": false,
             "is_power": false,
             "name": "",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "79bc8090-ff52-406d-bd7a-cf6e877a2619",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -1514,7 +1523,7 @@
             "is_port": false,
             "is_power": false,
             "name": "",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "79bc8090-ff52-406d-bd7a-cf6e877a2619",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -1523,7 +1532,7 @@
             "is_port": false,
             "is_power": false,
             "name": "",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "79bc8090-ff52-406d-bd7a-cf6e877a2619",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -1532,7 +1541,7 @@
             "is_port": false,
             "is_power": true,
             "name": "+9V",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "1e23dc14-a460-4166-b815-b9818316eb7c",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "antenna"
@@ -1541,7 +1550,7 @@
             "is_port": false,
             "is_power": false,
             "name": "",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "79bc8090-ff52-406d-bd7a-cf6e877a2619",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -1550,7 +1559,7 @@
             "is_port": false,
             "is_power": false,
             "name": "",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "79bc8090-ff52-406d-bd7a-cf6e877a2619",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -1568,7 +1577,7 @@
             "is_port": false,
             "is_power": false,
             "name": "",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "79bc8090-ff52-406d-bd7a-cf6e877a2619",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -1577,7 +1586,7 @@
             "is_port": false,
             "is_power": false,
             "name": "",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "79bc8090-ff52-406d-bd7a-cf6e877a2619",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -1586,7 +1595,7 @@
             "is_port": false,
             "is_power": false,
             "name": "",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "79bc8090-ff52-406d-bd7a-cf6e877a2619",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -1595,7 +1604,7 @@
             "is_port": false,
             "is_power": false,
             "name": "",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "79bc8090-ff52-406d-bd7a-cf6e877a2619",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -1604,7 +1613,7 @@
             "is_port": false,
             "is_power": false,
             "name": "",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "79bc8090-ff52-406d-bd7a-cf6e877a2619",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -1613,7 +1622,7 @@
             "is_port": false,
             "is_power": false,
             "name": "",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "79bc8090-ff52-406d-bd7a-cf6e877a2619",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -1622,7 +1631,7 @@
             "is_port": false,
             "is_power": false,
             "name": "",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "79bc8090-ff52-406d-bd7a-cf6e877a2619",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -1667,7 +1676,7 @@
             "is_port": false,
             "is_power": false,
             "name": "",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "79bc8090-ff52-406d-bd7a-cf6e877a2619",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -1676,7 +1685,7 @@
             "is_port": false,
             "is_power": true,
             "name": "Vr",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "1e23dc14-a460-4166-b815-b9818316eb7c",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "antenna"
@@ -1685,7 +1694,7 @@
             "is_port": false,
             "is_power": false,
             "name": "",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "79bc8090-ff52-406d-bd7a-cf6e877a2619",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -1694,7 +1703,7 @@
             "is_port": false,
             "is_power": false,
             "name": "PA1",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "7f3ccf8b-0e02-488e-9e2f-e1925b6a5552",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -1712,7 +1721,7 @@
             "is_port": false,
             "is_power": true,
             "name": "GND",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "1e23dc14-a460-4166-b815-b9818316eb7c",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -1721,7 +1730,7 @@
             "is_port": false,
             "is_power": false,
             "name": "",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "79bc8090-ff52-406d-bd7a-cf6e877a2619",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -1730,7 +1739,7 @@
             "is_port": false,
             "is_power": false,
             "name": "PA3",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "7f3ccf8b-0e02-488e-9e2f-e1925b6a5552",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -1739,7 +1748,7 @@
             "is_port": false,
             "is_power": false,
             "name": "",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "79bc8090-ff52-406d-bd7a-cf6e877a2619",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -1757,7 +1766,7 @@
             "is_port": false,
             "is_power": false,
             "name": "",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "79bc8090-ff52-406d-bd7a-cf6e877a2619",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -1766,7 +1775,7 @@
             "is_port": false,
             "is_power": false,
             "name": "PA6",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "7f3ccf8b-0e02-488e-9e2f-e1925b6a5552",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -1775,7 +1784,7 @@
             "is_port": false,
             "is_power": false,
             "name": "",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "79bc8090-ff52-406d-bd7a-cf6e877a2619",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -1784,7 +1793,7 @@
             "is_port": false,
             "is_power": false,
             "name": "",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "79bc8090-ff52-406d-bd7a-cf6e877a2619",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -1793,7 +1802,7 @@
             "is_port": false,
             "is_power": true,
             "name": "Vb",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "1e23dc14-a460-4166-b815-b9818316eb7c",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "antenna"
@@ -1802,7 +1811,7 @@
             "is_port": false,
             "is_power": false,
             "name": "",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "79bc8090-ff52-406d-bd7a-cf6e877a2619",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -1811,7 +1820,7 @@
             "is_port": false,
             "is_power": true,
             "name": "+5V",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "1e23dc14-a460-4166-b815-b9818316eb7c",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "antenna"
@@ -1820,7 +1829,7 @@
             "is_port": false,
             "is_power": false,
             "name": "",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "79bc8090-ff52-406d-bd7a-cf6e877a2619",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -1829,7 +1838,7 @@
             "is_port": false,
             "is_power": false,
             "name": "PA0",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "7f3ccf8b-0e02-488e-9e2f-e1925b6a5552",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -1847,7 +1856,7 @@
             "is_port": false,
             "is_power": false,
             "name": "PA2",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "7f3ccf8b-0e02-488e-9e2f-e1925b6a5552",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -1865,7 +1874,7 @@
             "is_port": false,
             "is_power": false,
             "name": "PA7",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "7f3ccf8b-0e02-488e-9e2f-e1925b6a5552",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -1874,7 +1883,7 @@
             "is_port": false,
             "is_power": false,
             "name": "",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "79bc8090-ff52-406d-bd7a-cf6e877a2619",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -1883,7 +1892,7 @@
             "is_port": false,
             "is_power": false,
             "name": "",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "79bc8090-ff52-406d-bd7a-cf6e877a2619",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
@@ -1892,7 +1901,7 @@
             "is_port": false,
             "is_power": false,
             "name": "",
-            "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+            "net_class": "79bc8090-ff52-406d-bd7a-cf6e877a2619",
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
