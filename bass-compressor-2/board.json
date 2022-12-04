@@ -2904,6 +2904,27 @@
         "set_holes_size": false
     },
     "planes": {
+        "088ad2a2-1d53-4c39-bbef-7a1fc2e66718": {
+            "from_rules": true,
+            "net": "9a150138-05fe-4d0d-875f-1aff1a16e42b",
+            "polygon": "91d173cc-8674-454a-aefb-973b50bd7f93",
+            "priority": 0,
+            "settings": {
+                "angle": 0,
+                "connect_style": "solid",
+                "fill_style": "solid",
+                "hatch_border_width": 500000,
+                "hatch_line_spacing": 500000,
+                "hatch_line_width": 200000,
+                "keep_orphans": false,
+                "min_width": 200000,
+                "n_spokes": 4,
+                "style": "miter",
+                "text_style": "expand",
+                "thermal_gap_width": 200000,
+                "thermal_spoke_width": 200000
+            }
+        },
         "16e21a8b-598f-4d40-8fd3-e249bdf3c765": {
             "from_rules": true,
             "net": "bc1a8b66-24ad-4416-ae0a-06515ad111a5",
@@ -4051,7 +4072,7 @@
                     "arc_reverse": false,
                     "position": [
                         51500000,
-                        21000000
+                        20000000
                     ],
                     "type": "line"
                 },
@@ -4063,7 +4084,7 @@
                     "arc_reverse": false,
                     "position": [
                         19000000,
-                        21000000
+                        20000000
                     ],
                     "type": "line"
                 }
