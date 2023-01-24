@@ -27,63 +27,63 @@
         "layers": {
             "-1": {
                 "enabled": true,
-                "filename": "",
+                "filename": ".internalplane1.ger",
                 "layer": -1
             },
             "-100": {
                 "enabled": true,
-                "filename": ".gbl",
+                "filename": ".bottomlayer.ger",
                 "layer": -100
             },
             "-110": {
                 "enabled": true,
-                "filename": ".gbs",
+                "filename": ".bottomsoldermask.ger",
                 "layer": -110
             },
             "-120": {
                 "enabled": true,
-                "filename": ".gbo",
+                "filename": ".bottomsilkscreen.ger",
                 "layer": -120
             },
             "-130": {
                 "enabled": true,
-                "filename": ".gbp",
+                "filename": ".bottompaste.ger",
                 "layer": -130
             },
             "-2": {
                 "enabled": true,
-                "filename": "",
+                "filename": ".internalplane2.ger",
                 "layer": -2
             },
             "0": {
                 "enabled": true,
-                "filename": ".gtl",
+                "filename": ".toplayer.ger",
                 "layer": 0
             },
             "10": {
                 "enabled": true,
-                "filename": ".gts",
+                "filename": ".topsoldermask.ger",
                 "layer": 10
             },
             "100": {
                 "enabled": true,
-                "filename": ".gko",
+                "filename": ".boardoutline.ger",
                 "layer": 100
             },
             "20": {
                 "enabled": true,
-                "filename": ".gto",
+                "filename": ".topsilkscreen.ger",
                 "layer": 20
             },
             "30": {
-                "enabled": true,
-                "filename": ".gtp",
+                "enabled": false,
+                "filename": ".toppaste.ger",
                 "layer": 30
             }
         },
-        "output_directory": "",
+        "output_directory": "_output",
         "prefix": "switcher-main-board",
-        "zip_output": false
+        "zip_output": true
     },
     "grid_settings": {
         "current": {
