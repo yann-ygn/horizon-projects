@@ -160,7 +160,7 @@
         },
         "02a2485d-0cbe-4b38-8067-7fca51919cb3": {
             "position": [
-                19599000,
+                19699000,
                 44300000
             ]
         },
@@ -746,12 +746,6 @@
                 29010000
             ]
         },
-        "4b629299-f01e-48c1-9207-c245791e72aa": {
-            "position": [
-                10570000,
-                29900000
-            ]
-        },
         "4b716411-d969-42fe-b40a-c77a6c04515e": {
             "position": [
                 39500000,
@@ -834,12 +828,6 @@
             "position": [
                 33200000,
                 30500000
-            ]
-        },
-        "50546022-3895-4455-8282-1d460877ce37": {
-            "position": [
-                19700000,
-                47500000
             ]
         },
         "50db4f9e-7ba6-4ae7-9225-6b140e7543bd": {
@@ -959,7 +947,7 @@
         "5a71d10c-0d73-4a93-80fb-c50a8c33480f": {
             "position": [
                 18400000,
-                30050000
+                30080000
             ]
         },
         "5ed6bde3-ae4f-4f46-91ab-0290704823f3": {
@@ -970,8 +958,8 @@
         },
         "5f25c1dc-7d75-4c87-ae5b-a254d0699d58": {
             "position": [
-                17720000,
-                45660000
+                17699000,
+                44300000
             ]
         },
         "5fd78f8b-8a65-49f9-bdac-d902aaf7deec": {
@@ -1079,7 +1067,7 @@
         "6b052a1f-efb9-4e27-8d21-3ff1e2c9047a": {
             "position": [
                 54430000,
-                30570000
+                30870000
             ]
         },
         "6b492e6a-af77-4441-933f-0887572a2cf0": {
@@ -1208,12 +1196,6 @@
                 35500000
             ]
         },
-        "7e5312f9-fb62-4072-a9d4-96873f5c8025": {
-            "position": [
-                8770000,
-                29880000
-            ]
-        },
         "7e7d61e4-eda3-4756-9840-e5d58056e754": {
             "position": [
                 19999000,
@@ -1308,12 +1290,6 @@
             "position": [
                 7881000,
                 30711000
-            ]
-        },
-        "8bfff905-d8da-4706-8e33-220fb2453ee5": {
-            "position": [
-                6933000,
-                45000000
             ]
         },
         "8c66150b-dd63-4446-ad21-d1936bc1be6b": {
@@ -1452,12 +1428,6 @@
             "position": [
                 7833000,
                 49900000
-            ]
-        },
-        "993ccd83-fe7a-4875-bc0c-daaef39344e0": {
-            "position": [
-                4200000,
-                44700000
             ]
         },
         "999ac8fc-97d3-4c05-b861-9f051c798e4a": {
@@ -1852,8 +1822,8 @@
         },
         "d02f2bf7-0acd-4429-b5da-f2fb2542767c": {
             "position": [
-                34280000,
-                54100000
+                34370000,
+                54120000
             ]
         },
         "d12965ca-496a-4fc7-ab58-e1e43abc7442": {
@@ -2088,12 +2058,6 @@
             "position": [
                 31730000,
                 31970000
-            ]
-        },
-        "e4f6cdbb-29f8-4746-81d5-40a9528bed0a": {
-            "position": [
-                2750000,
-                33700000
             ]
         },
         "e52c1886-f9bc-4725-97b8-b769ad820b8a": {
@@ -8612,17 +8576,6 @@
                 "via_diameter": 700000
             }
         },
-        "02c47bdf-6165-4510-b2d3-d008c202380f": {
-            "from_rules": true,
-            "junction": "993ccd83-fe7a-4875-bc0c-daaef39344e0",
-            "locked": false,
-            "net_set": "bc1a8b66-24ad-4416-ae0a-06515ad111a5",
-            "padstack": "8b6dee4b-af88-4c0f-b38b-c5364649e65e",
-            "parameter_set": {
-                "hole_diameter": 350000,
-                "via_diameter": 700000
-            }
-        },
         "037f6553-e73c-49d4-a9e1-d7be3678dd56": {
             "from_rules": false,
             "junction": "bf98ba54-1fc9-46d1-acac-f15516865fac",
@@ -9432,17 +9385,6 @@
         "677d1e2a-3791-4a15-a20b-65e5c997d327": {
             "from_rules": true,
             "junction": "0523fcb5-766f-4aa3-a720-ac964536a9c9",
-            "locked": false,
-            "net_set": "bc1a8b66-24ad-4416-ae0a-06515ad111a5",
-            "padstack": "8b6dee4b-af88-4c0f-b38b-c5364649e65e",
-            "parameter_set": {
-                "hole_diameter": 350000,
-                "via_diameter": 700000
-            }
-        },
-        "6dd0ecbd-758b-4681-b47f-2da5289c31c5": {
-            "from_rules": true,
-            "junction": "7e5312f9-fb62-4072-a9d4-96873f5c8025",
             "locked": false,
             "net_set": "bc1a8b66-24ad-4416-ae0a-06515ad111a5",
             "padstack": "8b6dee4b-af88-4c0f-b38b-c5364649e65e",
@@ -10412,17 +10354,6 @@
                 "via_diameter": 700000
             }
         },
-        "d56abfe7-dfdc-4ada-9b70-4c0615c65d66": {
-            "from_rules": true,
-            "junction": "4b629299-f01e-48c1-9207-c245791e72aa",
-            "locked": false,
-            "net_set": "bc1a8b66-24ad-4416-ae0a-06515ad111a5",
-            "padstack": "8b6dee4b-af88-4c0f-b38b-c5364649e65e",
-            "parameter_set": {
-                "hole_diameter": 350000,
-                "via_diameter": 700000
-            }
-        },
         "d6d79c71-e3c7-4df0-af34-9099a0a003b8": {
             "from_rules": true,
             "junction": "2d73a731-397f-42ff-98a6-dc970496af89",
@@ -10717,17 +10648,6 @@
                 "via_diameter": 700000
             }
         },
-        "f64e7c9d-00b1-4d1f-bd50-92f87a502722": {
-            "from_rules": true,
-            "junction": "8bfff905-d8da-4706-8e33-220fb2453ee5",
-            "locked": false,
-            "net_set": "bc1a8b66-24ad-4416-ae0a-06515ad111a5",
-            "padstack": "8b6dee4b-af88-4c0f-b38b-c5364649e65e",
-            "parameter_set": {
-                "hole_diameter": 350000,
-                "via_diameter": 700000
-            }
-        },
         "f6bf897c-bb25-44f2-950c-a4f49cee8c03": {
             "from_rules": false,
             "junction": "7f12142a-f9d8-4bd7-8693-24d83f671a6e",
@@ -10772,34 +10692,12 @@
                 "via_diameter": 700000
             }
         },
-        "fbac3f6f-5452-48ec-8690-5460462255ed": {
-            "from_rules": true,
-            "junction": "e4f6cdbb-29f8-4746-81d5-40a9528bed0a",
-            "locked": false,
-            "net_set": "bc1a8b66-24ad-4416-ae0a-06515ad111a5",
-            "padstack": "8b6dee4b-af88-4c0f-b38b-c5364649e65e",
-            "parameter_set": {
-                "hole_diameter": 350000,
-                "via_diameter": 700000
-            }
-        },
         "fd4e9997-7c2b-46c9-ae5b-4cd5077f65be": {
             "from_rules": false,
             "junction": "207f0fe3-8ad4-462c-b210-7a028c131ff7",
             "locked": false,
             "net_set": "bc1a8b66-24ad-4416-ae0a-06515ad111a5",
             "padstack": "3c4a52fe-3ae0-4c3e-a108-824b53d6d6da",
-            "parameter_set": {
-                "hole_diameter": 350000,
-                "via_diameter": 700000
-            }
-        },
-        "fe0bef09-0101-43d9-a5e6-3333b2df435f": {
-            "from_rules": true,
-            "junction": "50546022-3895-4455-8282-1d460877ce37",
-            "locked": false,
-            "net_set": "bc1a8b66-24ad-4416-ae0a-06515ad111a5",
-            "padstack": "8b6dee4b-af88-4c0f-b38b-c5364649e65e",
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
