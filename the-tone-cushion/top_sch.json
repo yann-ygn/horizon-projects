@@ -3154,7 +3154,7 @@
                     "from": {
                         "bus_ripper": null,
                         "junc": null,
-                        "pin": "4e55ba85-73b3-489b-9b53-0c640f9606da/dda0ec99-5d70-4fbe-a8db-897542e7554e",
+                        "pin": "695e8037-89a7-45d7-95de-5521be6dc83f/dda0ec99-5d70-4fbe-a8db-897542e7554e",
                         "port": null
                     },
                     "to": {
@@ -3398,7 +3398,7 @@
                     "to": {
                         "bus_ripper": null,
                         "junc": null,
-                        "pin": "4e55ba85-73b3-489b-9b53-0c640f9606da/6a44037c-65e2-4876-9359-42890048841d",
+                        "pin": "695e8037-89a7-45d7-95de-5521be6dc83f/6a44037c-65e2-4876-9359-42890048841d",
                         "port": null
                     }
                 },
@@ -5249,25 +5249,6 @@
                     "symbol": "e2cde69b-9fa7-4332-ba8f-7e5b3ee8ad73",
                     "texts": []
                 },
-                "4e55ba85-73b3-489b-9b53-0c640f9606da": {
-                    "component": "f254344a-dd16-487a-bf44-ac2d3dcacdbb",
-                    "display_all_pads": false,
-                    "display_directions": false,
-                    "expand": 0,
-                    "gate": "48af78e5-730e-44eb-977a-cf188e4fcb39",
-                    "pin_display_mode": "selected_only",
-                    "placement": {
-                        "angle": 0,
-                        "mirror": false,
-                        "shift": [
-                            101250000,
-                            -15000000
-                        ]
-                    },
-                    "smashed": false,
-                    "symbol": "e2cde69b-9fa7-4332-ba8f-7e5b3ee8ad73",
-                    "texts": []
-                },
                 "515d6dcd-7920-4bfc-8384-adcdb43359c2": {
                     "component": "18822b7d-0884-4636-be6e-08bf72b71e30",
                     "display_all_pads": false,
@@ -5471,6 +5452,25 @@
                         "shift": [
                             55000000,
                             -43750000
+                        ]
+                    },
+                    "smashed": false,
+                    "symbol": "e2cde69b-9fa7-4332-ba8f-7e5b3ee8ad73",
+                    "texts": []
+                },
+                "695e8037-89a7-45d7-95de-5521be6dc83f": {
+                    "component": "ae76410a-039c-4bb1-b830-de7d26a1c008",
+                    "display_all_pads": false,
+                    "display_directions": false,
+                    "expand": 0,
+                    "gate": "48af78e5-730e-44eb-977a-cf188e4fcb39",
+                    "pin_display_mode": "selected_only",
+                    "placement": {
+                        "angle": 0,
+                        "mirror": false,
+                        "shift": [
+                            101250000,
+                            -15000000
                         ]
                     },
                     "smashed": false,
