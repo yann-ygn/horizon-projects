@@ -34,34 +34,47 @@
     },
     "connection_lines": {},
     "dimensions": {
-        "0b50f5fe-c1eb-4ded-b4b1-0c797fc83562": {
-            "label_distance": -6000000,
+        "03e4ef4d-0cd1-43ab-9e17-ae510138ad7e": {
+            "label_distance": -20000000,
             "label_size": 1500000,
             "mode": "distance",
             "p0": [
-                0,
-                0
+                8000000,
+                90000000
             ],
             "p1": [
-                100000000,
-                0
+                -12000000,
+                90000000
             ]
         },
-        "1c4eba5a-a29b-4c92-b8e9-586e841110b3": {
-            "label_distance": 11000000,
+        "37e5e98d-46ca-4b3e-8ec4-8a47feca8c99": {
+            "label_distance": 22900000,
             "label_size": 1500000,
             "mode": "distance",
             "p0": [
-                0,
-                0
+                8000000,
+                90000000
             ],
             "p1": [
-                0,
-                120000000
+                8000000,
+                110000000
+            ]
+        },
+        "4ff716c5-70b8-4fb6-9fd8-b9d3becc1510": {
+            "label_distance": 20000000,
+            "label_size": 1500000,
+            "mode": "distance",
+            "p0": [
+                92000000,
+                90000000
+            ],
+            "p1": [
+                112000000,
+                90000000
             ]
         },
         "7f075454-cdec-4435-9611-cc161e1a4ea6": {
-            "label_distance": -103000000,
+            "label_distance": -104000000,
             "label_size": 1500000,
             "mode": "distance",
             "p0": [
@@ -73,21 +86,8 @@
                 20000000
             ]
         },
-        "8ff981bb-1dfe-4079-98eb-e5574f8dfbb1": {
-            "label_distance": 120000000,
-            "label_size": 1500000,
-            "mode": "distance",
-            "p0": [
-                0,
-                0
-            ],
-            "p1": [
-                8000000,
-                0
-            ]
-        },
         "9ef636e4-d63f-4f6c-8159-961209045432": {
-            "label_distance": -103000000,
+            "label_distance": -84000000,
             "label_size": 1500000,
             "mode": "distance",
             "p0": [
@@ -100,7 +100,7 @@
             ]
         },
         "cad470d5-96b8-40ef-81bc-0624c24a5c26": {
-            "label_distance": -90000000,
+            "label_distance": -79000000,
             "label_size": 1500000,
             "mode": "distance",
             "p0": [
@@ -180,7 +180,7 @@
                 1250000,
                 1250000
             ],
-            "spacing_square": 100000
+            "spacing_square": 1000000
         },
         "grids": {}
     },
@@ -253,26 +253,26 @@
     "junctions": {
         "36332728-c275-497a-b0db-133445a3609f": {
             "position": [
-                100000000,
+                112000000,
                 0
             ]
         },
         "84c1b049-856e-4a08-af05-c6a0cdc06676": {
             "position": [
-                0,
-                120000000
+                -12000000,
+                110000000
             ]
         },
         "c64b2eef-a54d-4724-9c9f-b4fba313b8f1": {
             "position": [
-                0,
+                -12000000,
                 0
             ]
         },
         "e543129e-ecfa-4419-a560-9897424766a9": {
             "position": [
-                100000000,
-                120000000
+                112000000,
+                110000000
             ]
         }
     },
@@ -394,7 +394,7 @@
                     "g": 0.0,
                     "r": 0.0
                 },
-                "enabled": true,
+                "enabled": false,
                 "mode": "outline"
             },
             "10000": {
@@ -412,7 +412,7 @@
                     "g": 0.0,
                     "r": 0.0
                 },
-                "enabled": true,
+                "enabled": false,
                 "mode": "outline"
             },
             "20": {
@@ -430,7 +430,7 @@
                     "g": 0.0,
                     "r": 0.0
                 },
-                "enabled": false,
+                "enabled": true,
                 "mode": "outline"
             },
             "40": {
@@ -448,13 +448,13 @@
                     "g": 0.0,
                     "r": 0.0
                 },
-                "enabled": true,
+                "enabled": false,
                 "mode": "outline"
             }
         },
         "min_line_width": 0,
         "mirror": false,
-        "output_filename": "",
+        "output_filename": "_output/test.pdf",
         "reverse_layers": false,
         "set_holes_size": false
     },
@@ -1206,6 +1206,6 @@
     "tracks": {},
     "type": "board",
     "uuid": "6e584e34-d2f9-4618-91d1-5a77f6f95b1d",
-    "version": 14,
+    "version": 17,
     "vias": {}
 }
