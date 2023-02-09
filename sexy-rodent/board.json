@@ -62,59 +62,59 @@
     },
     "dimensions": {},
     "fab_output_settings": {
-        "drill_mode": "merged",
-        "drill_npth": "-npth.txt",
-        "drill_pth": ".txt",
+        "drill_mode": "individual",
+        "drill_npth": "holes_npth.xln",
+        "drill_pth": "drills_pth.xln",
         "layers": {
             "-100": {
                 "enabled": true,
-                "filename": ".gbl",
+                "filename": ".bottomlayer.ger",
                 "layer": -100
             },
             "-110": {
                 "enabled": true,
-                "filename": ".gbs",
+                "filename": ".bottomsoldermask.ger",
                 "layer": -110
             },
             "-120": {
                 "enabled": true,
-                "filename": ".gbo",
+                "filename": ".bottomsilkscreen.ger",
                 "layer": -120
             },
             "-130": {
-                "enabled": true,
+                "enabled": false,
                 "filename": ".gbp",
                 "layer": -130
             },
             "0": {
                 "enabled": true,
-                "filename": ".gtl",
+                "filename": ".toplayer.ger",
                 "layer": 0
             },
             "10": {
                 "enabled": true,
-                "filename": ".gts",
+                "filename": ".topsoldermask.ger",
                 "layer": 10
             },
             "100": {
                 "enabled": true,
-                "filename": ".gko",
+                "filename": ".boardoutline.ger",
                 "layer": 100
             },
             "20": {
                 "enabled": true,
-                "filename": ".gto",
+                "filename": ".topsilkscreen.ger",
                 "layer": 20
             },
             "30": {
-                "enabled": true,
+                "enabled": false,
                 "filename": ".gtp",
                 "layer": 30
             }
         },
-        "output_directory": "",
-        "prefix": "single-template",
-        "zip_output": false
+        "output_directory": "_output",
+        "prefix": "sexy-rodent",
+        "zip_output": true
     },
     "grid_settings": {
         "current": {
@@ -198,12 +198,6 @@
             "position": [
                 46700000,
                 31060000
-            ]
-        },
-        "0d727bb3-c430-4feb-aef9-e713470f0886": {
-            "position": [
-                4800000,
-                82200000
             ]
         },
         "108face0-f6e7-41e3-a817-2e80d56850ad": {
@@ -294,12 +288,6 @@
             "position": [
                 14800000,
                 35200000
-            ]
-        },
-        "1aba5ec7-9427-4859-8301-a1c397dd39ed": {
-            "position": [
-                28700000,
-                67100000
             ]
         },
         "1bb294e1-3c56-42ae-9c99-b0b396b13105": {
@@ -530,12 +518,6 @@
                 37000000
             ]
         },
-        "487a6a99-c427-4c2a-bdd8-26326bf69103": {
-            "position": [
-                30300000,
-                67100000
-            ]
-        },
         "48ef0305-1771-43af-9400-6fa3bc202edb": {
             "position": [
                 26775000,
@@ -584,12 +566,6 @@
                 26300000
             ]
         },
-        "4ef05d93-77d5-4e92-bcc7-6564927d920b": {
-            "position": [
-                28700000,
-                82200000
-            ]
-        },
         "5014099c-b26a-4327-8b30-df2c51bdec39": {
             "position": [
                 7333000,
@@ -626,22 +602,10 @@
                 43860000
             ]
         },
-        "5488160b-dc29-4ac1-8a9a-27092bb53191": {
-            "position": [
-                54200000,
-                75200000
-            ]
-        },
         "55b8bd76-6cb2-4a55-b869-7a3f1c815ac4": {
             "position": [
                 14270000,
                 40230000
-            ]
-        },
-        "5656b3ce-67c2-4cc5-93a1-941c0695058d": {
-            "position": [
-                30300000,
-                82200000
             ]
         },
         "566c1f89-7979-42c5-b99a-68984b6a1b55": {
@@ -666,12 +630,6 @@
             "position": [
                 42490000,
                 32310000
-            ]
-        },
-        "58e788a4-d3f7-464d-93bc-553eca7841d1": {
-            "position": [
-                4800000,
-                75200000
             ]
         },
         "5931eba8-8dc0-424b-aece-b5d08a322b1e": {
@@ -714,12 +672,6 @@
             "position": [
                 38398000,
                 43000000
-            ]
-        },
-        "5cdc1f8c-09cf-4053-8867-94aafb6d0ff8": {
-            "position": [
-                60200000,
-                -1200000
             ]
         },
         "5d336c87-f520-4294-b5f6-7b0ba5d3e3e9": {
@@ -774,12 +726,6 @@
             "position": [
                 57997000,
                 67000000
-            ]
-        },
-        "6660a335-af4c-4d5d-ab41-89a2defac959": {
-            "position": [
-                4800000,
-                82200000
             ]
         },
         "66fd39e1-93ff-4d84-9a1f-56ee517354f2": {
@@ -908,18 +854,6 @@
                 49400000
             ]
         },
-        "7b212787-0e62-4c53-a8be-7b9bf85e9c6a": {
-            "position": [
-                30300000,
-                67100000
-            ]
-        },
-        "7ba1e488-3639-4c4f-b55d-6751476bbf3d": {
-            "position": [
-                -1200000,
-                -1200000
-            ]
-        },
         "7bb18ff5-4d12-4286-9091-2a310106d459": {
             "position": [
                 7333000,
@@ -986,22 +920,10 @@
                 42170000
             ]
         },
-        "83d9a3c2-ca0f-4ee3-be1b-04e941abcadb": {
-            "position": [
-                -1200000,
-                75200000
-            ]
-        },
         "845b3485-79d4-4104-8c72-10fdfe11a7be": {
             "position": [
                 26332000,
                 43000000
-            ]
-        },
-        "84a90fd5-42c6-4249-b26f-5dbf63525a0f": {
-            "position": [
-                60200000,
-                75200000
             ]
         },
         "85d759f5-e191-4a9b-9709-0cef03c2c2f9": {
@@ -1196,12 +1118,6 @@
                 25000000
             ]
         },
-        "9de1eca3-3a8f-45a9-8207-b593f7dbcbc7": {
-            "position": [
-                54200000,
-                82200000
-            ]
-        },
         "9e4da178-dfdb-4e4e-b34a-412a8712e9b2": {
             "position": [
                 45931000,
@@ -1310,12 +1226,6 @@
                 31000000
             ]
         },
-        "ad51c2ea-b287-4a82-8de1-6dfa8363f00e": {
-            "position": [
-                54200000,
-                82200000
-            ]
-        },
         "afaa75bd-610b-4f59-9ae9-cb842d5aca66": {
             "position": [
                 21299000,
@@ -1370,12 +1280,6 @@
                 4770000
             ]
         },
-        "b372c3fe-38d6-4495-b6b6-de089f5fadbc": {
-            "position": [
-                30300000,
-                82200000
-            ]
-        },
         "b3b31130-a532-4d91-898b-a431adc78f75": {
             "position": [
                 51664000,
@@ -1404,12 +1308,6 @@
             "position": [
                 41180000,
                 20800000
-            ]
-        },
-        "b7eeb0e9-1e8d-410e-80a8-66bd8ef4741f": {
-            "position": [
-                -1200000,
-                75200000
             ]
         },
         "b8a7b33f-a422-4734-95fa-7a834d4900e0": {
@@ -1676,12 +1574,6 @@
                 30360000
             ]
         },
-        "dc0ea835-0a19-4ab9-a0de-65af3b0b7784": {
-            "position": [
-                28700000,
-                82200000
-            ]
-        },
         "ddb67e19-0172-423e-a863-d551fda66b2b": {
             "position": [
                 47490000,
@@ -1710,18 +1602,6 @@
             "position": [
                 38698000,
                 31000000
-            ]
-        },
-        "dfdeabce-d06a-426f-ade6-c6cfc034aa60": {
-            "position": [
-                -1200000,
-                -1200000
-            ]
-        },
-        "e0e9e8f8-398e-4a2b-bde2-d5bd15c3a769": {
-            "position": [
-                60200000,
-                75200000
             ]
         },
         "e1f6a522-a1a5-4545-a036-e7e2380af561": {
@@ -1826,18 +1706,6 @@
                 28540000
             ]
         },
-        "ed8e3c3f-d279-4456-8e6e-d3c4686c1eca": {
-            "position": [
-                60200000,
-                -1200000
-            ]
-        },
-        "ee541a31-55bc-458b-aede-eafdab94ee4e": {
-            "position": [
-                54200000,
-                75200000
-            ]
-        },
         "eed4a7f9-af43-4746-886a-ff7aa17495f7": {
             "position": [
                 39890000,
@@ -1854,12 +1722,6 @@
             "position": [
                 38998000,
                 67000000
-            ]
-        },
-        "f2a2fe6d-696d-4925-91ce-99f57438d806": {
-            "position": [
-                28700000,
-                67100000
             ]
         },
         "f5c17b6d-c37d-4118-af8e-b95d7d65da3c": {
@@ -1954,80 +1816,7 @@
         }
     },
     "keepouts": {},
-    "lines": {
-        "136076cf-763e-4b27-b079-c29f1bd71f96": {
-            "from": "5488160b-dc29-4ac1-8a9a-27092bb53191",
-            "layer": 110,
-            "to": "84a90fd5-42c6-4249-b26f-5dbf63525a0f",
-            "width": 2400000
-        },
-        "282427ee-d951-47cc-beb8-55f585b0920c": {
-            "from": "58e788a4-d3f7-464d-93bc-553eca7841d1",
-            "layer": 110,
-            "to": "6660a335-af4c-4d5d-ab41-89a2defac959",
-            "width": 2400000
-        },
-        "33e70b96-acf3-4868-ad83-27db8dfa1e7a": {
-            "from": "83d9a3c2-ca0f-4ee3-be1b-04e941abcadb",
-            "layer": 110,
-            "to": "58e788a4-d3f7-464d-93bc-553eca7841d1",
-            "width": 2400000
-        },
-        "43cc7700-6165-4452-9901-fc74b3f69645": {
-            "from": "7ba1e488-3639-4c4f-b55d-6751476bbf3d",
-            "layer": 110,
-            "to": "ed8e3c3f-d279-4456-8e6e-d3c4686c1eca",
-            "width": 2400000
-        },
-        "52a803b6-0fdc-4dcc-b0d7-42fd4fb129fb": {
-            "from": "dc0ea835-0a19-4ab9-a0de-65af3b0b7784",
-            "layer": 110,
-            "to": "f2a2fe6d-696d-4925-91ce-99f57438d806",
-            "width": 2400000
-        },
-        "57aa126b-0f9b-411f-98cb-0763445c9432": {
-            "from": "5656b3ce-67c2-4cc5-93a1-941c0695058d",
-            "layer": 110,
-            "to": "ad51c2ea-b287-4a82-8de1-6dfa8363f00e",
-            "width": 2400000
-        },
-        "6ddc6003-d6ed-43e2-b891-2bfcfcbcc0d0": {
-            "from": "1aba5ec7-9427-4859-8301-a1c397dd39ed",
-            "layer": 110,
-            "to": "7b212787-0e62-4c53-a8be-7b9bf85e9c6a",
-            "width": 2400000
-        },
-        "787dc731-76f2-4bfb-93cd-98c998114df3": {
-            "from": "e0e9e8f8-398e-4a2b-bde2-d5bd15c3a769",
-            "layer": 110,
-            "to": "5cdc1f8c-09cf-4053-8867-94aafb6d0ff8",
-            "width": 2400000
-        },
-        "977bb35f-8b85-47d2-b3e9-54deff44b0c4": {
-            "from": "b372c3fe-38d6-4495-b6b6-de089f5fadbc",
-            "layer": 110,
-            "to": "487a6a99-c427-4c2a-bdd8-26326bf69103",
-            "width": 2400000
-        },
-        "b300a53a-b457-4165-b760-1e99b8677888": {
-            "from": "b7eeb0e9-1e8d-410e-80a8-66bd8ef4741f",
-            "layer": 110,
-            "to": "dfdeabce-d06a-426f-ade6-c6cfc034aa60",
-            "width": 2400000
-        },
-        "c7f2e4d9-f6be-4a10-9d5c-041f54afea5c": {
-            "from": "0d727bb3-c430-4feb-aef9-e713470f0886",
-            "layer": 110,
-            "to": "4ef05d93-77d5-4e92-bcc7-6564927d920b",
-            "width": 2400000
-        },
-        "e1d923ee-fa3b-4b2d-a88a-08512aa7c6a6": {
-            "from": "ee541a31-55bc-458b-aede-eafdab94ee4e",
-            "layer": 110,
-            "to": "9de1eca3-3a8f-45a9-8207-b593f7dbcbc7",
-            "width": 2400000
-        }
-    },
+    "lines": {},
     "n_inner_layers": 0,
     "name": "",
     "odb_output_settings": {
