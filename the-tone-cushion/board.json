@@ -62,23 +62,23 @@
     },
     "dimensions": {},
     "fab_output_settings": {
-        "drill_mode": "individual",
+        "drill_mode": "merged",
         "drill_npth": ".holes_npth.xln",
-        "drill_pth": ".drills_pth.xln",
+        "drill_pth": ".txt",
         "layers": {
             "-100": {
                 "enabled": true,
-                "filename": ".bottomlayer.ger",
+                "filename": ".gbl",
                 "layer": -100
             },
             "-110": {
-                "enabled": false,
-                "filename": ".bottomsoldermask.ger",
+                "enabled": true,
+                "filename": ".gbs",
                 "layer": -110
             },
             "-120": {
                 "enabled": true,
-                "filename": ".bottomsilkscreen.ger",
+                "filename": ".gbo",
                 "layer": -120
             },
             "-130": {
@@ -88,22 +88,22 @@
             },
             "0": {
                 "enabled": true,
-                "filename": ".toplayer.ger",
+                "filename": ".gtl",
                 "layer": 0
             },
             "10": {
-                "enabled": false,
-                "filename": ".topsoldermask.ger",
+                "enabled": true,
+                "filename": ".gts",
                 "layer": 10
             },
             "100": {
                 "enabled": true,
-                "filename": ".boardoutline.ger",
+                "filename": ".gml",
                 "layer": 100
             },
             "20": {
                 "enabled": true,
-                "filename": ".topsilkscreen.ger",
+                "filename": ".gto",
                 "layer": 20
             },
             "30": {
@@ -204,12 +204,6 @@
             "position": [
                 31743883,
                 22056117
-            ]
-        },
-        "075b8a1e-5426-4cf1-9c52-9b576a1272d6": {
-            "position": [
-                30300000,
-                62400000
             ]
         },
         "0789f85e-c409-42c3-a114-e9fa57b46801": {
@@ -336,12 +330,6 @@
             "position": [
                 21325000,
                 44765000
-            ]
-        },
-        "18155331-d923-479a-b76a-2f2032e6f112": {
-            "position": [
-                54200000,
-                70500000
             ]
         },
         "18603781-5a9c-4ef9-8537-82695036a056": {
@@ -494,12 +482,6 @@
                 57800000
             ]
         },
-        "2893e174-502f-4b73-95e9-0d598431dfac": {
-            "position": [
-                28700000,
-                62400000
-            ]
-        },
         "291300a6-3efa-46ae-aa10-66c35ca2d8a5": {
             "position": [
                 7333000,
@@ -516,12 +498,6 @@
             "position": [
                 35440000,
                 14050000
-            ]
-        },
-        "2c1afab5-5aaf-4d95-a3f3-aaf3041423fc": {
-            "position": [
-                -1200000,
-                -1200000
             ]
         },
         "2c903877-a5a1-4034-8a4c-2e9d16795a3f": {
@@ -602,12 +578,6 @@
                 7000000
             ]
         },
-        "35e23fab-d8d2-4469-9576-3effd45e05cc": {
-            "position": [
-                60200000,
-                -1200000
-            ]
-        },
         "382bde2f-6f50-443c-b9d5-3cb4b5221329": {
             "position": [
                 43300000,
@@ -648,12 +618,6 @@
             "position": [
                 29876117,
                 16766117
-            ]
-        },
-        "3f7881bd-b06c-4c50-a93b-382e664d2ab4": {
-            "position": [
-                54200000,
-                77500000
             ]
         },
         "406c547f-2f3a-4b63-a844-f533978bd399": {
@@ -1034,12 +998,6 @@
                 900000
             ]
         },
-        "66a3a11b-14a5-4845-b8b1-39287487ec79": {
-            "position": [
-                4800000,
-                77500000
-            ]
-        },
         "66f016b4-9bbf-4fcb-93ba-7d32addc3c74": {
             "position": [
                 32665000,
@@ -1076,22 +1034,10 @@
                 32300000
             ]
         },
-        "6bd0c1c1-7a2b-4c44-902e-63c85da5aa71": {
-            "position": [
-                -1200000,
-                -1200000
-            ]
-        },
         "6d4595b1-e2cc-4574-ba27-4363bd0bd4c2": {
             "position": [
                 41050000,
                 26560000
-            ]
-        },
-        "6da31c92-59dd-46fb-8e22-925aa124ff68": {
-            "position": [
-                -1200000,
-                70500000
             ]
         },
         "6de346b1-b391-4874-91fb-f63d4b70c793": {
@@ -1244,12 +1190,6 @@
                 49870000
             ]
         },
-        "8648de78-08e2-4eff-9fb0-553791232d8a": {
-            "position": [
-                28700000,
-                62400000
-            ]
-        },
         "866f0749-094a-4fc2-ad19-b6c6c17e3156": {
             "position": [
                 45331000,
@@ -1382,12 +1322,6 @@
                 32300000
             ]
         },
-        "96e8140b-7802-4c13-a8f5-cedbcdfcaecf": {
-            "position": [
-                -1200000,
-                70500000
-            ]
-        },
         "973417fa-9c18-490b-953e-fca2140d0319": {
             "position": [
                 47490001,
@@ -1512,12 +1446,6 @@
             "position": [
                 46380000,
                 41720000
-            ]
-        },
-        "a3d93579-b032-4624-960a-65f480fb4e8f": {
-            "position": [
-                54200000,
-                70500000
             ]
         },
         "a47a486d-ab4e-4690-8868-c9c138c054f2": {
@@ -1652,22 +1580,10 @@
                 68300000
             ]
         },
-        "b87b0100-e54d-4ff0-8cc0-596e5f414984": {
-            "position": [
-                4800000,
-                77500000
-            ]
-        },
         "bb1749c5-d2ab-43fc-aff6-ef31f301dc1f": {
             "position": [
                 57997000,
                 50300000
-            ]
-        },
-        "bb298106-d26b-4b9b-8d1c-1246e51bf343": {
-            "position": [
-                4800000,
-                70500000
             ]
         },
         "bc07f11c-d90f-4445-bc77-8484bddd0069": {
@@ -1686,12 +1602,6 @@
             "position": [
                 26975000,
                 38630000
-            ]
-        },
-        "bec1eb89-cef1-4837-a54f-6c286b6ae26d": {
-            "position": [
-                54200000,
-                77500000
             ]
         },
         "bf6ee780-e7dc-4aa7-97e8-546d0b3aea03": {
@@ -1742,12 +1652,6 @@
                 40900000
             ]
         },
-        "c5f6eb2b-40ea-484f-8fca-d653548f4e1d": {
-            "position": [
-                60200000,
-                70500000
-            ]
-        },
         "c603051e-598c-457c-a053-3efc13f2dc08": {
             "position": [
                 7930000,
@@ -1788,12 +1692,6 @@
             "position": [
                 12250000,
                 35900000
-            ]
-        },
-        "c95c3ef5-b9b1-4ab9-b25c-0fc138293506": {
-            "position": [
-                30300000,
-                77500000
             ]
         },
         "cb9e69ec-5123-4fbc-b7bd-fb361886ac36": {
@@ -1880,12 +1778,6 @@
                 32750000
             ]
         },
-        "d9bc32e4-e49d-4c49-a7fe-8667d931e307": {
-            "position": [
-                60200000,
-                -1200000
-            ]
-        },
         "d9ce9862-a03b-4858-93f0-543e73a2dd15": {
             "position": [
                 45331000,
@@ -1916,12 +1808,6 @@
                 38300000
             ]
         },
-        "db1dcd7b-2280-4437-9e91-93b7b5c595aa": {
-            "position": [
-                30300000,
-                77500000
-            ]
-        },
         "db38046d-89a3-4d64-a37c-ac823a93743b": {
             "position": [
                 13436000,
@@ -1938,12 +1824,6 @@
             "position": [
                 16400000,
                 36800000
-            ]
-        },
-        "deff1d38-fe46-44d2-9969-2bd69dd302aa": {
-            "position": [
-                28700000,
-                77500000
             ]
         },
         "df61b18f-08b6-4d83-b38b-1194f4f31343": {
@@ -1998,12 +1878,6 @@
             "position": [
                 21860000,
                 4390000
-            ]
-        },
-        "e29bc27d-1002-49b7-837b-fbc8b19b62e3": {
-            "position": [
-                28700000,
-                77500000
             ]
         },
         "e2ead667-484a-4394-a5e9-1ee0dd3916bb": {
@@ -2132,12 +2006,6 @@
                 30860000
             ]
         },
-        "f0124c5e-6062-4232-b7e8-2dee60d7d428": {
-            "position": [
-                30300000,
-                62400000
-            ]
-        },
         "f0b9bc2f-c211-49c2-b324-e2e6db72cdc6": {
             "position": [
                 13150000,
@@ -2172,12 +2040,6 @@
             "position": [
                 18700000,
                 42100000
-            ]
-        },
-        "f260c13b-f31e-49d4-a4ba-1fb7926cec2f": {
-            "position": [
-                60200000,
-                70500000
             ]
         },
         "f33264b1-7365-43e9-a9f6-ba34c040df5d": {
@@ -2291,71 +2153,17 @@
     },
     "keepouts": {},
     "lines": {
-        "0961c56d-bdee-4397-b3c0-6b9ed1a8f4dd": {
-            "from": "b87b0100-e54d-4ff0-8cc0-596e5f414984",
-            "layer": 110,
-            "to": "e29bc27d-1002-49b7-837b-fbc8b19b62e3",
-            "width": 2400000
-        },
-        "0a3e8b30-b0e7-46ec-96d1-1895ab2b76b0": {
-            "from": "bb298106-d26b-4b9b-8d1c-1246e51bf343",
-            "layer": 110,
-            "to": "66a3a11b-14a5-4845-b8b1-39287487ec79",
-            "width": 2400000
-        },
-        "2357582a-50fe-480c-846e-50d9d4926815": {
-            "from": "96e8140b-7802-4c13-a8f5-cedbcdfcaecf",
-            "layer": 110,
-            "to": "bb298106-d26b-4b9b-8d1c-1246e51bf343",
-            "width": 2400000
-        },
         "35783476-22a0-4c5c-a7c9-1e8f06d37835": {
             "from": "f0b9bc2f-c211-49c2-b324-e2e6db72cdc6",
             "layer": 20,
             "to": "a80ffa89-0feb-41b2-b302-86ba64979355",
             "width": 150000
         },
-        "46ab1722-30a7-48b3-8414-5406d6db24a5": {
-            "from": "db1dcd7b-2280-4437-9e91-93b7b5c595aa",
-            "layer": 110,
-            "to": "f0124c5e-6062-4232-b7e8-2dee60d7d428",
-            "width": 2400000
-        },
-        "5a2c8daf-4a7e-471f-9eff-b97082ebfb8c": {
-            "from": "c5f6eb2b-40ea-484f-8fca-d653548f4e1d",
-            "layer": 110,
-            "to": "d9bc32e4-e49d-4c49-a7fe-8667d931e307",
-            "width": 2400000
-        },
-        "5d9dac6b-55b8-4e7b-901a-2b0eaacc6881": {
-            "from": "deff1d38-fe46-44d2-9969-2bd69dd302aa",
-            "layer": 110,
-            "to": "2893e174-502f-4b73-95e9-0d598431dfac",
-            "width": 2400000
-        },
-        "5eb31718-1e4f-4190-be73-0524ad898249": {
-            "from": "8648de78-08e2-4eff-9fb0-553791232d8a",
-            "layer": 110,
-            "to": "075b8a1e-5426-4cf1-9c52-9b576a1272d6",
-            "width": 2400000
-        },
-        "76643847-12c9-4c15-9e97-32ea3f4332aa": {
-            "from": "6da31c92-59dd-46fb-8e22-925aa124ff68",
-            "layer": 110,
-            "to": "2c1afab5-5aaf-4d95-a3f3-aaf3041423fc",
-            "width": 2400000
-        },
         "81abd2b1-35ce-4522-94d0-c7ff6d7eb22d": {
             "from": "d865d49d-046e-4d7a-bd69-68424e2a05ee",
             "layer": 20,
             "to": "c80ba81f-8911-4442-a175-61b6094c0f4f",
             "width": 150000
-        },
-        "947dad6e-dda5-459d-9458-6a55dccef43e": {
-            "from": "6bd0c1c1-7a2b-4c44-902e-63c85da5aa71",
-            "layer": 110,
-            "to": "35e23fab-d8d2-4469-9576-3effd45e05cc",
-            "width": 2400000
         },
         "9a8e1157-0fa0-4374-a7ce-d52eb1c53422": {
             "from": "55b5cffd-ebf9-45f8-8008-74be19014c05",
@@ -2374,24 +2182,6 @@
             "layer": 20,
             "to": "62d2cd5d-8f8d-4207-ab32-bc9530bcfaaa",
             "width": 150000
-        },
-        "f341aa65-64a3-409d-949c-424ba1be4054": {
-            "from": "c95c3ef5-b9b1-4ab9-b25c-0fc138293506",
-            "layer": 110,
-            "to": "bec1eb89-cef1-4837-a54f-6c286b6ae26d",
-            "width": 2400000
-        },
-        "f8792aa3-f7d8-4371-a929-222afe3fc709": {
-            "from": "a3d93579-b032-4624-960a-65f480fb4e8f",
-            "layer": 110,
-            "to": "f260c13b-f31e-49d4-a4ba-1fb7926cec2f",
-            "width": 2400000
-        },
-        "feea37fd-fb41-4900-8205-2c0cdc17bfd8": {
-            "from": "18155331-d923-479a-b76a-2f2032e6f112",
-            "layer": 110,
-            "to": "3f7881bd-b06c-4c50-a93b-382e664d2ab4",
-            "width": 2400000
         }
     },
     "n_inner_layers": 0,
@@ -3141,7 +2931,7 @@
                     31020000
                 ]
             },
-            "smashed": false,
+            "smashed": true,
             "texts": []
         },
         "84a89473-ce72-403b-a633-51e96a004153": {
@@ -4235,28 +4025,28 @@
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "track",
                             "track"
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "track",
                             "pad"
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "track",
                             "pad_th"
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "track",
                             "via"
@@ -4270,7 +4060,7 @@
                         ]
                     },
                     {
-                        "clearance": 250000,
+                        "clearance": 300000,
                         "types": [
                             "track",
                             "hole_pth"
@@ -4305,21 +4095,21 @@
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "pad",
                             "pad"
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "pad",
                             "pad_th"
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "pad",
                             "via"
@@ -4333,7 +4123,7 @@
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "pad",
                             "hole_pth"
@@ -4368,14 +4158,14 @@
                         ]
                     },
                     {
-                        "clearance": 250000,
+                        "clearance": 300000,
                         "types": [
                             "pad_th",
                             "pad_th"
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "pad_th",
                             "via"
@@ -4389,7 +4179,7 @@
                         ]
                     },
                     {
-                        "clearance": 250000,
+                        "clearance": 300000,
                         "types": [
                             "pad_th",
                             "hole_pth"
@@ -4424,7 +4214,7 @@
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "via",
                             "via"
@@ -4438,7 +4228,7 @@
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "via",
                             "hole_pth"
@@ -4480,7 +4270,7 @@
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "plane",
                             "hole_pth"
@@ -4515,7 +4305,7 @@
                         ]
                     },
                     {
-                        "clearance": 250000,
+                        "clearance": 500000,
                         "types": [
                             "hole_pth",
                             "hole_pth"
@@ -4643,14 +4433,14 @@
             "f36d6705-f855-4b1d-804e-e70c07dee2e8": {
                 "clearances": [
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "track",
                             "other"
                         ]
                     },
                     {
-                        "clearance": 250000,
+                        "clearance": 300000,
                         "types": [
                             "track",
                             "hole_npth"
@@ -4664,7 +4454,7 @@
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "pad",
                             "other"
@@ -4706,7 +4496,7 @@
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "via",
                             "other"
@@ -4727,7 +4517,7 @@
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "plane",
                             "other"

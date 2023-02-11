@@ -81,28 +81,35 @@
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 100000,
+                        "types": [
+                            "other",
+                            "net_tie"
+                        ]
+                    },
+                    {
+                        "clearance": 300000,
                         "types": [
                             "track",
                             "track"
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "track",
                             "pad"
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "track",
                             "pad_th"
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "track",
                             "via"
@@ -116,7 +123,7 @@
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "track",
                             "hole_pth"
@@ -144,21 +151,28 @@
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 100000,
+                        "types": [
+                            "track",
+                            "net_tie"
+                        ]
+                    },
+                    {
+                        "clearance": 300000,
                         "types": [
                             "pad",
                             "pad"
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "pad",
                             "pad_th"
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "pad",
                             "via"
@@ -172,7 +186,7 @@
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "pad",
                             "hole_pth"
@@ -200,14 +214,21 @@
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 100000,
+                        "types": [
+                            "pad",
+                            "net_tie"
+                        ]
+                    },
+                    {
+                        "clearance": 300000,
                         "types": [
                             "pad_th",
                             "pad_th"
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "pad_th",
                             "via"
@@ -221,7 +242,7 @@
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "pad_th",
                             "hole_pth"
@@ -249,7 +270,14 @@
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 100000,
+                        "types": [
+                            "pad_th",
+                            "net_tie"
+                        ]
+                    },
+                    {
+                        "clearance": 300000,
                         "types": [
                             "via",
                             "via"
@@ -263,7 +291,7 @@
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "via",
                             "hole_pth"
@@ -291,14 +319,21 @@
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 100000,
+                        "types": [
+                            "via",
+                            "net_tie"
+                        ]
+                    },
+                    {
+                        "clearance": 250000,
                         "types": [
                             "plane",
                             "plane"
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "plane",
                             "hole_pth"
@@ -326,7 +361,14 @@
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 100000,
+                        "types": [
+                            "plane",
+                            "net_tie"
+                        ]
+                    },
+                    {
+                        "clearance": 500000,
                         "types": [
                             "hole_pth",
                             "hole_pth"
@@ -356,6 +398,13 @@
                     {
                         "clearance": 100000,
                         "types": [
+                            "hole_pth",
+                            "net_tie"
+                        ]
+                    },
+                    {
+                        "clearance": 100000,
+                        "types": [
                             "hole_npth",
                             "hole_npth"
                         ]
@@ -372,6 +421,13 @@
                         "types": [
                             "hole_npth",
                             "text"
+                        ]
+                    },
+                    {
+                        "clearance": 100000,
+                        "types": [
+                            "hole_npth",
+                            "net_tie"
                         ]
                     },
                     {
@@ -386,6 +442,13 @@
                         "types": [
                             "board_edge",
                             "text"
+                        ]
+                    },
+                    {
+                        "clearance": 100000,
+                        "types": [
+                            "board_edge",
+                            "net_tie"
                         ]
                     },
                     {
@@ -393,6 +456,20 @@
                         "types": [
                             "text",
                             "text"
+                        ]
+                    },
+                    {
+                        "clearance": 100000,
+                        "types": [
+                            "text",
+                            "net_tie"
+                        ]
+                    },
+                    {
+                        "clearance": 100000,
+                        "types": [
+                            "net_tie",
+                            "net_tie"
                         ]
                     }
                 ],
@@ -419,14 +496,14 @@
             "f36d6705-f855-4b1d-804e-e70c07dee2e8": {
                 "clearances": [
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "track",
                             "other"
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "track",
                             "hole_npth"
@@ -440,14 +517,14 @@
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "pad",
                             "other"
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 250000,
                         "types": [
                             "pad",
                             "hole_npth"
@@ -468,7 +545,7 @@
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 250000,
                         "types": [
                             "pad_th",
                             "hole_npth"
@@ -482,35 +559,42 @@
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "via",
                             "other"
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 250000,
                         "types": [
                             "via",
                             "hole_npth"
                         ]
                     },
                     {
-                        "clearance": 300000,
+                        "clearance": 350000,
                         "types": [
                             "via",
                             "board_edge"
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "plane",
                             "other"
                         ]
                     },
                     {
-                        "clearance": 300000,
+                        "clearance": 250000,
+                        "types": [
+                            "plane",
+                            "hole_npth"
+                        ]
+                    },
+                    {
+                        "clearance": 350000,
                         "types": [
                             "plane",
                             "board_edge"
@@ -534,7 +618,8 @@
             "clearance_bottom": 100000,
             "clearance_top": 100000,
             "enabled": false,
-            "order": -1
+            "order": -1,
+            "pads_only": false
         },
         "diffpair": {},
         "hole_size": {},
@@ -560,6 +645,7 @@
                 },
                 "order": 1,
                 "settings": {
+                    "angle": 0,
                     "connect_style": "thermal",
                     "fill_style": "solid",
                     "hatch_border_width": 500000,
@@ -567,6 +653,7 @@
                     "hatch_line_width": 200000,
                     "keep_orphans": false,
                     "min_width": 200000,
+                    "n_spokes": 4,
                     "style": "miter",
                     "text_style": "expand",
                     "thermal_gap_width": 200000,
@@ -574,6 +661,8 @@
                 }
             }
         },
+        "shorted_pads": {},
+        "thermals": {},
         "track_width": {
             "f907d0d5-7c18-4e35-b1e3-c7c39b55983f": {
                 "enabled": true,
@@ -599,7 +688,7 @@
             }
         },
         "via": {
-            "dfc28450-2f35-4b3f-b451-cdab3d08fa1a": {
+            "cc35cc7f-8ccf-48f6-8899-740ccb59d376": {
                 "enabled": true,
                 "match": {
                     "mode": "all",
@@ -618,5 +707,5 @@
     },
     "rules_type": "board",
     "type": "rules",
-    "uuid": "55047310-5e0e-4cc0-934a-cb101d71c769"
+    "uuid": "8db60375-81b7-42b6-aee9-7a91eaf84548"
 }
