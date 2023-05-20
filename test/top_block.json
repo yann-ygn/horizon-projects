@@ -1,0 +1,90 @@
+{
+    "block_instance_mappings": {},
+    "block_instances": {},
+    "bom_export_settings": {
+        "concrete_parts": {},
+        "csv_settings": {
+            "columns": [
+                "QTY",
+                "MPN",
+                "value",
+                "manufacturer",
+                "refdes"
+            ],
+            "order": "asc",
+            "sort_column": "refdes"
+        },
+        "orderable_MPNs": {},
+        "output_filename": ""
+    },
+    "buses": {},
+    "components": {
+        "3e0d282f-5935-4c28-8a6b-e61c48c280ed": {
+            "alt_pins": {},
+            "connections": {},
+            "entity": "e56d286e-744d-4059-b070-2fd855e01ff6",
+            "group": "00000000-0000-0000-0000-000000000000",
+            "part": "964d71c8-9f4e-4a69-9f35-8395d68be682",
+            "pin_names": {},
+            "refdes": "P?",
+            "tag": "73547d3c-0f9d-4c4d-a09d-bd9cbc85d02c",
+            "value": ""
+        },
+        "c67ac545-143d-44f6-86a2-6229eed2767e": {
+            "alt_pins": {},
+            "connections": {},
+            "entity": "e56d286e-744d-4059-b070-2fd855e01ff6",
+            "group": "00000000-0000-0000-0000-000000000000",
+            "part": "964d71c8-9f4e-4a69-9f35-8395d68be682",
+            "pin_names": {},
+            "refdes": "P?",
+            "tag": "94a6eaaa-b888-461d-a234-e9858d171738",
+            "value": ""
+        },
+        "d461df4e-f2bd-4824-a416-ccb413deff6d": {
+            "alt_pins": {},
+            "connections": {},
+            "entity": "e56d286e-744d-4059-b070-2fd855e01ff6",
+            "group": "00000000-0000-0000-0000-000000000000",
+            "part": "964d71c8-9f4e-4a69-9f35-8395d68be682",
+            "pin_names": {},
+            "refdes": "P?",
+            "tag": "e3aebfa9-a0cf-4013-98fc-f1cd48f0b393",
+            "value": ""
+        },
+        "f2c608f2-743f-4c56-a930-7cbbbcbe40f5": {
+            "alt_pins": {},
+            "connections": {},
+            "entity": "e56d286e-744d-4059-b070-2fd855e01ff6",
+            "group": "00000000-0000-0000-0000-000000000000",
+            "part": "964d71c8-9f4e-4a69-9f35-8395d68be682",
+            "pin_names": {},
+            "refdes": "P?",
+            "tag": "8a89dd2e-a67e-4692-b708-9d2e7701a1d8",
+            "value": ""
+        }
+    },
+    "group_names": {},
+    "name": "Top",
+    "net_class_default": "5ef9f9f9-231b-4c87-9f49-c16b9f6e2269",
+    "net_classes": {
+        "5ef9f9f9-231b-4c87-9f49-c16b9f6e2269": {
+            "name": "default"
+        }
+    },
+    "nets": {},
+    "project_meta": {
+        "author": "yann",
+        "date": "2023-05-20",
+        "project_name": "test",
+        "project_title": "Test",
+        "rev": "1"
+    },
+    "tag_names": {
+        "73547d3c-0f9d-4c4d-a09d-bd9cbc85d02c": "3",
+        "8a89dd2e-a67e-4692-b708-9d2e7701a1d8": "1",
+        "94a6eaaa-b888-461d-a234-e9858d171738": "2",
+        "e3aebfa9-a0cf-4013-98fc-f1cd48f0b393": "0"
+    },
+    "uuid": "4b126f99-994c-46b3-b6a5-f6c49301e4ae"
+}
