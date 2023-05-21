@@ -1,0 +1,109 @@
+{
+    "annotation": {
+        "fill_gaps": true,
+        "ignore_unknown": false,
+        "keep": true,
+        "mode": "sheet_100",
+        "order": "right_down"
+    },
+    "block": "7d680d37-c2be-4765-9e76-b8155d7d3075",
+    "group_tag_visible": false,
+    "name": "",
+    "pdf_export_settings": {
+        "min_line_width": 0,
+        "output_filename": ""
+    },
+    "rules": {
+        "connectivity": {
+            "enabled": true,
+            "include_unnamed": true,
+            "order": -1
+        }
+    },
+    "sheets": {
+        "21b2ee0e-b0c9-442d-9084-26acb81c1b64": {
+            "arcs": {},
+            "block_symbols": {},
+            "bus_labels": {},
+            "bus_rippers": {},
+            "index": 1,
+            "junctions": {},
+            "lines": {},
+            "name": "First sheet",
+            "net_labels": {},
+            "net_lines": {},
+            "power_symbols": {},
+            "symbols": {
+                "3358e4f1-eb43-4785-a0c7-488426455067": {
+                    "component": "ebe60d13-ef89-42ba-818a-ea65cf0e3253",
+                    "display_all_pads": false,
+                    "display_directions": false,
+                    "expand": 0,
+                    "gate": "e0b0997c-357a-42fd-b890-9c1760e14f0e",
+                    "pin_display_mode": "selected_only",
+                    "placement": {
+                        "angle": 0,
+                        "mirror": false,
+                        "shift": [
+                            12500000,
+                            -18750000
+                        ]
+                    },
+                    "smashed": false,
+                    "symbol": "5174e485-a639-4cb1-b841-696318a9e373",
+                    "texts": []
+                },
+                "58d96bb2-1f21-42fb-8aab-c920212ad9ed": {
+                    "component": "35dd7234-c03a-4c9c-a2c5-8f8fd2afb539",
+                    "display_all_pads": false,
+                    "display_directions": false,
+                    "expand": 0,
+                    "gate": "365a10af-98b0-4752-9f30-552e2540e33e",
+                    "pin_display_mode": "selected_only",
+                    "placement": {
+                        "angle": 0,
+                        "mirror": false,
+                        "shift": [
+                            41250000,
+                            -1250000
+                        ]
+                    },
+                    "smashed": false,
+                    "symbol": "b4274f1e-5a19-4191-b17d-dfc57cde9aa7",
+                    "texts": []
+                },
+                "5954b8d4-6769-463b-8445-aeff5dafa2f5": {
+                    "component": "e0759008-ace1-4de7-a25d-dad5b2cb94af",
+                    "display_all_pads": false,
+                    "display_directions": false,
+                    "expand": 0,
+                    "gate": "365a10af-98b0-4752-9f30-552e2540e33e",
+                    "pin_display_mode": "selected_only",
+                    "placement": {
+                        "angle": 0,
+                        "mirror": false,
+                        "shift": [
+                            15000000,
+                            -1250000
+                        ]
+                    },
+                    "smashed": false,
+                    "symbol": "b4274f1e-5a19-4191-b17d-dfc57cde9aa7",
+                    "texts": []
+                }
+            },
+            "texts": {},
+            "title_block_values": {}
+        }
+    },
+    "title_block_values": {
+        "author": "yann",
+        "date": "2023-05-21",
+        "project_name": "test-jack",
+        "project_title": "Test Jack",
+        "rev": "1"
+    },
+    "type": "schematic_block",
+    "uuid": "eb218bba-9844-45b0-bfac-5925b5049214",
+    "version": 8
+}

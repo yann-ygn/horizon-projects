@@ -1,0 +1,78 @@
+{
+    "block_instance_mappings": {},
+    "block_instances": {},
+    "bom_export_settings": {
+        "concrete_parts": {},
+        "csv_settings": {
+            "columns": [
+                "QTY",
+                "MPN",
+                "value",
+                "manufacturer",
+                "refdes"
+            ],
+            "order": "asc",
+            "sort_column": "refdes"
+        },
+        "orderable_MPNs": {},
+        "output_filename": ""
+    },
+    "buses": {},
+    "components": {
+        "35dd7234-c03a-4c9c-a2c5-8f8fd2afb539": {
+            "alt_pins": {},
+            "connections": {},
+            "entity": "279afc19-668b-441c-ab2d-ddde4657527d",
+            "group": "00000000-0000-0000-0000-000000000000",
+            "part": "4c87165e-14f5-4f5d-8c78-21a18783f54a",
+            "pin_names": {},
+            "refdes": "OUTPUT",
+            "tag": "d414790c-ca89-4ede-bcb7-fca321d588fa",
+            "value": ""
+        },
+        "e0759008-ace1-4de7-a25d-dad5b2cb94af": {
+            "alt_pins": {},
+            "connections": {},
+            "entity": "279afc19-668b-441c-ab2d-ddde4657527d",
+            "group": "00000000-0000-0000-0000-000000000000",
+            "part": "4c87165e-14f5-4f5d-8c78-21a18783f54a",
+            "pin_names": {},
+            "refdes": "INPUT",
+            "tag": "97dec347-9ed1-48a5-a109-beb77cef1112",
+            "value": ""
+        },
+        "ebe60d13-ef89-42ba-818a-ea65cf0e3253": {
+            "alt_pins": {},
+            "connections": {},
+            "entity": "a9c7df1f-1d9e-4bfe-a0e5-eb0ba7c31627",
+            "group": "00000000-0000-0000-0000-000000000000",
+            "part": "5a6ccae0-b3d8-4a57-9f98-d66eeb0b10bc",
+            "pin_names": {},
+            "refdes": "DC",
+            "tag": "a5c1e221-387b-4fb6-8573-b58a5e2c1fc2",
+            "value": ""
+        }
+    },
+    "group_names": {},
+    "name": "Top",
+    "net_class_default": "9a8f019c-ebc6-4613-a2c1-b1dd77ba7821",
+    "net_classes": {
+        "9a8f019c-ebc6-4613-a2c1-b1dd77ba7821": {
+            "name": "default"
+        }
+    },
+    "nets": {},
+    "project_meta": {
+        "author": "yann",
+        "date": "2023-05-21",
+        "project_name": "test-jack",
+        "project_title": "Test Jack",
+        "rev": "1"
+    },
+    "tag_names": {
+        "97dec347-9ed1-48a5-a109-beb77cef1112": "0",
+        "a5c1e221-387b-4fb6-8573-b58a5e2c1fc2": "2",
+        "d414790c-ca89-4ede-bcb7-fca321d588fa": "1"
+    },
+    "uuid": "7d680d37-c2be-4765-9e76-b8155d7d3075"
+}
