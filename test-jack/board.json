@@ -20,30 +20,30 @@
     },
     "connection_lines": {},
     "dimensions": {
-        "09e5ed08-edc5-4d3c-9729-25a5ed5b026d": {
-            "label_distance": -2200000,
+        "134d61ba-2cec-480d-adea-6fd176518830": {
+            "label_distance": -1300000,
             "label_size": 1500000,
             "mode": "distance",
             "p0": [
-                16310000,
+                6750000,
                 1300000
             ],
             "p1": [
-                11560000,
+                11500000,
                 1300000
             ]
         },
-        "2fadbd7a-5ba5-4b8e-a3a7-14d14634c517": {
-            "label_distance": 0,
+        "1f44a183-c4ec-47fc-aee3-15c2e567f044": {
+            "label_distance": -3500000,
             "label_size": 1500000,
             "mode": "distance",
             "p0": [
-                6810000,
-                1300000
+                31500000,
+                0
             ],
             "p1": [
-                16310000,
-                1300000
+                20810000,
+                0
             ]
         },
         "4190b3dc-9b0c-4fe5-9457-40fd8de873c4": {
@@ -59,29 +59,29 @@
                 0
             ]
         },
-        "d3a07e7c-7e81-4d23-8854-4a42f1d32151": {
-            "label_distance": 0,
+        "bab1a554-aaa6-4d56-8665-9c81587818c5": {
+            "label_distance": 8600000,
             "label_size": 1500000,
             "mode": "distance",
             "p0": [
-                46810000,
-                1300000
+                31500000,
+                0
             ],
             "p1": [
-                56310000,
-                1300000
+                45080000,
+                0
             ]
         },
-        "f050ecf3-7374-46f6-b597-bc7f1c90b0f5": {
-            "label_distance": 1800000,
+        "f7b28b7d-5066-47c6-845c-9efcbd632ff0": {
+            "label_distance": -1300000,
             "label_size": 1500000,
             "mode": "distance",
             "p0": [
-                46810000,
+                46760000,
                 1300000
             ],
             "p1": [
-                51560000,
+                51510000,
                 1300000
             ]
         }
@@ -158,7 +158,32 @@
         "grids": {}
     },
     "holes": {},
-    "junctions": {},
+    "junctions": {
+        "916f71cd-f245-4d16-a6b9-b55103fe4dd3": {
+            "position": [
+                56620000,
+                20350000
+            ]
+        },
+        "c863a72a-0d1f-434a-8b37-9cb8720c5d08": {
+            "position": [
+                20820000,
+                20350000
+            ]
+        },
+        "efedfba5-e395-497d-8971-d4aee8166be3": {
+            "position": [
+                33000000,
+                15000000
+            ]
+        },
+        "f6c8b560-4d68-4f0b-8c20-385b9a17d9ef": {
+            "position": [
+                31500000,
+                13500000
+            ]
+        }
+    },
     "keepouts": {},
     "lines": {},
     "n_inner_layers": 0,
@@ -180,11 +205,11 @@
                 "angle": 49152,
                 "mirror": false,
                 "shift": [
-                    53000000,
+                    52940000,
                     12000000
                 ]
             },
-            "smashed": false,
+            "smashed": true,
             "texts": []
         },
         "99880d72-290d-44c3-9779-8df8b6f31742": {
@@ -196,11 +221,11 @@
                 "angle": 49152,
                 "mirror": false,
                 "shift": [
-                    33000000,
+                    31500000,
                     4000000
                 ]
             },
-            "smashed": false,
+            "smashed": true,
             "texts": []
         },
         "b05a3968-bc4a-4d6b-b17a-2bfdc7f6039f": {
@@ -212,11 +237,11 @@
                 "angle": 32768,
                 "mirror": false,
                 "shift": [
-                    33000000,
-                    22650000
+                    31500000,
+                    20350000
                 ]
             },
-            "smashed": false,
+            "smashed": true,
             "texts": []
         },
         "c3399785-bf15-49ae-a148-59ebcb08afa8": {
@@ -228,11 +253,11 @@
                 "angle": 49152,
                 "mirror": false,
                 "shift": [
-                    13000000,
+                    12940000,
                     12000000
                 ]
             },
-            "smashed": false,
+            "smashed": true,
             "texts": []
         }
     },
@@ -381,7 +406,50 @@
         "reverse_layers": false,
         "set_holes_size": false
     },
-    "planes": {},
+    "planes": {
+        "d7515e9d-1565-41c9-ab08-0b19f9d66047": {
+            "from_rules": true,
+            "net": "8dc9373f-9660-4b51-8897-39cec27d80c3",
+            "polygon": "ed3e523b-51ae-4cf8-bb3e-dd4067c5e09f",
+            "priority": 0,
+            "settings": {
+                "angle": 0,
+                "connect_style": "thermal",
+                "fill_style": "solid",
+                "hatch_border_width": 500000,
+                "hatch_line_spacing": 500000,
+                "hatch_line_width": 200000,
+                "keep_orphans": false,
+                "min_width": 200000,
+                "n_spokes": 4,
+                "style": "miter",
+                "text_style": "expand",
+                "thermal_gap_width": 200000,
+                "thermal_spoke_width": 300000
+            }
+        },
+        "ec7f1b08-67c6-408c-be43-5f9f245bcd80": {
+            "from_rules": true,
+            "net": "8dc9373f-9660-4b51-8897-39cec27d80c3",
+            "polygon": "19b742d3-0fd0-4ea5-aaa4-e2560f84d479",
+            "priority": 0,
+            "settings": {
+                "angle": 0,
+                "connect_style": "thermal",
+                "fill_style": "solid",
+                "hatch_border_width": 500000,
+                "hatch_line_spacing": 500000,
+                "hatch_line_width": 200000,
+                "keep_orphans": false,
+                "min_width": 200000,
+                "n_spokes": 4,
+                "style": "miter",
+                "text_style": "expand",
+                "thermal_gap_width": 200000,
+                "thermal_spoke_width": 300000
+            }
+        }
+    },
     "pnp_export_settings": {
         "bottom_side": "",
         "column_names": {
@@ -412,6 +480,60 @@
         "top_side": ""
     },
     "polygons": {
+        "19b742d3-0fd0-4ea5-aaa4-e2560f84d479": {
+            "layer": 0,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        0,
+                        27200000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        63000000,
+                        27200000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        63000000,
+                        0
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "type": "line"
+                }
+            ]
+        },
         "1d4767a3-46b3-4bf9-8b6f-d85b292e57e0": {
             "layer": 100,
             "parameter_class": "",
@@ -436,7 +558,7 @@
                     "arc_reverse": false,
                     "position": [
                         0,
-                        30000000
+                        27200000
                     ],
                     "type": "line"
                 },
@@ -448,7 +570,7 @@
                     "arc_reverse": false,
                     "position": [
                         63000000,
-                        30000000
+                        27200000
                     ],
                     "type": "line"
                 },
@@ -465,11 +587,65 @@
                     "type": "line"
                 }
             ]
+        },
+        "ed3e523b-51ae-4cf8-bb3e-dd4067c5e09f": {
+            "layer": -100,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        0,
+                        27200000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        63000000,
+                        27200000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        63000000,
+                        0
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        0,
+                        0
+                    ],
+                    "type": "line"
+                }
+            ]
         }
     },
     "rules": {
         "clearance_copper": {
-            "937a0848-7343-4005-bd00-83bd592b565f": {
+            "b517a5f2-49cc-4fa1-91e2-981a35bd3908": {
                 "clearances": [
                     {
                         "clearance": 100000,
@@ -549,42 +725,42 @@
                         ]
                     },
                     {
-                        "clearance": 100000,
+                        "clearance": 200000,
                         "types": [
                             "track",
                             "track"
                         ]
                     },
                     {
-                        "clearance": 100000,
+                        "clearance": 300000,
                         "types": [
                             "track",
                             "pad"
                         ]
                     },
                     {
-                        "clearance": 100000,
+                        "clearance": 300000,
                         "types": [
                             "track",
                             "pad_th"
                         ]
                     },
                     {
-                        "clearance": 100000,
+                        "clearance": 300000,
                         "types": [
                             "track",
                             "via"
                         ]
                     },
                     {
-                        "clearance": 100000,
+                        "clearance": 200000,
                         "types": [
                             "track",
                             "plane"
                         ]
                     },
                     {
-                        "clearance": 100000,
+                        "clearance": 300000,
                         "types": [
                             "track",
                             "hole_pth"
@@ -619,35 +795,35 @@
                         ]
                     },
                     {
-                        "clearance": 100000,
+                        "clearance": 200000,
                         "types": [
                             "pad",
                             "pad"
                         ]
                     },
                     {
-                        "clearance": 100000,
+                        "clearance": 300000,
                         "types": [
                             "pad",
                             "pad_th"
                         ]
                     },
                     {
-                        "clearance": 100000,
+                        "clearance": 300000,
                         "types": [
                             "pad",
                             "via"
                         ]
                     },
                     {
-                        "clearance": 100000,
+                        "clearance": 200000,
                         "types": [
                             "pad",
                             "plane"
                         ]
                     },
                     {
-                        "clearance": 100000,
+                        "clearance": 300000,
                         "types": [
                             "pad",
                             "hole_pth"
@@ -682,28 +858,28 @@
                         ]
                     },
                     {
-                        "clearance": 100000,
+                        "clearance": 500000,
                         "types": [
                             "pad_th",
                             "pad_th"
                         ]
                     },
                     {
-                        "clearance": 100000,
+                        "clearance": 300000,
                         "types": [
                             "pad_th",
                             "via"
                         ]
                     },
                     {
-                        "clearance": 100000,
+                        "clearance": 200000,
                         "types": [
                             "pad_th",
                             "plane"
                         ]
                     },
                     {
-                        "clearance": 100000,
+                        "clearance": 300000,
                         "types": [
                             "pad_th",
                             "hole_pth"
@@ -738,21 +914,21 @@
                         ]
                     },
                     {
-                        "clearance": 100000,
+                        "clearance": 300000,
                         "types": [
                             "via",
                             "via"
                         ]
                     },
                     {
-                        "clearance": 100000,
+                        "clearance": 200000,
                         "types": [
                             "via",
                             "plane"
                         ]
                     },
                     {
-                        "clearance": 100000,
+                        "clearance": 300000,
                         "types": [
                             "via",
                             "hole_pth"
@@ -787,14 +963,14 @@
                         ]
                     },
                     {
-                        "clearance": 100000,
+                        "clearance": 250000,
                         "types": [
                             "plane",
                             "plane"
                         ]
                     },
                     {
-                        "clearance": 100000,
+                        "clearance": 300000,
                         "types": [
                             "plane",
                             "hole_pth"
@@ -829,7 +1005,7 @@
                         ]
                     },
                     {
-                        "clearance": 100000,
+                        "clearance": 500000,
                         "types": [
                             "hole_pth",
                             "hole_pth"
@@ -972,8 +1148,114 @@
             }
         },
         "clearance_copper_other": {
-            "58d00d3c-7394-44f0-9136-3b2ef53e62cf": {
-                "clearances": [],
+            "f36d6705-f855-4b1d-804e-e70c07dee2e8": {
+                "clearances": [
+                    {
+                        "clearance": 300000,
+                        "types": [
+                            "track",
+                            "other"
+                        ]
+                    },
+                    {
+                        "clearance": 300000,
+                        "types": [
+                            "track",
+                            "hole_npth"
+                        ]
+                    },
+                    {
+                        "clearance": 400000,
+                        "types": [
+                            "track",
+                            "board_edge"
+                        ]
+                    },
+                    {
+                        "clearance": 300000,
+                        "types": [
+                            "pad",
+                            "other"
+                        ]
+                    },
+                    {
+                        "clearance": 250000,
+                        "types": [
+                            "pad",
+                            "hole_npth"
+                        ]
+                    },
+                    {
+                        "clearance": 300000,
+                        "types": [
+                            "pad",
+                            "board_edge"
+                        ]
+                    },
+                    {
+                        "clearance": 200000,
+                        "types": [
+                            "pad_th",
+                            "other"
+                        ]
+                    },
+                    {
+                        "clearance": 250000,
+                        "types": [
+                            "pad_th",
+                            "hole_npth"
+                        ]
+                    },
+                    {
+                        "clearance": 300000,
+                        "types": [
+                            "pad_th",
+                            "board_edge"
+                        ]
+                    },
+                    {
+                        "clearance": 300000,
+                        "types": [
+                            "via",
+                            "other"
+                        ]
+                    },
+                    {
+                        "clearance": 250000,
+                        "types": [
+                            "via",
+                            "hole_npth"
+                        ]
+                    },
+                    {
+                        "clearance": 350000,
+                        "types": [
+                            "via",
+                            "board_edge"
+                        ]
+                    },
+                    {
+                        "clearance": 300000,
+                        "types": [
+                            "plane",
+                            "other"
+                        ]
+                    },
+                    {
+                        "clearance": 250000,
+                        "types": [
+                            "plane",
+                            "hole_npth"
+                        ]
+                    },
+                    {
+                        "clearance": 350000,
+                        "types": [
+                            "plane",
+                            "board_edge"
+                        ]
+                    }
+                ],
                 "enabled": true,
                 "layer": 10000,
                 "match": {
@@ -990,7 +1272,7 @@
         "clearance_silkscreen_exposed_copper": {
             "clearance_bottom": 100000,
             "clearance_top": 100000,
-            "enabled": true,
+            "enabled": false,
             "order": -1,
             "pads_only": false
         },
@@ -1022,7 +1304,7 @@
             "via_solder_mask_expansion": 100000
         },
         "plane": {
-            "8bb9d881-9571-4490-960d-2c2a52d11d42": {
+            "1affe0bf-1123-458c-a1c7-7db5661ba23d": {
                 "enabled": true,
                 "layer": 10000,
                 "match": {
@@ -1034,7 +1316,7 @@
                 "order": 0,
                 "settings": {
                     "angle": 0,
-                    "connect_style": "solid",
+                    "connect_style": "thermal",
                     "fill_style": "solid",
                     "hatch_border_width": 500000,
                     "hatch_line_spacing": 500000,
@@ -1042,17 +1324,83 @@
                     "keep_orphans": false,
                     "min_width": 200000,
                     "n_spokes": 4,
-                    "style": "round",
+                    "style": "miter",
                     "text_style": "expand",
                     "thermal_gap_width": 200000,
-                    "thermal_spoke_width": 200000
+                    "thermal_spoke_width": 300000
                 }
             }
         },
         "shorted_pads": {},
         "thermals": {},
         "track_width": {
-            "94802503-ef29-47b4-b138-44d93afecae7": {
+            "24872594-542f-441a-9b41-0898e468f2dd": {
+                "enabled": true,
+                "match": {
+                    "mode": "net_class",
+                    "net": "00000000-0000-0000-0000-000000000000",
+                    "net_class": "7ba1d4a4-861c-43e2-acd7-de8d7ae7beb1",
+                    "net_name_regex": ""
+                },
+                "order": 1,
+                "widths": {
+                    "-100": {
+                        "def": 200000,
+                        "max": 300000,
+                        "min": 200000
+                    },
+                    "0": {
+                        "def": 200000,
+                        "max": 300000,
+                        "min": 200000
+                    }
+                }
+            },
+            "c77f2423-9435-4780-93b0-c5351ae24b1b": {
+                "enabled": true,
+                "match": {
+                    "mode": "net_class",
+                    "net": "00000000-0000-0000-0000-000000000000",
+                    "net_class": "0a67c005-ab87-45b7-82ef-f47b83979009",
+                    "net_name_regex": ""
+                },
+                "order": 2,
+                "widths": {
+                    "-100": {
+                        "def": 300000,
+                        "max": 500000,
+                        "min": 200000
+                    },
+                    "0": {
+                        "def": 300000,
+                        "max": 500000,
+                        "min": 200000
+                    }
+                }
+            },
+            "f02a0310-e131-4228-adf4-6e693b6676fa": {
+                "enabled": true,
+                "match": {
+                    "mode": "net_class",
+                    "net": "00000000-0000-0000-0000-000000000000",
+                    "net_class": "4fe5a152-969e-42dc-aff9-4067980b197f",
+                    "net_name_regex": ""
+                },
+                "order": 0,
+                "widths": {
+                    "-100": {
+                        "def": 800000,
+                        "max": 1200000,
+                        "min": 500000
+                    },
+                    "0": {
+                        "def": 800000,
+                        "max": 1200000,
+                        "min": 500000
+                    }
+                }
+            },
+            "f907d0d5-7c18-4e35-b1e3-c7c39b55983f": {
                 "enabled": true,
                 "match": {
                     "mode": "all",
@@ -1060,22 +1408,98 @@
                     "net_class": "9a8f019c-ebc6-4613-a2c1-b1dd77ba7821",
                     "net_name_regex": ""
                 },
-                "order": 0,
+                "order": 3,
                 "widths": {
                     "-100": {
-                        "def": 200000,
-                        "max": 10000000,
-                        "min": 100000
+                        "def": 300000,
+                        "max": 1000000,
+                        "min": 200000
                     },
                     "0": {
-                        "def": 200000,
-                        "max": 10000000,
-                        "min": 100000
+                        "def": 300000,
+                        "max": 1000000,
+                        "min": 200000
                     }
                 }
             }
         },
-        "via": {}
+        "via": {
+            "1971b9bb-bda2-4461-ad7b-04781a83eb90": {
+                "enabled": true,
+                "match": {
+                    "mode": "net_class",
+                    "net": "00000000-0000-0000-0000-000000000000",
+                    "net_class": "0a67c005-ab87-45b7-82ef-f47b83979009",
+                    "net_name_regex": ""
+                },
+                "order": 1,
+                "padstack": "00000000-0000-0000-0000-000000000000",
+                "parameter_set": {
+                    "hole_diameter": 500000,
+                    "via_diameter": 900000
+                }
+            },
+            "3cab229e-b82c-4e88-b39d-8fe813b1c016": {
+                "enabled": true,
+                "match": {
+                    "mode": "net",
+                    "net": "8dc9373f-9660-4b51-8897-39cec27d80c3",
+                    "net_class": "9a8f019c-ebc6-4613-a2c1-b1dd77ba7821",
+                    "net_name_regex": ""
+                },
+                "order": 3,
+                "padstack": "00000000-0000-0000-0000-000000000000",
+                "parameter_set": {
+                    "hole_diameter": 350000,
+                    "via_diameter": 700000
+                }
+            },
+            "5cc14823-6744-4321-bf09-c37f1fd4a2d7": {
+                "enabled": true,
+                "match": {
+                    "mode": "net_class",
+                    "net": "00000000-0000-0000-0000-000000000000",
+                    "net_class": "7ba1d4a4-861c-43e2-acd7-de8d7ae7beb1",
+                    "net_name_regex": ""
+                },
+                "order": 0,
+                "padstack": "00000000-0000-0000-0000-000000000000",
+                "parameter_set": {
+                    "hole_diameter": 250000,
+                    "via_diameter": 600000
+                }
+            },
+            "759df6a8-ed68-47b0-a94d-ca863a608fb5": {
+                "enabled": true,
+                "match": {
+                    "mode": "net_class",
+                    "net": "00000000-0000-0000-0000-000000000000",
+                    "net_class": "4fe5a152-969e-42dc-aff9-4067980b197f",
+                    "net_name_regex": ""
+                },
+                "order": 2,
+                "padstack": "00000000-0000-0000-0000-000000000000",
+                "parameter_set": {
+                    "hole_diameter": 1000000,
+                    "via_diameter": 1400000
+                }
+            },
+            "cc35cc7f-8ccf-48f6-8899-740ccb59d376": {
+                "enabled": true,
+                "match": {
+                    "mode": "all",
+                    "net": "00000000-0000-0000-0000-000000000000",
+                    "net_class": "9a8f019c-ebc6-4613-a2c1-b1dd77ba7821",
+                    "net_name_regex": ""
+                },
+                "order": 4,
+                "padstack": "3c4a52fe-3ae0-4c3e-a108-824b53d6d6da",
+                "parameter_set": {
+                    "hole_diameter": 350000,
+                    "via_diameter": 700000
+                }
+            }
+        }
     },
     "stackup": {
         "-100": {
@@ -1093,7 +1517,106 @@
         "prefix": ""
     },
     "texts": {},
-    "tracks": {},
+    "tracks": {
+        "07d0fe6a-ba0c-4735-9da2-8554368b377f": {
+            "from": {
+                "junc": "efedfba5-e395-497d-8971-d4aee8166be3",
+                "pad": null
+            },
+            "layer": 0,
+            "locked": false,
+            "to": {
+                "junc": null,
+                "pad": "b05a3968-bc4a-4d6b-b17a-2bfdc7f6039f/ed12daca-0d29-4f17-bf66-5fad29112769"
+            },
+            "width": 1200000,
+            "width_from_net_class": false
+        },
+        "12653eb4-4584-44dd-9eba-78f9b61a4a70": {
+            "from": {
+                "junc": "c863a72a-0d1f-434a-8b37-9cb8720c5d08",
+                "pad": null
+            },
+            "layer": 0,
+            "locked": false,
+            "to": {
+                "junc": null,
+                "pad": "b05a3968-bc4a-4d6b-b17a-2bfdc7f6039f/5de34751-7c21-4bea-9f04-25a288aa2328"
+            },
+            "width": 300000,
+            "width_from_net_class": false
+        },
+        "1a58f35d-c1e4-4dac-85d3-6832868ddc98": {
+            "from": {
+                "junc": null,
+                "pad": "99880d72-290d-44c3-9779-8df8b6f31742/7d6eff7d-6825-4527-91bb-77b247f37da9"
+            },
+            "layer": 0,
+            "locked": false,
+            "to": {
+                "junc": "f6c8b560-4d68-4f0b-8c20-385b9a17d9ef",
+                "pad": null
+            },
+            "width": 1200000,
+            "width_from_net_class": false
+        },
+        "2dd38271-c544-4587-9cc3-55dfc2b3ae02": {
+            "from": {
+                "junc": null,
+                "pad": "b05a3968-bc4a-4d6b-b17a-2bfdc7f6039f/5b662c3c-e249-4bb8-b73b-50d87d71b519"
+            },
+            "layer": 0,
+            "locked": false,
+            "to": {
+                "junc": "916f71cd-f245-4d16-a6b9-b55103fe4dd3",
+                "pad": null
+            },
+            "width": 300000,
+            "width_from_net_class": true
+        },
+        "a75de9ee-366f-4133-9873-cfadfdba628a": {
+            "from": {
+                "junc": "f6c8b560-4d68-4f0b-8c20-385b9a17d9ef",
+                "pad": null
+            },
+            "layer": 0,
+            "locked": false,
+            "to": {
+                "junc": "efedfba5-e395-497d-8971-d4aee8166be3",
+                "pad": null
+            },
+            "width": 1200000,
+            "width_from_net_class": false
+        },
+        "b241eb87-ab35-466d-857f-251c4a8f3374": {
+            "from": {
+                "junc": "916f71cd-f245-4d16-a6b9-b55103fe4dd3",
+                "pad": null
+            },
+            "layer": 0,
+            "locked": false,
+            "to": {
+                "junc": null,
+                "pad": "6899e2ec-bb50-411e-b769-3bd3ac5c7d77/671b6d93-2bc4-4794-b8e4-72c02d29b0ed"
+            },
+            "width": 300000,
+            "width_from_net_class": true
+        },
+        "f115efbf-8f6c-467b-aad6-5d44e677c548": {
+            "from": {
+                "junc": null,
+                "pad": "c3399785-bf15-49ae-a148-59ebcb08afa8/671b6d93-2bc4-4794-b8e4-72c02d29b0ed"
+            },
+            "layer": 0,
+            "locked": false,
+            "to": {
+                "junc": "c863a72a-0d1f-434a-8b37-9cb8720c5d08",
+                "pad": null
+            },
+            "width": 300000,
+            "width_from_net_class": false
+        }
+    },
     "type": "board",
     "uuid": "c7b7b956-051f-40d3-8f2c-26dc89ceca4c",
     "version": 17,

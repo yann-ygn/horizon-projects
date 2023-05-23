@@ -1,12 +1,12 @@
 {
     "n_inner_layers": 2,
-    "name": "4 layers",
+    "name": "",
     "net_class_default": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
     "net_classes": {
-        "49abbcf6-358e-4715-9de5-584e3937075a": "Analog",
-        "73a2d9e9-e4c9-4baf-8fee-3ff52a4bf2e1": "Digital",
-        "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf": "default",
-        "bf60abf8-be51-4476-ab48-9629e362695a": "Power"
+        "1e23dc14-a460-4166-b815-b9818316eb7c": "Power",
+        "79bc8090-ff52-406d-bd7a-cf6e877a2619": "Analog",
+        "7f3ccf8b-0e02-488e-9e2f-e1925b6a5552": "Digital",
+        "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf": "default"
     },
     "notes": "",
     "rules": {
@@ -713,10 +713,10 @@
                 "match": {
                     "mode": "net_class",
                     "net": "00000000-0000-0000-0000-000000000000",
-                    "net_class": "bf60abf8-be51-4476-ab48-9629e362695a",
+                    "net_class": "1e23dc14-a460-4166-b815-b9818316eb7c",
                     "net_name_regex": ""
                 },
-                "order": 3,
+                "order": 2,
                 "widths": {
                     "-1": {
                         "def": 800000,
@@ -748,7 +748,7 @@
                     "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
                     "net_name_regex": ""
                 },
-                "order": 4,
+                "order": 3,
                 "widths": {
                     "-1": {
                         "def": 500000,
@@ -777,7 +777,7 @@
                 "match": {
                     "mode": "net_class",
                     "net": "00000000-0000-0000-0000-000000000000",
-                    "net_class": "49abbcf6-358e-4715-9de5-584e3937075a",
+                    "net_class": "79bc8090-ff52-406d-bd7a-cf6e877a2619",
                     "net_name_regex": ""
                 },
                 "order": 0,
@@ -809,7 +809,7 @@
                 "match": {
                     "mode": "net_class",
                     "net": "00000000-0000-0000-0000-000000000000",
-                    "net_class": "73a2d9e9-e4c9-4baf-8fee-3ff52a4bf2e1",
+                    "net_class": "7f3ccf8b-0e02-488e-9e2f-e1925b6a5552",
                     "net_name_regex": ""
                 },
                 "order": 1,
@@ -844,7 +844,7 @@
                     "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
                     "net_name_regex": ""
                 },
-                "order": 5,
+                "order": 4,
                 "widths": {
                     "-1": {
                         "def": 200000,
@@ -875,7 +875,7 @@
                 "match": {
                     "mode": "net_class",
                     "net": "00000000-0000-0000-0000-000000000000",
-                    "net_class": "49abbcf6-358e-4715-9de5-584e3937075a",
+                    "net_class": "79bc8090-ff52-406d-bd7a-cf6e877a2619",
                     "net_name_regex": ""
                 },
                 "order": 4,
@@ -905,7 +905,7 @@
                 "match": {
                     "mode": "net_class",
                     "net": "00000000-0000-0000-0000-000000000000",
-                    "net_class": "73a2d9e9-e4c9-4baf-8fee-3ff52a4bf2e1",
+                    "net_class": "7f3ccf8b-0e02-488e-9e2f-e1925b6a5552",
                     "net_name_regex": ""
                 },
                 "order": 5,
@@ -919,5 +919,5 @@
     },
     "rules_type": "board",
     "type": "rules",
-    "uuid": "7a72ff3a-641d-4ac7-a61c-227cb96c8566"
+    "uuid": "5e9ed0ce-5df9-4040-8031-b4eae9068c7f"
 }
