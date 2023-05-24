@@ -165,22 +165,22 @@
                 20350000
             ]
         },
+        "c03c42f2-caa0-4e31-a98d-e7f0cb0779dd": {
+            "position": [
+                33000000,
+                15700000
+            ]
+        },
         "c863a72a-0d1f-434a-8b37-9cb8720c5d08": {
             "position": [
                 20820000,
                 20350000
             ]
         },
-        "efedfba5-e395-497d-8971-d4aee8166be3": {
-            "position": [
-                33000000,
-                15000000
-            ]
-        },
-        "f6c8b560-4d68-4f0b-8c20-385b9a17d9ef": {
+        "e5c17762-3bd8-40f1-8dfa-75c52e41c832": {
             "position": [
                 31500000,
-                13500000
+                14200000
             ]
         }
     },
@@ -222,7 +222,7 @@
                 "mirror": false,
                 "shift": [
                     31500000,
-                    4000000
+                    4100000
                 ]
             },
             "smashed": true,
@@ -1518,20 +1518,6 @@
     },
     "texts": {},
     "tracks": {
-        "07d0fe6a-ba0c-4735-9da2-8554368b377f": {
-            "from": {
-                "junc": "efedfba5-e395-497d-8971-d4aee8166be3",
-                "pad": null
-            },
-            "layer": 0,
-            "locked": false,
-            "to": {
-                "junc": null,
-                "pad": "b05a3968-bc4a-4d6b-b17a-2bfdc7f6039f/ed12daca-0d29-4f17-bf66-5fad29112769"
-            },
-            "width": 1200000,
-            "width_from_net_class": false
-        },
         "12653eb4-4584-44dd-9eba-78f9b61a4a70": {
             "from": {
                 "junc": "c863a72a-0d1f-434a-8b37-9cb8720c5d08",
@@ -1544,20 +1530,6 @@
                 "pad": "b05a3968-bc4a-4d6b-b17a-2bfdc7f6039f/5de34751-7c21-4bea-9f04-25a288aa2328"
             },
             "width": 300000,
-            "width_from_net_class": false
-        },
-        "1a58f35d-c1e4-4dac-85d3-6832868ddc98": {
-            "from": {
-                "junc": null,
-                "pad": "99880d72-290d-44c3-9779-8df8b6f31742/7d6eff7d-6825-4527-91bb-77b247f37da9"
-            },
-            "layer": 0,
-            "locked": false,
-            "to": {
-                "junc": "f6c8b560-4d68-4f0b-8c20-385b9a17d9ef",
-                "pad": null
-            },
-            "width": 1200000,
             "width_from_net_class": false
         },
         "2dd38271-c544-4587-9cc3-55dfc2b3ae02": {
@@ -1574,15 +1546,15 @@
             "width": 300000,
             "width_from_net_class": true
         },
-        "a75de9ee-366f-4133-9873-cfadfdba628a": {
+        "698688b2-3787-4720-9560-639b9dd3bb1e": {
             "from": {
-                "junc": "f6c8b560-4d68-4f0b-8c20-385b9a17d9ef",
-                "pad": null
+                "junc": null,
+                "pad": "99880d72-290d-44c3-9779-8df8b6f31742/7d6eff7d-6825-4527-91bb-77b247f37da9"
             },
             "layer": 0,
             "locked": false,
             "to": {
-                "junc": "efedfba5-e395-497d-8971-d4aee8166be3",
+                "junc": "e5c17762-3bd8-40f1-8dfa-75c52e41c832",
                 "pad": null
             },
             "width": 1200000,
@@ -1601,6 +1573,34 @@
             },
             "width": 300000,
             "width_from_net_class": true
+        },
+        "b8407eb2-1b53-462c-84b2-2e4eeb79dda5": {
+            "from": {
+                "junc": "e5c17762-3bd8-40f1-8dfa-75c52e41c832",
+                "pad": null
+            },
+            "layer": 0,
+            "locked": false,
+            "to": {
+                "junc": "c03c42f2-caa0-4e31-a98d-e7f0cb0779dd",
+                "pad": null
+            },
+            "width": 1200000,
+            "width_from_net_class": false
+        },
+        "d3246448-f62f-42a2-bd15-78192dc26076": {
+            "from": {
+                "junc": "c03c42f2-caa0-4e31-a98d-e7f0cb0779dd",
+                "pad": null
+            },
+            "layer": 0,
+            "locked": false,
+            "to": {
+                "junc": null,
+                "pad": "b05a3968-bc4a-4d6b-b17a-2bfdc7f6039f/ed12daca-0d29-4f17-bf66-5fad29112769"
+            },
+            "width": 1200000,
+            "width_from_net_class": false
         },
         "f115efbf-8f6c-467b-aad6-5d44e677c548": {
             "from": {
