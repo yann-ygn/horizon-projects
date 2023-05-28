@@ -1,0 +1,151 @@
+{
+    "arcs": {},
+    "can_expand": false,
+    "junctions": {
+        "119405ed-05c1-4d20-aa8c-b4f3b6441091": {
+            "position": [
+                -7500000,
+                -5000000
+            ]
+        },
+        "4c2c80eb-5a1c-4689-9b95-0e5fc71a7513": {
+            "position": [
+                7500000,
+                5000000
+            ]
+        },
+        "9434b1d6-d950-40c5-959b-4bf07ffef06b": {
+            "position": [
+                -7500000,
+                5000000
+            ]
+        },
+        "fe666473-03c5-4158-9f03-bb351eca9519": {
+            "position": [
+                7500000,
+                -5000000
+            ]
+        }
+    },
+    "lines": {
+        "3e94e00f-7421-4769-84c1-bb50e96a73f8": {
+            "from": "119405ed-05c1-4d20-aa8c-b4f3b6441091",
+            "layer": 0,
+            "to": "9434b1d6-d950-40c5-959b-4bf07ffef06b",
+            "width": 0
+        },
+        "5ccb021e-9e34-4983-a5ee-56be0812ba31": {
+            "from": "4c2c80eb-5a1c-4689-9b95-0e5fc71a7513",
+            "layer": 0,
+            "to": "fe666473-03c5-4158-9f03-bb351eca9519",
+            "width": 0
+        },
+        "a1f7ef8d-438f-452f-8c51-8666ddd846da": {
+            "from": "fe666473-03c5-4158-9f03-bb351eca9519",
+            "layer": 0,
+            "to": "119405ed-05c1-4d20-aa8c-b4f3b6441091",
+            "width": 0
+        },
+        "fbdc7c3c-609a-4cd2-83c6-50ff73fdab7e": {
+            "from": "9434b1d6-d950-40c5-959b-4bf07ffef06b",
+            "layer": 0,
+            "to": "4c2c80eb-5a1c-4689-9b95-0e5fc71a7513",
+            "width": 0
+        }
+    },
+    "name": "Voltage regulator 3 pins",
+    "pins": {
+        "90126287-d085-4466-9dd3-5c4d427d6ec2": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": false,
+            "position": [
+                -10000000,
+                0
+            ]
+        },
+        "92250bba-e46c-4e85-bbf0-82e81629088c": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "down",
+            "pad_visible": false,
+            "position": [
+                0,
+                -7500000
+            ]
+        },
+        "befe5543-8617-4612-b57d-e1f21918bd88": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": false,
+            "position": [
+                10000000,
+                0
+            ]
+        }
+    },
+    "polygons": {},
+    "text_placements": {},
+    "texts": {
+        "93b3fe56-8ac0-4e34-a57f-81be2ffab669": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    2500000,
+                    -6250000
+                ]
+            },
+            "size": 1500000,
+            "text": "$VALUE",
+            "width": 0
+        },
+        "b604288a-d64c-4720-9415-df9bd8e0a557": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    2500000,
+                    6250000
+                ]
+            },
+            "size": 1500000,
+            "text": "$REFDES",
+            "width": 0
+        }
+    },
+    "type": "symbol",
+    "unit": "d4bf41c6-25df-4360-90dd-e09dc9b5499c",
+    "uuid": "086079c4-f607-4e2c-bfdf-72f66bf2b9eb"
+}
