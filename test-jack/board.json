@@ -59,6 +59,19 @@
                 0
             ]
         },
+        "662b43dd-401b-4ecb-9a57-e1e2efe89061": {
+            "label_distance": 9100000,
+            "label_size": 1500000,
+            "mode": "distance",
+            "p0": [
+                63000000,
+                46400000
+            ],
+            "p1": [
+                31500000,
+                46400000
+            ]
+        },
         "bab1a554-aaa6-4d56-8665-9c81587818c5": {
             "label_distance": 8600000,
             "label_size": 1500000,
@@ -261,7 +274,7 @@
                 "mirror": true,
                 "shift": [
                     14400000,
-                    32950000
+                    31950000
                 ]
             },
             "smashed": false,
@@ -277,7 +290,7 @@
                 "mirror": true,
                 "shift": [
                     7200000,
-                    32000000
+                    31000000
                 ]
             },
             "smashed": false,
@@ -462,13 +475,13 @@
         "a2fee1e6-99ee-46a2-9deb-76f0b0b82837": {
             "component": "abc166e8-ef8d-4d90-aa1f-69f7b6fd9fc2",
             "fixed": false,
-            "flip": false,
+            "flip": true,
             "omit_silkscreen": false,
             "placement": {
                 "angle": 0,
-                "mirror": false,
+                "mirror": true,
                 "shift": [
-                    35294166,
+                    31500000,
                     42100000
                 ]
             },
@@ -485,7 +498,7 @@
                 "mirror": true,
                 "shift": [
                     4725000,
-                    25390000
+                    24390000
                 ]
             },
             "smashed": false,

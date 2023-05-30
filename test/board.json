@@ -33,6 +33,19 @@
                 72000000
             ]
         },
+        "8d17d169-839e-4d25-8ed1-8135d1665a49": {
+            "label_distance": 23500000,
+            "label_size": 1500000,
+            "mode": "distance",
+            "p0": [
+                51500000,
+                84000000
+            ],
+            "p1": [
+                51500000,
+                54000000
+            ]
+        },
         "b7145558-9c0b-48a5-8071-9bca71c393e0": {
             "label_distance": -5000000,
             "label_size": 1500000,
@@ -44,6 +57,19 @@
             "p1": [
                 63000000,
                 0
+            ]
+        },
+        "f5e47fbc-2411-45ce-ae88-6a79af18cb56": {
+            "label_distance": 14000000,
+            "label_size": 1500000,
+            "mode": "distance",
+            "p0": [
+                11500000,
+                84000000
+            ],
+            "p1": [
+                51500000,
+                84000000
             ]
         }
     },
@@ -132,6 +158,22 @@
     },
     "output_format": "gerber",
     "packages": {
+        "6a219748-7d30-4368-9102-057ee83d9466": {
+            "component": "a4c8db41-7d99-4cea-8d45-da0c037f3445",
+            "fixed": false,
+            "flip": true,
+            "omit_silkscreen": false,
+            "placement": {
+                "angle": 0,
+                "mirror": true,
+                "shift": [
+                    51500000,
+                    84000000
+                ]
+            },
+            "smashed": false,
+            "texts": []
+        },
         "84e3d611-1e1e-49d4-90ad-c18e269660c2": {
             "component": "3e0d282f-5935-4c28-8a6b-e61c48c280ed",
             "fixed": false,
@@ -142,22 +184,6 @@
                 "mirror": true,
                 "shift": [
                     11500000,
-                    84000000
-                ]
-            },
-            "smashed": false,
-            "texts": []
-        },
-        "8e09bf3c-6ce1-4209-9fc7-4c15146965c9": {
-            "component": "c67ac545-143d-44f6-86a2-6229eed2767e",
-            "fixed": false,
-            "flip": true,
-            "omit_silkscreen": false,
-            "placement": {
-                "angle": 0,
-                "mirror": true,
-                "shift": [
-                    51500000,
                     84000000
                 ]
             },
@@ -409,7 +435,7 @@
                     "arc_reverse": false,
                     "position": [
                         63000000,
-                        75000000
+                        78500000
                     ],
                     "type": "line"
                 },
@@ -421,7 +447,7 @@
                     "arc_reverse": false,
                     "position": [
                         0,
-                        75000000
+                        78500000
                     ],
                     "type": "line"
                 }
