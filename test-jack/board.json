@@ -225,24 +225,8 @@
                 "angle": 16384,
                 "mirror": true,
                 "shift": [
-                    40050000,
-                    23200000
-                ]
-            },
-            "smashed": false,
-            "texts": []
-        },
-        "2324a525-5f3a-47b8-957c-b5c54976f09d": {
-            "component": "ddb0324a-51e2-4d10-9e7f-969e262fb0d9",
-            "fixed": false,
-            "flip": true,
-            "omit_silkscreen": false,
-            "placement": {
-                "angle": 0,
-                "mirror": true,
-                "shift": [
-                    28550000,
-                    22850000
+                    39450000,
+                    22200000
                 ]
             },
             "smashed": false,
@@ -401,8 +385,8 @@
                 "angle": 16384,
                 "mirror": true,
                 "shift": [
-                    34360000,
-                    23200000
+                    33760000,
+                    22200000
                 ]
             },
             "smashed": false,
@@ -417,8 +401,8 @@
                 "angle": 16384,
                 "mirror": true,
                 "shift": [
-                    20150000,
-                    33200000
+                    20020000,
+                    33390000
                 ]
             },
             "smashed": false,
@@ -434,7 +418,7 @@
                 "mirror": true,
                 "shift": [
                     19070000,
-                    30000000
+                    30200000
                 ]
             },
             "smashed": false,
@@ -545,8 +529,8 @@
                 "angle": 16384,
                 "mirror": true,
                 "shift": [
-                    37200000,
-                    22850000
+                    36600000,
+                    21850000
                 ]
             },
             "smashed": false,
@@ -574,11 +558,11 @@
             "flip": true,
             "omit_silkscreen": false,
             "placement": {
-                "angle": 0,
+                "angle": 16384,
                 "mirror": true,
                 "shift": [
-                    19570000,
-                    35600000
+                    18120000,
+                    33390000
                 ]
             },
             "smashed": false,
@@ -626,7 +610,7 @@
                 "mirror": true,
                 "shift": [
                     39450000,
-                    16376461
+                    15576461
                 ]
             },
             "smashed": false,
@@ -643,6 +627,22 @@
                 "shift": [
                     52100000,
                     32400000
+                ]
+            },
+            "smashed": false,
+            "texts": []
+        },
+        "f62fe1b2-3ed1-4643-a004-b54c8b2bea92": {
+            "component": "82557ee4-d3b6-4deb-be63-b7d2638b993d",
+            "fixed": false,
+            "flip": true,
+            "omit_silkscreen": false,
+            "placement": {
+                "angle": 0,
+                "mirror": true,
+                "shift": [
+                    29200000,
+                    21700000
                 ]
             },
             "smashed": false,
@@ -1204,7 +1204,7 @@
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 190000,
                         "types": [
                             "pad",
                             "plane"
@@ -1260,7 +1260,7 @@
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 290000,
                         "types": [
                             "pad_th",
                             "plane"

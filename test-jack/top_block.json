@@ -241,6 +241,24 @@
             "tag": "b0176f96-1b53-4696-b254-0d673d34b097",
             "value": ""
         },
+        "82557ee4-d3b6-4deb-be63-b7d2638b993d": {
+            "alt_pins": {},
+            "connections": {
+                "23766b63-6ffc-4831-baee-ba1635a735b3/1e7cd34f-86db-4b34-9e0b-c276756301ab": {
+                    "net": "8dc9373f-9660-4b51-8897-39cec27d80c3"
+                },
+                "23766b63-6ffc-4831-baee-ba1635a735b3/bb8460b5-34e6-41b0-9a9f-10eed3a3d8d6": {
+                    "net": "78c5b52b-adde-4055-8a07-88a4476be1c5"
+                }
+            },
+            "entity": "b0c2b8f8-aecf-4873-9458-c06eee2f7a00",
+            "group": "00000000-0000-0000-0000-000000000000",
+            "part": "463a8359-2ea3-40ed-89f3-2e30820792e0",
+            "pin_names": {},
+            "refdes": "C4",
+            "tag": "69b71375-a721-4d91-b50b-c7e2613c5039",
+            "value": ""
+        },
         "9adfb1c5-13de-48b2-a724-a729d3f38d96": {
             "alt_pins": {},
             "connections": {
@@ -424,24 +442,6 @@
             "pin_names": {},
             "refdes": "J1",
             "tag": "8fcc3a77-ba7a-4f7f-905d-60f9f52eec5c",
-            "value": ""
-        },
-        "ddb0324a-51e2-4d10-9e7f-969e262fb0d9": {
-            "alt_pins": {},
-            "connections": {
-                "23766b63-6ffc-4831-baee-ba1635a735b3/1e7cd34f-86db-4b34-9e0b-c276756301ab": {
-                    "net": "8dc9373f-9660-4b51-8897-39cec27d80c3"
-                },
-                "23766b63-6ffc-4831-baee-ba1635a735b3/bb8460b5-34e6-41b0-9a9f-10eed3a3d8d6": {
-                    "net": "78c5b52b-adde-4055-8a07-88a4476be1c5"
-                }
-            },
-            "entity": "b0c2b8f8-aecf-4873-9458-c06eee2f7a00",
-            "group": "00000000-0000-0000-0000-000000000000",
-            "part": "a61500df-7599-4e87-8282-66a58fd98ee0",
-            "pin_names": {},
-            "refdes": "C4",
-            "tag": "1e6e9964-a4f8-4c37-a32f-0a40b1fdbcb5",
             "value": ""
         },
         "ddf1b40f-7928-4cd7-bb95-9c6da9f26b1d": {
@@ -837,6 +837,7 @@
         "4a7b6192-964e-4464-9cbf-f0c28917f789": "12",
         "6001542b-9524-432f-812d-e5daea24e122": "39",
         "638776f8-2bb6-4d66-9172-574205c0bf85": "53",
+        "69b71375-a721-4d91-b50b-c7e2613c5039": "24",
         "6c08c04b-ab70-43ec-a1b7-2dcb4ef36fba": "55",
         "7aa0764e-7545-492a-87b3-b54c9ca990d7": "41",
         "8faaf8a0-64f1-48d3-8918-59f4a27c70b9": "53",
