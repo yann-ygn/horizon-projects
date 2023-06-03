@@ -33,19 +33,6 @@
                 1300000
             ]
         },
-        "1f44a183-c4ec-47fc-aee3-15c2e567f044": {
-            "label_distance": -3500000,
-            "label_size": 1500000,
-            "mode": "distance",
-            "p0": [
-                31500000,
-                0
-            ],
-            "p1": [
-                20810000,
-                0
-            ]
-        },
         "4190b3dc-9b0c-4fe5-9457-40fd8de873c4": {
             "label_distance": 8800000,
             "label_size": 1500000,
@@ -72,17 +59,30 @@
                 46400000
             ]
         },
-        "bab1a554-aaa6-4d56-8665-9c81587818c5": {
-            "label_distance": 8600000,
+        "e0560e5e-7e3c-48db-adfc-002b68e7cd70": {
+            "label_distance": -1900000,
             "label_size": 1500000,
             "mode": "distance",
             "p0": [
                 31500000,
-                0
+                8600000
             ],
             "p1": [
-                45080000,
-                0
+                42190000,
+                8600000
+            ]
+        },
+        "e1572d33-b461-4dda-9ca7-9258a23ff65b": {
+            "label_distance": -3200000,
+            "label_size": 1500000,
+            "mode": "distance",
+            "p0": [
+                31500000,
+                3500000
+            ],
+            "p1": [
+                17920000,
+                3500000
             ]
         },
         "f7b28b7d-5066-47c6-845c-9efcbd632ff0": {
@@ -193,8 +193,8 @@
                 "angle": 16384,
                 "mirror": false,
                 "shift": [
-                    26820000,
-                    15400000
+                    24020000,
+                    15900000
                 ]
             },
             "smashed": false,
@@ -209,8 +209,8 @@
                 "angle": 16384,
                 "mirror": false,
                 "shift": [
-                    31750000,
-                    15776461
+                    28850000,
+                    16276461
                 ]
             },
             "smashed": false,
@@ -225,8 +225,8 @@
                 "angle": 16384,
                 "mirror": false,
                 "shift": [
-                    43850000,
-                    21500000
+                    44250000,
+                    22200000
                 ]
             },
             "smashed": false,
@@ -257,7 +257,7 @@
                 "angle": 49152,
                 "mirror": false,
                 "shift": [
-                    46650000,
+                    47250000,
                     33050000
                 ]
             },
@@ -273,7 +273,7 @@
                 "angle": 32768,
                 "mirror": false,
                 "shift": [
-                    53900000,
+                    54500000,
                     32100000
                 ]
             },
@@ -289,8 +289,8 @@
                 "angle": 16384,
                 "mirror": false,
                 "shift": [
-                    6000000,
-                    27300000
+                    6150000,
+                    35500000
                 ]
             },
             "smashed": false,
@@ -305,24 +305,8 @@
                 "angle": 49152,
                 "mirror": false,
                 "shift": [
-                    22500000,
-                    15208977
-                ]
-            },
-            "smashed": false,
-            "texts": []
-        },
-        "3d0650ed-062b-4034-9409-2be047152a1e": {
-            "component": "9d674813-bf52-40cc-bc95-f8f1c17f8be0",
-            "fixed": false,
-            "flip": false,
-            "omit_silkscreen": false,
-            "placement": {
-                "angle": 32768,
-                "mirror": false,
-                "shift": [
-                    32755000,
-                    27825000
+                    19700000,
+                    15708977
                 ]
             },
             "smashed": false,
@@ -337,8 +321,8 @@
                 "angle": 16384,
                 "mirror": false,
                 "shift": [
-                    4500000,
-                    33500000
+                    4700000,
+                    29500000
                 ]
             },
             "smashed": false,
@@ -353,7 +337,7 @@
                 "angle": 16384,
                 "mirror": true,
                 "shift": [
-                    12940000,
+                    10050000,
                     10700000
                 ]
             },
@@ -369,8 +353,8 @@
                 "angle": 0,
                 "mirror": false,
                 "shift": [
-                    31600000,
-                    12576461
+                    28700000,
+                    13076461
                 ]
             },
             "smashed": false,
@@ -385,8 +369,8 @@
                 "angle": 16384,
                 "mirror": false,
                 "shift": [
-                    38150000,
-                    21500000
+                    38550000,
+                    22200000
                 ]
             },
             "smashed": false,
@@ -401,8 +385,8 @@
                 "angle": 0,
                 "mirror": false,
                 "shift": [
-                    42120000,
-                    32470000
+                    41220000,
+                    34450000
                 ]
             },
             "smashed": false,
@@ -417,8 +401,8 @@
                 "angle": 49152,
                 "mirror": false,
                 "shift": [
-                    42220000,
-                    29570000
+                    41320000,
+                    31550000
                 ]
             },
             "smashed": false,
@@ -449,8 +433,8 @@
                 "angle": 32768,
                 "mirror": false,
                 "shift": [
-                    38550000,
-                    28190000
+                    37650000,
+                    30190000
                 ]
             },
             "smashed": false,
@@ -481,7 +465,7 @@
                 "angle": 32768,
                 "mirror": false,
                 "shift": [
-                    56375000,
+                    56975000,
                     25520000
                 ]
             },
@@ -497,8 +481,8 @@
                 "angle": 32768,
                 "mirror": false,
                 "shift": [
-                    36630000,
-                    32100000
+                    35730000,
+                    34100000
                 ]
             },
             "smashed": false,
@@ -513,7 +497,7 @@
                 "angle": 16384,
                 "mirror": true,
                 "shift": [
-                    52940000,
+                    50060000,
                     10700000
                 ]
             },
@@ -529,8 +513,24 @@
                 "angle": 16384,
                 "mirror": false,
                 "shift": [
-                    41000000,
-                    21850000
+                    41400000,
+                    22550000
+                ]
+            },
+            "smashed": false,
+            "texts": []
+        },
+        "c9cb1bfc-811f-4353-ae63-4ae3406fefff": {
+            "component": "8aea00c5-a4cb-4e08-8867-06fa9329a519",
+            "fixed": false,
+            "flip": false,
+            "omit_silkscreen": false,
+            "placement": {
+                "angle": 32768,
+                "mirror": false,
+                "shift": [
+                    33700000,
+                    30000000
                 ]
             },
             "smashed": false,
@@ -561,8 +561,8 @@
                 "angle": 0,
                 "mirror": false,
                 "shift": [
-                    42120000,
-                    34300000
+                    41220000,
+                    36280000
                 ]
             },
             "smashed": false,
@@ -609,8 +609,8 @@
                 "angle": 0,
                 "mirror": false,
                 "shift": [
-                    40030000,
-                    14676461
+                    37030000,
+                    15176461
                 ]
             },
             "smashed": false,
@@ -625,8 +625,8 @@
                 "angle": 49152,
                 "mirror": false,
                 "shift": [
-                    10200000,
-                    33400000
+                    10270000,
+                    29500000
                 ]
             },
             "smashed": false,
@@ -638,11 +638,11 @@
             "flip": false,
             "omit_silkscreen": false,
             "placement": {
-                "angle": 32768,
+                "angle": 16384,
                 "mirror": false,
                 "shift": [
-                    33600000,
-                    22000000
+                    34700000,
+                    23100000
                 ]
             },
             "smashed": false,
