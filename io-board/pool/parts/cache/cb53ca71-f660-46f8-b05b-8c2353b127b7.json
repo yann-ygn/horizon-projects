@@ -1,0 +1,41 @@
+{
+    "MPN": [
+        false,
+        "MMSZ11T1G"
+    ],
+    "datasheet": [
+        false,
+        ""
+    ],
+    "description": [
+        false,
+        "ZENER DIODE 11V 500MW"
+    ],
+    "entity": "99a8013d-2185-4bd9-90b8-445a88ef15ec",
+    "inherit_model": false,
+    "inherit_tags": false,
+    "manufacturer": [
+        false,
+        "ON Semiconductor"
+    ],
+    "model": "39f6849c-9777-41d3-bd71-06efa0069438",
+    "package": "77cf3d3d-da1a-4fc0-9157-192509208f9f",
+    "pad_map": {
+        "430c0eda-16d1-4aa1-b02c-d9e0b2becc84": {
+            "gate": "b91b2497-9578-47ec-9f76-42b983a07dd7",
+            "pin": "c5a0b1d3-fd82-4055-a93e-d5e8e36f7239"
+        },
+        "7c35ea08-47b0-4a3b-9655-42fc1d7f394f": {
+            "gate": "b91b2497-9578-47ec-9f76-42b983a07dd7",
+            "pin": "fc5d4658-4cc5-4e17-8aee-b8294cc5a6ef"
+        }
+    },
+    "parametric": {},
+    "tags": [],
+    "type": "part",
+    "uuid": "cb53ca71-f660-46f8-b05b-8c2353b127b7",
+    "value": [
+        false,
+        "11V"
+    ]
+}
