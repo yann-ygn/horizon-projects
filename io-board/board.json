@@ -59,6 +59,19 @@
                 46400000
             ]
         },
+        "6c9e0397-dc87-4d50-a640-c14765e2c3b2": {
+            "label_distance": 62000000,
+            "label_size": 1500000,
+            "mode": "distance",
+            "p0": [
+                1000000,
+                46400000
+            ],
+            "p1": [
+                1000000,
+                45400000
+            ]
+        },
         "e0560e5e-7e3c-48db-adfc-002b68e7cd70": {
             "label_distance": -1900000,
             "label_size": 1500000,
@@ -83,6 +96,19 @@
             "p1": [
                 17920000,
                 3500000
+            ]
+        },
+        "f1b83bbc-06a7-4ce2-ad6a-cb341949b2c4": {
+            "label_distance": -46400000,
+            "label_size": 1500000,
+            "mode": "distance",
+            "p0": [
+                0,
+                46400000
+            ],
+            "p1": [
+                1000000,
+                46400000
             ]
         },
         "f7b28b7d-5066-47c6-845c-9efcbd632ff0": {
@@ -306,6 +332,12 @@
             "position": [
                 50070000,
                 33370000
+            ]
+        },
+        "d200e5a9-d6e9-490a-9558-61f49a354a4b": {
+            "position": [
+                1000000,
+                45400000
             ]
         },
         "d6ec65cc-98d5-4b3d-85f2-e65e06cb92e9": {
@@ -3562,7 +3594,7 @@
                     "net_class": "0a67c005-ab87-45b7-82ef-f47b83979009",
                     "net_name_regex": ""
                 },
-                "order": 1,
+                "order": 2,
                 "padstack": "3c4a52fe-3ae0-4c3e-a108-824b53d6d6da",
                 "parameter_set": {
                     "hole_diameter": 500000,
@@ -3577,8 +3609,8 @@
                     "net_class": "9a8f019c-ebc6-4613-a2c1-b1dd77ba7821",
                     "net_name_regex": ""
                 },
-                "order": 3,
-                "padstack": "3c4a52fe-3ae0-4c3e-a108-824b53d6d6da",
+                "order": 0,
+                "padstack": "8b6dee4b-af88-4c0f-b38b-c5364649e65e",
                 "parameter_set": {
                     "hole_diameter": 350000,
                     "via_diameter": 700000
@@ -3592,7 +3624,7 @@
                     "net_class": "7ba1d4a4-861c-43e2-acd7-de8d7ae7beb1",
                     "net_name_regex": ""
                 },
-                "order": 0,
+                "order": 1,
                 "padstack": "3c4a52fe-3ae0-4c3e-a108-824b53d6d6da",
                 "parameter_set": {
                     "hole_diameter": 250000,
@@ -3607,7 +3639,7 @@
                     "net_class": "4fe5a152-969e-42dc-aff9-4067980b197f",
                     "net_name_regex": ""
                 },
-                "order": 2,
+                "order": 3,
                 "padstack": "3c4a52fe-3ae0-4c3e-a108-824b53d6d6da",
                 "parameter_set": {
                     "hole_diameter": 1000000,
@@ -4316,6 +4348,17 @@
             "parameter_set": {
                 "hole_diameter": 500000,
                 "via_diameter": 900000
+            }
+        },
+        "3fb715fd-c5cb-4ea4-89af-c92b88828aa3": {
+            "from_rules": true,
+            "junction": "d200e5a9-d6e9-490a-9558-61f49a354a4b",
+            "locked": false,
+            "net_set": "8dc9373f-9660-4b51-8897-39cec27d80c3",
+            "padstack": "8b6dee4b-af88-4c0f-b38b-c5364649e65e",
+            "parameter_set": {
+                "hole_diameter": 350000,
+                "via_diameter": 700000
             }
         },
         "466b3fcf-1ac8-45a1-9ca7-bb36de5231b7": {
