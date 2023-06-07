@@ -19,6 +19,24 @@
     },
     "buses": {},
     "components": {
+        "04ff0ecb-faab-4029-b782-e6a6baa28ede": {
+            "alt_pins": {},
+            "connections": {
+                "9bfcf213-2a7e-444e-8312-ce57209fc9ec/29995253-b4b1-4c7c-a049-b6db2713ca7c": {
+                    "net": "8dc9373f-9660-4b51-8897-39cec27d80c3"
+                },
+                "9bfcf213-2a7e-444e-8312-ce57209fc9ec/852f1fe6-06dc-4661-8a14-61a9a6ebb26a": {
+                    "net": "1972eaf6-3d04-4517-9eac-c3adf888bff7"
+                }
+            },
+            "entity": "ca83a84f-6183-4088-84b6-5d79b2a119d4",
+            "group": "00000000-0000-0000-0000-000000000000",
+            "part": "237a5a53-0d06-4f1a-9080-3fa2554bceea",
+            "pin_names": {},
+            "refdes": "C6",
+            "tag": "174c9520-0538-4bd7-b44e-139f9d586609",
+            "value": ""
+        },
         "08ea6e2a-e68f-46f8-ae06-485432cf09d6": {
             "alt_pins": {},
             "connections": {
@@ -285,13 +303,16 @@
             "connections": {
                 "23cb4ab2-082f-47f3-9247-6b1aa08bfa04/c843be6b-4356-46e1-abba-2966a4332a27": {
                     "net": "24f0cc9e-38c1-48a2-acb7-07a0f962c60b"
+                },
+                "23cb4ab2-082f-47f3-9247-6b1aa08bfa04/f584d8b9-86c0-41d5-bda9-72b0c0d84fb6": {
+                    "net": "758184b4-91a8-4ff5-ab15-62bedf286bd7"
                 }
             },
             "entity": "08add184-d25b-48fc-ae48-1f241ab20a3c",
             "group": "00000000-0000-0000-0000-000000000000",
             "part": "9a344a86-81ae-44f1-afdd-69d46f84812f",
             "pin_names": {},
-            "refdes": "D?",
+            "refdes": "D4",
             "tag": "ed1e7a83-3c29-436e-9a6e-e9c56166c94b",
             "value": ""
         },
@@ -489,7 +510,7 @@
             "group": "00000000-0000-0000-0000-000000000000",
             "part": "9a344a86-81ae-44f1-afdd-69d46f84812f",
             "pin_names": {},
-            "refdes": "D?",
+            "refdes": "D3",
             "tag": "5607d20c-b501-42f3-aaa4-63181e8c4c51",
             "value": ""
         },
@@ -597,7 +618,7 @@
             "group": "00000000-0000-0000-0000-000000000000",
             "part": "685b19f5-acb2-4323-90cf-8c0d2e699a7a",
             "pin_names": {},
-            "refdes": "C?",
+            "refdes": "C7",
             "tag": "8aaacb88-1738-4f48-b3bc-51fb2afc44b1",
             "value": ""
         },
@@ -677,6 +698,24 @@
             "pin_names": {},
             "refdes": "C3",
             "tag": "174c9520-0538-4bd7-b44e-139f9d586609",
+            "value": ""
+        },
+        "fe510521-9339-448e-b501-98139e220101": {
+            "alt_pins": {},
+            "connections": {
+                "9bfcf213-2a7e-444e-8312-ce57209fc9ec/29995253-b4b1-4c7c-a049-b6db2713ca7c": {
+                    "net": "8dc9373f-9660-4b51-8897-39cec27d80c3"
+                },
+                "9bfcf213-2a7e-444e-8312-ce57209fc9ec/852f1fe6-06dc-4661-8a14-61a9a6ebb26a": {
+                    "net": "758184b4-91a8-4ff5-ab15-62bedf286bd7"
+                }
+            },
+            "entity": "ca83a84f-6183-4088-84b6-5d79b2a119d4",
+            "group": "00000000-0000-0000-0000-000000000000",
+            "part": "685b19f5-acb2-4323-90cf-8c0d2e699a7a",
+            "pin_names": {},
+            "refdes": "C8",
+            "tag": "8aaacb88-1738-4f48-b3bc-51fb2afc44b1",
             "value": ""
         }
     },
@@ -787,6 +826,15 @@
             "port_direction": "bidirectional",
             "power_symbol_name_visible": true,
             "power_symbol_style": "gnd"
+        },
+        "758184b4-91a8-4ff5-ab15-62bedf286bd7": {
+            "is_port": false,
+            "is_power": true,
+            "name": "+Regx2",
+            "net_class": "4fe5a152-969e-42dc-aff9-4067980b197f",
+            "port_direction": "bidirectional",
+            "power_symbol_name_visible": true,
+            "power_symbol_style": "antenna"
         },
         "78c5b52b-adde-4055-8a07-88a4476be1c5": {
             "is_port": false,
