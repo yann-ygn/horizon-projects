@@ -4521,10 +4521,20 @@
                 },
                 "order": 1,
                 "widths": {
+                    "-1": {
+                        "def": 200000,
+                        "max": 10000000,
+                        "min": 100000
+                    },
                     "-100": {
                         "def": 200000,
                         "max": 300000,
                         "min": 200000
+                    },
+                    "-2": {
+                        "def": 200000,
+                        "max": 10000000,
+                        "min": 100000
                     },
                     "0": {
                         "def": 200000,
@@ -4543,10 +4553,20 @@
                 },
                 "order": 2,
                 "widths": {
+                    "-1": {
+                        "def": 200000,
+                        "max": 10000000,
+                        "min": 100000
+                    },
                     "-100": {
                         "def": 300000,
                         "max": 500000,
                         "min": 200000
+                    },
+                    "-2": {
+                        "def": 200000,
+                        "max": 10000000,
+                        "min": 100000
                     },
                     "0": {
                         "def": 300000,
@@ -4565,10 +4585,20 @@
                 },
                 "order": 0,
                 "widths": {
+                    "-1": {
+                        "def": 200000,
+                        "max": 10000000,
+                        "min": 100000
+                    },
                     "-100": {
                         "def": 800000,
                         "max": 1800000,
                         "min": 500000
+                    },
+                    "-2": {
+                        "def": 200000,
+                        "max": 10000000,
+                        "min": 100000
                     },
                     "0": {
                         "def": 800000,
@@ -4587,10 +4617,20 @@
                 },
                 "order": 3,
                 "widths": {
+                    "-1": {
+                        "def": 200000,
+                        "max": 10000000,
+                        "min": 100000
+                    },
                     "-100": {
                         "def": 300000,
                         "max": 1000000,
                         "min": 200000
+                    },
+                    "-2": {
+                        "def": 200000,
+                        "max": 10000000,
+                        "min": 100000
                     },
                     "0": {
                         "def": 300000,
@@ -4676,6 +4716,11 @@
                     "via_diameter": 700000
                 }
             }
+        },
+        "via_definitions": {
+            "enabled": true,
+            "order": -1,
+            "via_definitions": {}
         }
     },
     "stackup": {
@@ -6133,7 +6178,7 @@
     },
     "type": "board",
     "uuid": "c7b7b956-051f-40d3-8f2c-26dc89ceca4c",
-    "version": 17,
+    "version": 20,
     "vias": {
         "009658ed-9241-429f-870c-947d44721c71": {
             "from_rules": true,
@@ -6144,7 +6189,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "01fa3862-94c6-41b2-83ca-8736860da281": {
             "from_rules": true,
@@ -6155,7 +6201,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "0a4ed4a1-7f6b-4997-86a2-0b30b3f7f224": {
             "from_rules": true,
@@ -6166,7 +6213,8 @@
             "parameter_set": {
                 "hole_diameter": 1000000,
                 "via_diameter": 1400000
-            }
+            },
+            "source": "rules"
         },
         "12eb0e67-36d2-44ad-8ed9-a862ba7f159d": {
             "from_rules": true,
@@ -6177,7 +6225,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "1387e333-dcaf-408b-8083-c9c3846ab44b": {
             "from_rules": true,
@@ -6188,7 +6237,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "144cbe34-c213-4522-86d0-9bbf4c50b876": {
             "from_rules": true,
@@ -6199,7 +6249,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "152cff61-599f-4995-a182-276d51eb3e45": {
             "from_rules": true,
@@ -6210,7 +6261,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "18be292a-af73-4727-9ebf-1d1990391a47": {
             "from_rules": true,
@@ -6221,7 +6273,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "1e1f71da-3113-4ca1-947f-82210c95d769": {
             "from_rules": true,
@@ -6232,7 +6285,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "1fe9db59-d9c1-4f33-92b4-de44e7a52918": {
             "from_rules": true,
@@ -6243,7 +6297,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "2070fc90-8b70-4a8f-a4a2-f06055d21621": {
             "from_rules": true,
@@ -6253,7 +6308,8 @@
             "parameter_set": {
                 "hole_diameter": 500000,
                 "via_diameter": 900000
-            }
+            },
+            "source": "rules"
         },
         "24ea26ea-8d04-4b3c-a8a4-8fe13523d5fe": {
             "from_rules": true,
@@ -6263,7 +6319,8 @@
             "parameter_set": {
                 "hole_diameter": 500000,
                 "via_diameter": 900000
-            }
+            },
+            "source": "rules"
         },
         "27723a98-dbb9-4bb2-a83a-e3a9e7a2e965": {
             "from_rules": true,
@@ -6274,7 +6331,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "278f4d7c-da13-4ae5-88ee-fdb61ec72b0d": {
             "from_rules": true,
@@ -6285,7 +6343,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "293358a5-0636-4bd4-b1ed-ae0fd5d310f4": {
             "from_rules": true,
@@ -6296,7 +6355,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "2978b927-2ef1-4cbb-9dbd-ccb377b81650": {
             "from_rules": true,
@@ -6307,7 +6367,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "2a73d5c6-8156-4e56-baa9-1c20f5f62c4c": {
             "from_rules": true,
@@ -6318,7 +6379,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "2ec58297-f369-4ccd-bc9f-9f629f60eb1f": {
             "from_rules": true,
@@ -6329,7 +6391,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "2ece7a29-2c74-4016-b169-47dc4494c7e0": {
             "from_rules": true,
@@ -6340,7 +6403,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "32c72dd2-32ca-4bc0-80c6-515dbe1a9216": {
             "from_rules": true,
@@ -6351,7 +6415,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "38ec3687-cc52-4ade-9c21-12d4a9b42f91": {
             "from_rules": true,
@@ -6362,7 +6427,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "393de054-3020-4869-8235-1db2695f64ed": {
             "from_rules": true,
@@ -6373,7 +6439,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "3a0106f4-53b5-483c-8858-26406f01cbc5": {
             "from_rules": true,
@@ -6384,7 +6451,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "3c8697ad-3b71-4c4e-a50f-21b9ad7ef9d4": {
             "from_rules": true,
@@ -6395,7 +6463,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "3d9f94fc-bdad-4048-a7b1-54a8bea83de5": {
             "from_rules": true,
@@ -6406,7 +6475,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "3f5dd563-0fef-493e-b9d7-25227204d2cd": {
             "from_rules": true,
@@ -6417,7 +6487,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "4434c74c-4626-46cd-b534-9c8b9ecba145": {
             "from_rules": true,
@@ -6428,7 +6499,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "44ae0496-82ce-4f97-b21b-4110cf43990b": {
             "from_rules": true,
@@ -6439,7 +6511,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "466b3fcf-1ac8-45a1-9ca7-bb36de5231b7": {
             "from_rules": true,
@@ -6450,7 +6523,8 @@
             "parameter_set": {
                 "hole_diameter": 1000000,
                 "via_diameter": 1400000
-            }
+            },
+            "source": "rules"
         },
         "4b9d0442-e5eb-4493-8a14-fea5071dde2f": {
             "from_rules": true,
@@ -6461,7 +6535,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "4e8e0548-74e9-4c46-99c5-20da8d198c85": {
             "from_rules": true,
@@ -6472,7 +6547,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "4fb491f3-3fb6-4bb9-a59a-e4963ac7f547": {
             "from_rules": true,
@@ -6483,7 +6559,8 @@
             "parameter_set": {
                 "hole_diameter": 1000000,
                 "via_diameter": 1400000
-            }
+            },
+            "source": "rules"
         },
         "4fce79d7-7347-4b5e-8fad-6956c1684425": {
             "from_rules": true,
@@ -6494,7 +6571,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "51d7a64a-66c5-4103-841f-b84c839283b4": {
             "from_rules": true,
@@ -6505,7 +6583,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "5849d793-af55-4f0e-8baf-86993ff72b04": {
             "from_rules": true,
@@ -6516,7 +6595,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "593afe8e-b765-4e02-82be-e2fb9920612f": {
             "from_rules": true,
@@ -6527,7 +6607,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "5b5c7ad2-f7b5-4c9d-82d3-d4af0f1f763e": {
             "from_rules": true,
@@ -6538,7 +6619,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "5fe47fa0-c48c-46e1-8dca-c09e37fa09bc": {
             "from_rules": true,
@@ -6549,7 +6631,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "6035fd60-5589-4801-b390-e33b2e56186c": {
             "from_rules": true,
@@ -6560,7 +6643,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "69fe8e42-2b7c-4334-abd0-e85625a36a69": {
             "from_rules": true,
@@ -6571,7 +6655,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "6a3230ce-fbfe-425a-804d-4f83a0bbec50": {
             "from_rules": true,
@@ -6582,7 +6667,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "6b54c4eb-5b65-45c9-adaf-aa9b792b782f": {
             "from_rules": true,
@@ -6593,7 +6679,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "7585dbe3-9d16-49df-93b0-7b799c62f031": {
             "from_rules": true,
@@ -6604,7 +6691,8 @@
             "parameter_set": {
                 "hole_diameter": 1000000,
                 "via_diameter": 1400000
-            }
+            },
+            "source": "rules"
         },
         "75d84e67-9dbe-4887-a5f3-ac06db1f66d2": {
             "from_rules": true,
@@ -6615,7 +6703,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "7addaa64-ad91-4228-a398-d86d3c9a9e16": {
             "from_rules": true,
@@ -6626,7 +6715,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "7fda54e5-55e5-4a09-88f6-232534eccf00": {
             "from_rules": true,
@@ -6637,7 +6727,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "80899bdf-8256-40fe-b63c-852f8e990736": {
             "from_rules": true,
@@ -6648,7 +6739,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "92c50948-fb8e-45f9-8151-0bf0854c3ac6": {
             "from_rules": true,
@@ -6659,7 +6751,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "986cec85-1e5d-496e-b5fe-6e995b1ecf5b": {
             "from_rules": true,
@@ -6670,7 +6763,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "9a0d1111-c4b4-431c-a988-d4a390eb6af6": {
             "from_rules": true,
@@ -6681,7 +6775,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "9d9f569e-c86f-4bdb-87a2-b1d1e6ab1a8d": {
             "from_rules": true,
@@ -6692,7 +6787,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "a0982d22-811c-4333-8103-debb688ae814": {
             "from_rules": true,
@@ -6703,7 +6799,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "a1092469-1785-4e56-8d86-cce010455eb0": {
             "from_rules": true,
@@ -6714,7 +6811,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "a6ce1235-b791-4c66-9e24-4ea9976d5646": {
             "from_rules": true,
@@ -6725,7 +6823,8 @@
             "parameter_set": {
                 "hole_diameter": 1000000,
                 "via_diameter": 1400000
-            }
+            },
+            "source": "rules"
         },
         "a926351d-deee-428b-ab64-eb64f307ee7d": {
             "from_rules": true,
@@ -6736,7 +6835,8 @@
             "parameter_set": {
                 "hole_diameter": 1000000,
                 "via_diameter": 1400000
-            }
+            },
+            "source": "rules"
         },
         "aa206637-456f-4776-9dc9-51c751dc3a2e": {
             "from_rules": true,
@@ -6747,7 +6847,8 @@
             "parameter_set": {
                 "hole_diameter": 1000000,
                 "via_diameter": 1400000
-            }
+            },
+            "source": "rules"
         },
         "aabfe4f4-ad8d-49b6-9a46-32288e42d0f9": {
             "from_rules": true,
@@ -6758,7 +6859,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "ad9b9ff0-891f-4a29-9a8c-408903d7865a": {
             "from_rules": true,
@@ -6769,7 +6871,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "b6ef3265-3ee9-4548-b84c-7f10e8cf2479": {
             "from_rules": true,
@@ -6780,7 +6883,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "b91311bf-52c7-4416-bac9-179248740aea": {
             "from_rules": true,
@@ -6791,7 +6895,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "b92a096c-24f8-4b06-8aea-3dc31ed80387": {
             "from_rules": true,
@@ -6802,7 +6907,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "b93b9f97-d76c-4ea7-af31-9ccde1879c6e": {
             "from_rules": true,
@@ -6813,7 +6919,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "bbe266c7-7c14-414a-ba05-6d3ce9d9486d": {
             "from_rules": false,
@@ -6823,7 +6930,8 @@
             "parameter_set": {
                 "hole_diameter": 600000,
                 "via_diameter": 1000000
-            }
+            },
+            "source": "local"
         },
         "bc4ae3bf-b358-456c-890d-45b97106f174": {
             "from_rules": true,
@@ -6834,7 +6942,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "c37d0e53-b2a8-4be4-bad3-08bf6b023367": {
             "from_rules": true,
@@ -6845,7 +6954,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "c627b4ea-767a-49e7-8d3d-c373948b6d81": {
             "from_rules": true,
@@ -6856,7 +6966,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "cba0b860-23c2-4ad1-be12-23d3ace4f807": {
             "from_rules": true,
@@ -6867,7 +6978,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "cefe91e5-1ef4-43bc-9098-73113ff8cd98": {
             "from_rules": true,
@@ -6878,7 +6990,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "d6ad369b-578c-44c9-a877-d3a937ac471b": {
             "from_rules": true,
@@ -6889,7 +7002,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "dd1647aa-1a54-4352-8864-4edd17746dec": {
             "from_rules": true,
@@ -6900,7 +7014,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "dfe428e6-3449-4892-9627-473d13416efd": {
             "from_rules": true,
@@ -6911,7 +7026,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "e87cd574-8a83-419c-bc01-965270dc9678": {
             "from_rules": false,
@@ -6921,7 +7037,8 @@
             "parameter_set": {
                 "hole_diameter": 600000,
                 "via_diameter": 1000000
-            }
+            },
+            "source": "local"
         },
         "ea8bc212-70f4-4905-9841-65332f02ff8b": {
             "from_rules": true,
@@ -6932,7 +7049,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "eb44e119-4bf5-4027-af9a-115fd9d98120": {
             "from_rules": true,
@@ -6943,7 +7061,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "ed2bace7-de98-477b-aa0d-870c9f0bbcac": {
             "from_rules": true,
@@ -6954,7 +7073,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "f16b547f-eb58-4171-8e10-73238d3ae4f6": {
             "from_rules": true,
@@ -6965,7 +7085,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "f4908a6a-c7c7-424f-9cdd-0b597e5f6707": {
             "from_rules": true,
@@ -6976,7 +7097,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "f63a3f3f-5db2-4363-aec3-7abeb9d324b8": {
             "from_rules": true,
@@ -6987,7 +7109,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "f9782bcd-2349-4aec-a0c1-fb0d974efa30": {
             "from_rules": true,
@@ -6998,7 +7121,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "fae1bfc3-f060-45ef-a7be-abeaf1409c9f": {
             "from_rules": true,
@@ -7009,7 +7133,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         },
         "faea5520-69d4-4f83-a8db-6e65441d6d8f": {
             "from_rules": true,
@@ -7020,7 +7145,8 @@
             "parameter_set": {
                 "hole_diameter": 350000,
                 "via_diameter": 700000
-            }
+            },
+            "source": "rules"
         }
     }
 }

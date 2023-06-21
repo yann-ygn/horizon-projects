@@ -19,22 +19,10 @@
         "grids": {}
     },
     "junctions": {
-        "15dc3eca-12fd-46f1-a8ca-220ee70bb41b": {
-            "position": [
-                3300000,
-                3500000
-            ]
-        },
         "36753be4-e2fa-4ab1-b1f2-73c5e5bf47d4": {
             "position": [
                 3300000,
                 -3500000
-            ]
-        },
-        "5a81518c-a264-4c3a-aa22-3ef9094c3b1b": {
-            "position": [
-                -3300000,
-                3500000
             ]
         },
         "608eeadf-599c-4377-b643-94a0fe228101": {
@@ -54,45 +42,15 @@
                 -3300000,
                 3500000
             ]
-        },
-        "81eb80b4-6371-4116-ab9d-12a6677ddf4a": {
-            "position": [
-                -3300000,
-                -3500000
-            ]
-        },
-        "f04cbe3d-b290-4747-aed1-4cd0cd5db6ae": {
-            "position": [
-                3300000,
-                -3500000
-            ]
         }
     },
     "keepouts": {},
     "lines": {
-        "23227724-e9ab-4764-a198-1c7daec15dd6": {
-            "from": "15dc3eca-12fd-46f1-a8ca-220ee70bb41b",
-            "layer": 40,
-            "to": "f04cbe3d-b290-4747-aed1-4cd0cd5db6ae",
-            "width": 0
-        },
-        "47654088-99b1-44b6-a4b2-ff4c4f511ac9": {
-            "from": "81eb80b4-6371-4116-ab9d-12a6677ddf4a",
-            "layer": 40,
-            "to": "5a81518c-a264-4c3a-aa22-3ef9094c3b1b",
-            "width": 0
-        },
         "99a741b3-2ae2-4ad1-8393-82b1b193fb1f": {
             "from": "608eeadf-599c-4377-b643-94a0fe228101",
             "layer": 20,
             "to": "36753be4-e2fa-4ab1-b1f2-73c5e5bf47d4",
             "width": 50000
-        },
-        "a95a5366-4bbb-464e-8e32-87bdb0f1bbc7": {
-            "from": "f04cbe3d-b290-4747-aed1-4cd0cd5db6ae",
-            "layer": 40,
-            "to": "81eb80b4-6371-4116-ab9d-12a6677ddf4a",
-            "width": 0
         },
         "d75de365-dee3-4faa-8dde-ae3c75f60c68": {
             "from": "66d7298a-0370-45d6-a377-fd91de725165",
@@ -105,12 +63,6 @@
             "layer": 20,
             "to": "66d7298a-0370-45d6-a377-fd91de725165",
             "width": 50000
-        },
-        "ef8caa20-8052-46cc-8639-d721958bb1fb": {
-            "from": "5a81518c-a264-4c3a-aa22-3ef9094c3b1b",
-            "layer": 40,
-            "to": "15dc3eca-12fd-46f1-a8ca-220ee70bb41b",
-            "width": 0
         },
         "ff5418f4-02df-4c17-a165-dacf0df3bb70": {
             "from": "7e6a66e6-92bd-4062-b2a3-3a29fdd6c024",
@@ -185,6 +137,60 @@
     "parameter_program": "",
     "parameter_set": {},
     "polygons": {
+        "808cf2c6-e4e7-4727-8ed8-939e95f6c5d0": {
+            "layer": 40,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -3300000,
+                        -3500000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -3300000,
+                        3500000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        3300000,
+                        3500000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        3300000,
+                        -3500000
+                    ],
+                    "type": "line"
+                }
+            ]
+        },
         "c98f657e-ccef-488b-918f-36c8696ae56f": {
             "layer": 50,
             "parameter_class": "",
@@ -244,7 +250,7 @@
         "clearance_package": {
             "clearance_silkscreen_cu": 200000,
             "clearance_silkscreen_pkg": 200000,
-            "enabled": true,
+            "enabled": false,
             "order": -1
         },
         "package_checks": {
