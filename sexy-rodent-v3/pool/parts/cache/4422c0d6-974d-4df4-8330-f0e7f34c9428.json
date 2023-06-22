@@ -1,0 +1,48 @@
+{
+    "MPN": [
+        false,
+        "MTS-103R-A2"
+    ],
+    "datasheet": [
+        false,
+        ""
+    ],
+    "description": [
+        false,
+        "ON-OFF-ON SPDT 3 POSITION 3A 250VAC MINI TOGGLE SWITCH"
+    ],
+    "entity": "2c312a2e-9ae3-4763-a8d2-286c0379b8d1",
+    "inherit_model": false,
+    "inherit_tags": false,
+    "manufacturer": [
+        false,
+        "DAIER"
+    ],
+    "model": "fcb79f64-115f-4b0d-9fdb-eb273bf51e71",
+    "package": "eaf92647-cc32-401e-996d-ff54f98c1db7",
+    "pad_map": {
+        "3db5bffa-ba39-4699-ad2a-6a3ec7931ef3": {
+            "gate": "7b67e28c-3370-46fa-8139-69ebd7595163",
+            "pin": "38fbe0ab-a6a6-44a4-975e-b172f2eaa1ad"
+        },
+        "96851be8-27e6-4322-986f-fdcdf9bf2e4b": {
+            "gate": "7b67e28c-3370-46fa-8139-69ebd7595163",
+            "pin": "968d243c-d34b-4cbb-9208-082d93acad0b"
+        },
+        "deb9b45d-cc98-4fb1-b179-8b32a7c9fff6": {
+            "gate": "7b67e28c-3370-46fa-8139-69ebd7595163",
+            "pin": "6004a4b8-5428-4c68-b73d-f8477e0f013c"
+        }
+    },
+    "parametric": {
+        "price": "0.03",
+        "table": "general"
+    },
+    "tags": [],
+    "type": "part",
+    "uuid": "4422c0d6-974d-4df4-8330-f0e7f34c9428",
+    "value": [
+        false,
+        "SPDT"
+    ]
+}

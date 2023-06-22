@@ -1,0 +1,48 @@
+{
+    "MPN": [
+        false,
+        "GRM1885C1H332JA01D"
+    ],
+    "datasheet": [
+        false,
+        ""
+    ],
+    "description": [
+        false,
+        "CAPACITOR MLCC 3.3NF C0G/NP0 0603 50V ±5%"
+    ],
+    "entity": "ca83a84f-6183-4088-84b6-5d79b2a119d4",
+    "inherit_model": false,
+    "inherit_tags": false,
+    "manufacturer": [
+        false,
+        "Murata"
+    ],
+    "model": "b8e8e7bb-2f86-4611-8033-7aecd8aa4b77",
+    "package": "da8061cd-7ed9-4788-a76a-968f861d8e6c",
+    "pad_map": {
+        "2ab5a727-8c1d-4bfc-b745-3c33a71a44b8": {
+            "gate": "9bfcf213-2a7e-444e-8312-ce57209fc9ec",
+            "pin": "29995253-b4b1-4c7c-a049-b6db2713ca7c"
+        },
+        "e089adf5-57a6-4fca-a890-bbe844d0203d": {
+            "gate": "9bfcf213-2a7e-444e-8312-ce57209fc9ec",
+            "pin": "852f1fe6-06dc-4661-8a14-61a9a6ebb26a"
+        }
+    },
+    "parametric": {
+        "price": "0.062",
+        "table": "capacitors",
+        "tolerance": "5",
+        "type": "C0G/NP0",
+        "value": "3.3e-09",
+        "wvdc": "50"
+    },
+    "tags": [],
+    "type": "part",
+    "uuid": "82144bec-8edf-4cb4-b31b-a33699447e0c",
+    "value": [
+        false,
+        "3.3n"
+    ]
+}
