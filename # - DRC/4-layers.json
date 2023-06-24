@@ -1,12 +1,12 @@
 {
     "n_inner_layers": 2,
     "name": "",
-    "net_class_default": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+    "net_class_default": "9a8f019c-ebc6-4613-a2c1-b1dd77ba7821",
     "net_classes": {
-        "1e23dc14-a460-4166-b815-b9818316eb7c": "Power",
-        "79bc8090-ff52-406d-bd7a-cf6e877a2619": "Analog",
-        "7f3ccf8b-0e02-488e-9e2f-e1925b6a5552": "Digital",
-        "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf": "default"
+        "0a67c005-ab87-45b7-82ef-f47b83979009": "Analog",
+        "4fe5a152-969e-42dc-aff9-4067980b197f": "Power",
+        "7ba1d4a4-861c-43e2-acd7-de8d7ae7beb1": "Digital",
+        "9a8f019c-ebc6-4613-a2c1-b1dd77ba7821": "default"
     },
     "notes": "",
     "rules": {
@@ -91,28 +91,28 @@
                         ]
                     },
                     {
-                        "clearance": 150000,
+                        "clearance": 200000,
                         "types": [
                             "track",
                             "track"
                         ]
                     },
                     {
-                        "clearance": 150000,
+                        "clearance": 300000,
                         "types": [
                             "track",
                             "pad"
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "track",
                             "pad_th"
                         ]
                     },
                     {
-                        "clearance": 150000,
+                        "clearance": 300000,
                         "types": [
                             "track",
                             "via"
@@ -126,7 +126,7 @@
                         ]
                     },
                     {
-                        "clearance": 250000,
+                        "clearance": 300000,
                         "types": [
                             "track",
                             "hole_pth"
@@ -161,35 +161,35 @@
                         ]
                     },
                     {
-                        "clearance": 150000,
+                        "clearance": 200000,
                         "types": [
                             "pad",
                             "pad"
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "pad",
                             "pad_th"
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "pad",
                             "via"
                         ]
                     },
                     {
-                        "clearance": 170000,
+                        "clearance": 190000,
                         "types": [
                             "pad",
                             "plane"
                         ]
                     },
                     {
-                        "clearance": 250000,
+                        "clearance": 300000,
                         "types": [
                             "pad",
                             "hole_pth"
@@ -224,77 +224,77 @@
                         ]
                     },
                     {
-                        "clearance": 250000,
+                        "clearance": 500000,
                         "types": [
                             "pad_th",
                             "pad_th"
                         ]
                     },
                     {
+                        "clearance": 300000,
+                        "types": [
+                            "pad_th",
+                            "via"
+                        ]
+                    },
+                    {
+                        "clearance": 290000,
+                        "types": [
+                            "pad_th",
+                            "plane"
+                        ]
+                    },
+                    {
+                        "clearance": 300000,
+                        "types": [
+                            "pad_th",
+                            "hole_pth"
+                        ]
+                    },
+                    {
+                        "clearance": 100000,
+                        "types": [
+                            "pad_th",
+                            "hole_npth"
+                        ]
+                    },
+                    {
+                        "clearance": 100000,
+                        "types": [
+                            "pad_th",
+                            "board_edge"
+                        ]
+                    },
+                    {
+                        "clearance": 100000,
+                        "types": [
+                            "pad_th",
+                            "text"
+                        ]
+                    },
+                    {
+                        "clearance": 100000,
+                        "types": [
+                            "pad_th",
+                            "net_tie"
+                        ]
+                    },
+                    {
+                        "clearance": 300000,
+                        "types": [
+                            "via",
+                            "via"
+                        ]
+                    },
+                    {
                         "clearance": 200000,
                         "types": [
-                            "pad_th",
-                            "via"
-                        ]
-                    },
-                    {
-                        "clearance": 150000,
-                        "types": [
-                            "pad_th",
-                            "plane"
-                        ]
-                    },
-                    {
-                        "clearance": 250000,
-                        "types": [
-                            "pad_th",
-                            "hole_pth"
-                        ]
-                    },
-                    {
-                        "clearance": 100000,
-                        "types": [
-                            "pad_th",
-                            "hole_npth"
-                        ]
-                    },
-                    {
-                        "clearance": 100000,
-                        "types": [
-                            "pad_th",
-                            "board_edge"
-                        ]
-                    },
-                    {
-                        "clearance": 100000,
-                        "types": [
-                            "pad_th",
-                            "text"
-                        ]
-                    },
-                    {
-                        "clearance": 100000,
-                        "types": [
-                            "pad_th",
-                            "net_tie"
-                        ]
-                    },
-                    {
-                        "clearance": 150000,
-                        "types": [
-                            "via",
-                            "via"
-                        ]
-                    },
-                    {
-                        "clearance": 150000,
-                        "types": [
                             "via",
                             "plane"
                         ]
                     },
                     {
-                        "clearance": 250000,
+                        "clearance": 300000,
                         "types": [
                             "via",
                             "hole_pth"
@@ -329,14 +329,14 @@
                         ]
                     },
                     {
-                        "clearance": 400000,
+                        "clearance": 250000,
                         "types": [
                             "plane",
                             "plane"
                         ]
                     },
                     {
-                        "clearance": 250000,
+                        "clearance": 300000,
                         "types": [
                             "plane",
                             "hole_pth"
@@ -371,7 +371,7 @@
                         ]
                     },
                     {
-                        "clearance": 250000,
+                        "clearance": 500000,
                         "types": [
                             "hole_pth",
                             "hole_pth"
@@ -481,13 +481,13 @@
                 "match_1": {
                     "mode": "all",
                     "net": "00000000-0000-0000-0000-000000000000",
-                    "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+                    "net_class": "9a8f019c-ebc6-4613-a2c1-b1dd77ba7821",
                     "net_name_regex": ""
                 },
                 "match_2": {
                     "mode": "all",
                     "net": "00000000-0000-0000-0000-000000000000",
-                    "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+                    "net_class": "9a8f019c-ebc6-4613-a2c1-b1dd77ba7821",
                     "net_name_regex": ""
                 },
                 "order": 0,
@@ -499,28 +499,28 @@
             "f36d6705-f855-4b1d-804e-e70c07dee2e8": {
                 "clearances": [
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "track",
                             "other"
                         ]
                     },
                     {
-                        "clearance": 250000,
+                        "clearance": 300000,
                         "types": [
                             "track",
                             "hole_npth"
                         ]
                     },
                     {
-                        "clearance": 300000,
+                        "clearance": 400000,
                         "types": [
                             "track",
                             "board_edge"
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "pad",
                             "other"
@@ -562,7 +562,7 @@
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "via",
                             "other"
@@ -576,14 +576,14 @@
                         ]
                     },
                     {
-                        "clearance": 300000,
+                        "clearance": 350000,
                         "types": [
                             "via",
                             "board_edge"
                         ]
                     },
                     {
-                        "clearance": 200000,
+                        "clearance": 300000,
                         "types": [
                             "plane",
                             "other"
@@ -597,7 +597,7 @@
                         ]
                     },
                     {
-                        "clearance": 300000,
+                        "clearance": 350000,
                         "types": [
                             "plane",
                             "board_edge"
@@ -609,7 +609,7 @@
                 "match": {
                     "mode": "all",
                     "net": "00000000-0000-0000-0000-000000000000",
-                    "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+                    "net_class": "9a8f019c-ebc6-4613-a2c1-b1dd77ba7821",
                     "net_name_regex": ""
                 },
                 "order": 0,
@@ -627,7 +627,7 @@
         "diffpair": {},
         "hole_size": {},
         "layer_pair": {
-            "be9042b2-7dd7-4470-a474-7f8858b7a6e1": {
+            "be7eff39-c6ca-4be3-92fd-287759d35d01": {
                 "enabled": true,
                 "layers": [
                     0,
@@ -636,7 +636,7 @@
                 "match": {
                     "mode": "all",
                     "net": "00000000-0000-0000-0000-000000000000",
-                    "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+                    "net_class": "9a8f019c-ebc6-4613-a2c1-b1dd77ba7821",
                     "net_name_regex": ""
                 },
                 "order": 0
@@ -658,10 +658,10 @@
                 "match": {
                     "mode": "all",
                     "net": "00000000-0000-0000-0000-000000000000",
-                    "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+                    "net_class": "9a8f019c-ebc6-4613-a2c1-b1dd77ba7821",
                     "net_name_regex": ""
                 },
-                "order": 1,
+                "order": 3,
                 "settings": {
                     "angle": 0,
                     "connect_style": "thermal",
@@ -674,20 +674,20 @@
                     "n_spokes": 4,
                     "style": "miter",
                     "text_style": "expand",
-                    "thermal_gap_width": 175000,
-                    "thermal_spoke_width": 175000
+                    "thermal_gap_width": 200000,
+                    "thermal_spoke_width": 300000
                 }
             },
-            "4dc68b3a-3055-430b-b189-91256b018fc6": {
+            "bd1692a4-105d-407e-a904-8644ab931d87": {
                 "enabled": true,
-                "layer": -2,
+                "layer": -1,
                 "match": {
-                    "mode": "all",
+                    "mode": "net_class",
                     "net": "00000000-0000-0000-0000-000000000000",
-                    "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+                    "net_class": "4fe5a152-969e-42dc-aff9-4067980b197f",
                     "net_name_regex": ""
                 },
-                "order": 0,
+                "order": 1,
                 "settings": {
                     "angle": 0,
                     "connect_style": "solid",
@@ -708,131 +708,99 @@
         "shorted_pads": {},
         "thermals": {},
         "track_width": {
-            "054e41e0-cc65-427e-9fa6-cfce2b9c64e0": {
+            "24872594-542f-441a-9b41-0898e468f2dd": {
                 "enabled": true,
                 "match": {
                     "mode": "net_class",
                     "net": "00000000-0000-0000-0000-000000000000",
-                    "net_class": "1e23dc14-a460-4166-b815-b9818316eb7c",
-                    "net_name_regex": ""
-                },
-                "order": 2,
-                "widths": {
-                    "-1": {
-                        "def": 800000,
-                        "max": 1000000,
-                        "min": 500000
-                    },
-                    "-100": {
-                        "def": 800000,
-                        "max": 1000000,
-                        "min": 500000
-                    },
-                    "-2": {
-                        "def": 800000,
-                        "max": 1000000,
-                        "min": 500000
-                    },
-                    "0": {
-                        "def": 800000,
-                        "max": 1000000,
-                        "min": 500000
-                    }
-                }
-            },
-            "5e72a8e4-ce8f-422d-ad7b-13c3ffbc4802": {
-                "enabled": true,
-                "match": {
-                    "mode": "net_class",
-                    "net": "00000000-0000-0000-0000-000000000000",
-                    "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
-                    "net_name_regex": ""
-                },
-                "order": 3,
-                "widths": {
-                    "-1": {
-                        "def": 500000,
-                        "max": 600000,
-                        "min": 500000
-                    },
-                    "-100": {
-                        "def": 500000,
-                        "max": 600000,
-                        "min": 500000
-                    },
-                    "-2": {
-                        "def": 500000,
-                        "max": 600000,
-                        "min": 500000
-                    },
-                    "0": {
-                        "def": 500000,
-                        "max": 600000,
-                        "min": 500000
-                    }
-                }
-            },
-            "688bee03-56e5-4aed-ba44-2851baed3c33": {
-                "enabled": true,
-                "match": {
-                    "mode": "net_class",
-                    "net": "00000000-0000-0000-0000-000000000000",
-                    "net_class": "79bc8090-ff52-406d-bd7a-cf6e877a2619",
-                    "net_name_regex": ""
-                },
-                "order": 0,
-                "widths": {
-                    "-1": {
-                        "def": 300000,
-                        "max": 500000,
-                        "min": 200000
-                    },
-                    "-100": {
-                        "def": 300000,
-                        "max": 500000,
-                        "min": 200000
-                    },
-                    "-2": {
-                        "def": 300000,
-                        "max": 500000,
-                        "min": 200000
-                    },
-                    "0": {
-                        "def": 300000,
-                        "max": 500000,
-                        "min": 200000
-                    }
-                }
-            },
-            "dbf14c99-cdd0-4860-b4d6-ff6158eee658": {
-                "enabled": true,
-                "match": {
-                    "mode": "net_class",
-                    "net": "00000000-0000-0000-0000-000000000000",
-                    "net_class": "7f3ccf8b-0e02-488e-9e2f-e1925b6a5552",
+                    "net_class": "7ba1d4a4-861c-43e2-acd7-de8d7ae7beb1",
                     "net_name_regex": ""
                 },
                 "order": 1,
                 "widths": {
                     "-1": {
                         "def": 200000,
-                        "max": 250000,
-                        "min": 150000
+                        "max": 10000000,
+                        "min": 100000
                     },
                     "-100": {
                         "def": 200000,
-                        "max": 250000,
-                        "min": 150000
+                        "max": 300000,
+                        "min": 200000
                     },
                     "-2": {
                         "def": 200000,
-                        "max": 250000,
-                        "min": 150000
+                        "max": 10000000,
+                        "min": 100000
                     },
                     "0": {
                         "def": 200000,
-                        "max": 250000,
-                        "min": 150000
+                        "max": 300000,
+                        "min": 200000
+                    }
+                }
+            },
+            "c77f2423-9435-4780-93b0-c5351ae24b1b": {
+                "enabled": true,
+                "match": {
+                    "mode": "net_class",
+                    "net": "00000000-0000-0000-0000-000000000000",
+                    "net_class": "0a67c005-ab87-45b7-82ef-f47b83979009",
+                    "net_name_regex": ""
+                },
+                "order": 2,
+                "widths": {
+                    "-1": {
+                        "def": 200000,
+                        "max": 10000000,
+                        "min": 100000
+                    },
+                    "-100": {
+                        "def": 300000,
+                        "max": 500000,
+                        "min": 200000
+                    },
+                    "-2": {
+                        "def": 200000,
+                        "max": 10000000,
+                        "min": 100000
+                    },
+                    "0": {
+                        "def": 300000,
+                        "max": 500000,
+                        "min": 200000
+                    }
+                }
+            },
+            "f02a0310-e131-4228-adf4-6e693b6676fa": {
+                "enabled": true,
+                "match": {
+                    "mode": "net_class",
+                    "net": "00000000-0000-0000-0000-000000000000",
+                    "net_class": "4fe5a152-969e-42dc-aff9-4067980b197f",
+                    "net_name_regex": ""
+                },
+                "order": 0,
+                "widths": {
+                    "-1": {
+                        "def": 200000,
+                        "max": 10000000,
+                        "min": 100000
+                    },
+                    "-100": {
+                        "def": 800000,
+                        "max": 1800000,
+                        "min": 500000
+                    },
+                    "-2": {
+                        "def": 200000,
+                        "max": 10000000,
+                        "min": 100000
+                    },
+                    "0": {
+                        "def": 800000,
+                        "max": 1800000,
+                        "min": 500000
                     }
                 }
             },
@@ -841,10 +809,10 @@
                 "match": {
                     "mode": "all",
                     "net": "00000000-0000-0000-0000-000000000000",
-                    "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
+                    "net_class": "9a8f019c-ebc6-4613-a2c1-b1dd77ba7821",
                     "net_name_regex": ""
                 },
-                "order": 4,
+                "order": 3,
                 "widths": {
                     "-1": {
                         "def": 200000,
@@ -853,8 +821,8 @@
                     },
                     "-100": {
                         "def": 300000,
-                        "max": 800000,
-                        "min": 300000
+                        "max": 1000000,
+                        "min": 200000
                     },
                     "-2": {
                         "def": 200000,
@@ -863,61 +831,81 @@
                     },
                     "0": {
                         "def": 300000,
-                        "max": 800000,
-                        "min": 300000
+                        "max": 1000000,
+                        "min": 200000
                     }
                 }
             }
         },
         "via": {
-            "50f7aade-ac02-4234-b06c-cc21ec2089ec": {
+            "1971b9bb-bda2-4461-ad7b-04781a83eb90": {
                 "enabled": true,
                 "match": {
                     "mode": "net_class",
                     "net": "00000000-0000-0000-0000-000000000000",
-                    "net_class": "79bc8090-ff52-406d-bd7a-cf6e877a2619",
+                    "net_class": "0a67c005-ab87-45b7-82ef-f47b83979009",
                     "net_name_regex": ""
                 },
-                "order": 4,
+                "order": 2,
                 "padstack": "3c4a52fe-3ae0-4c3e-a108-824b53d6d6da",
                 "parameter_set": {
                     "hole_diameter": 500000,
                     "via_diameter": 900000
                 }
             },
-            "dfc28450-2f35-4b3f-b451-cdab3d08fa1a": {
-                "enabled": true,
-                "match": {
-                    "mode": "all",
-                    "net": "00000000-0000-0000-0000-000000000000",
-                    "net_class": "bbe9cfac-fa9d-4345-b5d9-0cdd5cfeaaaf",
-                    "net_name_regex": ""
-                },
-                "order": 6,
-                "padstack": "3c4a52fe-3ae0-4c3e-a108-824b53d6d6da",
-                "parameter_set": {
-                    "hole_diameter": 350000,
-                    "via_diameter": 700000
-                }
-            },
-            "eae4e97b-eafa-495f-a34f-2aa879e25bb0": {
+            "5cc14823-6744-4321-bf09-c37f1fd4a2d7": {
                 "enabled": true,
                 "match": {
                     "mode": "net_class",
                     "net": "00000000-0000-0000-0000-000000000000",
-                    "net_class": "7f3ccf8b-0e02-488e-9e2f-e1925b6a5552",
+                    "net_class": "7ba1d4a4-861c-43e2-acd7-de8d7ae7beb1",
                     "net_name_regex": ""
                 },
-                "order": 5,
+                "order": 1,
                 "padstack": "3c4a52fe-3ae0-4c3e-a108-824b53d6d6da",
                 "parameter_set": {
                     "hole_diameter": 250000,
                     "via_diameter": 600000
                 }
+            },
+            "759df6a8-ed68-47b0-a94d-ca863a608fb5": {
+                "enabled": true,
+                "match": {
+                    "mode": "net_class",
+                    "net": "00000000-0000-0000-0000-000000000000",
+                    "net_class": "4fe5a152-969e-42dc-aff9-4067980b197f",
+                    "net_name_regex": ""
+                },
+                "order": 3,
+                "padstack": "3c4a52fe-3ae0-4c3e-a108-824b53d6d6da",
+                "parameter_set": {
+                    "hole_diameter": 1000000,
+                    "via_diameter": 1400000
+                }
+            },
+            "cc35cc7f-8ccf-48f6-8899-740ccb59d376": {
+                "enabled": true,
+                "match": {
+                    "mode": "all",
+                    "net": "00000000-0000-0000-0000-000000000000",
+                    "net_class": "9a8f019c-ebc6-4613-a2c1-b1dd77ba7821",
+                    "net_name_regex": ""
+                },
+                "order": 4,
+                "padstack": "3c4a52fe-3ae0-4c3e-a108-824b53d6d6da",
+                "parameter_set": {
+                    "hole_diameter": 350000,
+                    "via_diameter": 700000
+                }
             }
+        },
+        "via_definitions": {
+            "enabled": true,
+            "order": -1,
+            "via_definitions": {}
         }
     },
     "rules_type": "board",
     "type": "rules",
-    "uuid": "5e9ed0ce-5df9-4040-8031-b4eae9068c7f"
+    "uuid": "96d86927-0889-460b-9b9f-95eb53042578"
 }
