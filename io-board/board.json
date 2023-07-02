@@ -97,7 +97,7 @@
                 1000000,
                 1000000
             ],
-            "spacing_square": 100000
+            "spacing_square": 10000
         },
         "grids": {}
     },
@@ -445,12 +445,6 @@
                 36200000
             ]
         },
-        "6ee1ea52-ace3-4cc2-b7e0-5cf569325634": {
-            "position": [
-                16250000,
-                23200000
-            ]
-        },
         "73212c14-e785-4a7f-9f5f-2ddd4da8fb1a": {
             "position": [
                 8625000,
@@ -515,6 +509,12 @@
             "position": [
                 8625000,
                 8400000
+            ]
+        },
+        "8914c18a-e1dd-4a2e-8119-d16481fdd308": {
+            "position": [
+                22400000,
+                22700000
             ]
         },
         "8be1a743-b975-4223-bd0d-839e83706ef6": {
@@ -631,12 +631,6 @@
                 28760000
             ]
         },
-        "b1ba4a26-8c3f-49d1-8d4f-5710a5aaa4cd": {
-            "position": [
-                26900000,
-                21800000
-            ]
-        },
         "b94e6cda-acd1-4e21-a48c-01d242896452": {
             "position": [
                 62000000,
@@ -733,12 +727,6 @@
                 32610000
             ]
         },
-        "e5bfb64e-f400-46a9-8dcc-c71e017979e9": {
-            "position": [
-                18700000,
-                23600000
-            ]
-        },
         "e66bad39-fbd7-4038-873e-dbf7db84ead6": {
             "position": [
                 38400000,
@@ -767,12 +755,6 @@
             "position": [
                 32210000,
                 27110000
-            ]
-        },
-        "eb6fcc11-7224-40f8-8965-559ccc9415c9": {
-            "position": [
-                26900000,
-                25400000
             ]
         },
         "ee110072-b2a1-4dd8-ab25-5f778a5c70a2": {
@@ -1074,11 +1056,11 @@
             "flip": false,
             "omit_silkscreen": false,
             "placement": {
-                "angle": 0,
+                "angle": 32768,
                 "mirror": false,
                 "shift": [
-                    24300000,
-                    23600000
+                    16800000,
+                    22700000
                 ]
             },
             "smashed": true,
@@ -2273,8 +2255,8 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        17501000,
-                        22400000
+                        17494000,
+                        20600000
                     ],
                     "type": "line"
                 },
@@ -2286,7 +2268,7 @@
                     "arc_reverse": false,
                     "position": [
                         23860000,
-                        22400000
+                        20600000
                     ],
                     "type": "line"
                 },
@@ -2357,7 +2339,7 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        17501000,
+                        17494000,
                         37405000
                     ],
                     "type": "line"
@@ -2795,7 +2777,7 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        17501000,
+                        17494000,
                         29440000
                     ],
                     "type": "line"
@@ -2807,8 +2789,8 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        17501000,
-                        22400000
+                        17494000,
+                        20600000
                     ],
                     "type": "line"
                 },
@@ -2820,7 +2802,7 @@
                     "arc_reverse": false,
                     "position": [
                         23595000,
-                        22400000
+                        20600000
                     ],
                     "type": "line"
                 },
@@ -2993,7 +2975,7 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        17501000,
+                        17494000,
                         35240000
                     ],
                     "type": "line"
@@ -3005,7 +2987,7 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        17501000,
+                        17494000,
                         33045000
                     ],
                     "type": "line"
@@ -4813,11 +4795,11 @@
             "layer": 20,
             "origin": "center",
             "placement": {
-                "angle": 49152,
+                "angle": 16384,
                 "mirror": false,
                 "shift": [
-                    28550000,
-                    26825000
+                    12550000,
+                    19475000
                 ]
             },
             "size": 1000000,
@@ -5344,7 +5326,7 @@
                 "junc": null,
                 "pad": "cafda62b-5db1-4838-a607-c09d75109f41/f9e88b19-3cb5-49cc-85e9-5cf61a49fad6"
             },
-            "width": 1200000,
+            "width": 1300000,
             "width_from_net_class": false
         },
         "02b051f1-deb4-4284-9952-bf057ec49a5f": {
@@ -5428,7 +5410,7 @@
                 "junc": null,
                 "pad": "4a19a3fc-4974-484d-ac02-22a547a4e919/426632d2-b5ea-48b9-99e5-4d7ee71b0099"
             },
-            "width": 1200000,
+            "width": 1300000,
             "width_from_net_class": false
         },
         "13af4c72-7703-4d27-8314-5859d85393be": {
@@ -6372,18 +6354,6 @@
             },
             "source": "rules"
         },
-        "293358a5-0636-4bd4-b1ed-ae0fd5d310f4": {
-            "from_rules": true,
-            "junction": "6ee1ea52-ace3-4cc2-b7e0-5cf569325634",
-            "locked": false,
-            "net_set": "8dc9373f-9660-4b51-8897-39cec27d80c3",
-            "padstack": "8b6dee4b-af88-4c0f-b38b-c5364649e65e",
-            "parameter_set": {
-                "hole_diameter": 350000,
-                "via_diameter": 700000
-            },
-            "source": "rules"
-        },
         "2978b927-2ef1-4cbb-9dbd-ccb377b81650": {
             "from_rules": false,
             "junction": "0c488286-4e25-445e-92a5-7b8c10a10c63",
@@ -6828,18 +6798,6 @@
             },
             "source": "rules"
         },
-        "a1092469-1785-4e56-8d86-cce010455eb0": {
-            "from_rules": true,
-            "junction": "b1ba4a26-8c3f-49d1-8d4f-5710a5aaa4cd",
-            "locked": false,
-            "net_set": "8dc9373f-9660-4b51-8897-39cec27d80c3",
-            "padstack": "8b6dee4b-af88-4c0f-b38b-c5364649e65e",
-            "parameter_set": {
-                "hole_diameter": 350000,
-                "via_diameter": 700000
-            },
-            "source": "rules"
-        },
         "a6ce1235-b791-4c66-9e24-4ea9976d5646": {
             "from_rules": true,
             "junction": "dc5d7e7d-25f6-409a-9597-3daa82417966",
@@ -6857,18 +6815,6 @@
             "junction": "e66bad39-fbd7-4038-873e-dbf7db84ead6",
             "locked": false,
             "net_set": "78c5b52b-adde-4055-8a07-88a4476be1c5",
-            "padstack": "3c4a52fe-3ae0-4c3e-a108-824b53d6d6da",
-            "parameter_set": {
-                "hole_diameter": 1000000,
-                "via_diameter": 1400000
-            },
-            "source": "rules"
-        },
-        "aa206637-456f-4776-9dc9-51c751dc3a2e": {
-            "from_rules": true,
-            "junction": "e5bfb64e-f400-46a9-8dcc-c71e017979e9",
-            "locked": false,
-            "net_set": "758184b4-91a8-4ff5-ab15-62bedf286bd7",
             "padstack": "3c4a52fe-3ae0-4c3e-a108-824b53d6d6da",
             "parameter_set": {
                 "hole_diameter": 1000000,
@@ -7019,6 +6965,18 @@
             },
             "source": "rules"
         },
+        "d3d444d9-1946-4440-8ec0-2f8bf4468037": {
+            "from_rules": true,
+            "junction": "8914c18a-e1dd-4a2e-8119-d16481fdd308",
+            "locked": false,
+            "net_set": "758184b4-91a8-4ff5-ab15-62bedf286bd7",
+            "padstack": "3c4a52fe-3ae0-4c3e-a108-824b53d6d6da",
+            "parameter_set": {
+                "hole_diameter": 1000000,
+                "via_diameter": 1400000
+            },
+            "source": "rules"
+        },
         "d6ad369b-578c-44c9-a877-d3a937ac471b": {
             "from_rules": true,
             "junction": "487c2c1a-b79a-4141-9e13-340b74f89de7",
@@ -7065,18 +7023,6 @@
                 "via_diameter": 1000000
             },
             "source": "local"
-        },
-        "ea8bc212-70f4-4905-9841-65332f02ff8b": {
-            "from_rules": true,
-            "junction": "eb6fcc11-7224-40f8-8965-559ccc9415c9",
-            "locked": false,
-            "net_set": "8dc9373f-9660-4b51-8897-39cec27d80c3",
-            "padstack": "8b6dee4b-af88-4c0f-b38b-c5364649e65e",
-            "parameter_set": {
-                "hole_diameter": 350000,
-                "via_diameter": 700000
-            },
-            "source": "rules"
         },
         "eb44e119-4bf5-4027-af9a-115fd9d98120": {
             "from_rules": false,
