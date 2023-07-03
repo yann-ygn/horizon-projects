@@ -178,8 +178,10 @@
             }
         }
     },
-    "parameter_program": "",
-    "parameter_set": {},
+    "parameter_program": "9.150mm 7.600mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle 0.000mm 0.000mm ]",
+    "parameter_set": {
+        "courtyard_expansion": 50000
+    },
     "polygons": {
         "8423884a-5522-4761-8547-3c7cab0d2c97": {
             "layer": 40,
@@ -265,49 +267,49 @@
             "vertices": [
                 {
                     "arc_center": [
-                        6350000,
-                        -3000000
+                        0,
+                        0
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -4575000,
-                        -3800000
+                        -4625000,
+                        -3850000
                     ],
                     "type": "line"
                 },
                 {
                     "arc_center": [
-                        6350000,
-                        -3000000
+                        0,
+                        0
                     ],
                     "arc_reverse": false,
                     "position": [
-                        4575000,
-                        -3800000
+                        -4625000,
+                        3850000
                     ],
                     "type": "line"
                 },
                 {
                     "arc_center": [
-                        6350000,
-                        -3000000
+                        0,
+                        0
                     ],
                     "arc_reverse": false,
                     "position": [
-                        4575000,
-                        3800000
+                        4625000,
+                        3850000
                     ],
                     "type": "line"
                 },
                 {
                     "arc_center": [
-                        6350000,
-                        -3000000
+                        0,
+                        0
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -4575000,
-                        3800000
+                        4625000,
+                        -3850000
                     ],
                     "type": "line"
                 }
