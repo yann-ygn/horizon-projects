@@ -250,7 +250,7 @@
         "2b44c75f-9a07-49c9-9010-d13e7bf1d49e": {
             "position": [
                 11500000,
-                50000000
+                49800000
             ]
         },
         "2b4fd722-26bf-40d8-a9e2-a3bb94f0370c": {
@@ -491,6 +491,12 @@
             "position": [
                 62000000,
                 50040000
+            ]
+        },
+        "74e1b9e1-5c3d-4185-aa76-65d14fef0e29": {
+            "position": [
+                15400000,
+                47400000
             ]
         },
         "76f8f78d-a808-4d3c-bbde-2c41cd2607ce": {
@@ -868,7 +874,7 @@
         "db431d7e-7f9b-49c5-ac6a-3889dde7d0c3": {
             "position": [
                 16500000,
-                45900000
+                45700000
             ]
         },
         "db65bd67-6abe-48d6-b0fd-0aef220c94a9": {
@@ -904,7 +910,7 @@
         "e45668fe-ade7-4867-afcb-0c3bcd416625": {
             "position": [
                 14670000,
-                46830000
+                46630000
             ]
         },
         "e4949a6f-c344-419e-a1b6-fd8868005c11": {
@@ -934,7 +940,7 @@
         "e70b967b-03fb-4c28-bafb-549b626102fa": {
             "position": [
                 16170000,
-                45570000
+                45370000
             ]
         },
         "e76106fd-f9af-457d-86cd-cb93b61cd457": {
@@ -5846,6 +5852,18 @@
         "7193fc20-5e7a-4a3e-ad43-fa6d4e27e5df": {
             "from_rules": true,
             "junction": "19964b66-5c56-4cca-b295-84445ef23649",
+            "locked": false,
+            "net_set": "2af25f27-d944-442c-af52-66b351b7ed5a",
+            "padstack": "8b6dee4b-af88-4c0f-b38b-c5364649e65e",
+            "parameter_set": {
+                "hole_diameter": 350000,
+                "via_diameter": 700000
+            },
+            "source": "rules"
+        },
+        "7374587c-76a8-4267-93e7-b9c8aaddf441": {
+            "from_rules": true,
+            "junction": "74e1b9e1-5c3d-4185-aa76-65d14fef0e29",
             "locked": false,
             "net_set": "2af25f27-d944-442c-af52-66b351b7ed5a",
             "padstack": "8b6dee4b-af88-4c0f-b38b-c5364649e65e",
