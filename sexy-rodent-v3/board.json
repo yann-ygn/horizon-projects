@@ -19,7 +19,47 @@
         }
     },
     "connection_lines": {},
-    "dimensions": {},
+    "dimensions": {
+        "6263649d-1b14-412c-b6cc-bd0925d62a23": {
+            "label_distance": 3370000,
+            "label_size": 1500000,
+            "mode": "distance",
+            "p0": [
+                11500000,
+                52800000
+            ],
+            "p1": [
+                31500000,
+                52800000
+            ]
+        },
+        "a2ee9131-1f63-4a89-94b1-3b36e912199b": {
+            "label_distance": -69430000,
+            "label_size": 1500000,
+            "mode": "distance",
+            "p0": [
+                0,
+                63300000
+            ],
+            "p1": [
+                31500000,
+                63300000
+            ]
+        },
+        "def07624-420f-4cdf-8f6a-f765a4ad1347": {
+            "label_distance": -2000000,
+            "label_size": 1500000,
+            "mode": "distance",
+            "p0": [
+                31500000,
+                52800000
+            ],
+            "p1": [
+                9500000,
+                52800000
+            ]
+        }
+    },
     "fab_output_settings": {
         "drill_mode": "merged",
         "drill_npth": "-npth.txt",
@@ -2970,7 +3010,7 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        20600000,
+                        20400000,
                         10300000
                     ],
                     "type": "line"
@@ -2982,7 +3022,7 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        20600000,
+                        20400000,
                         4900000
                     ],
                     "type": "line"
