@@ -265,12 +265,6 @@
                 33960000
             ]
         },
-        "44d1ce66-ac6d-4e80-a08d-eeac047312ec": {
-            "position": [
-                47850000,
-                16950000
-            ]
-        },
         "4802af5e-f619-4101-a80e-8d97ead8467d": {
             "position": [
                 39125000,
@@ -683,12 +677,6 @@
             "position": [
                 3452917,
                 36747083
-            ]
-        },
-        "da05505d-c73c-4d81-aabc-eac03d2bab44": {
-            "position": [
-                53500000,
-                31230000
             ]
         },
         "dc1517cd-0acb-4524-a345-9390d9d86a82": {
@@ -5409,20 +5397,6 @@
             "width": 200000,
             "width_from_net_class": true
         },
-        "26c8d98b-7391-4c9a-b399-15ca5b9ffa16": {
-            "from": {
-                "junc": "da05505d-c73c-4d81-aabc-eac03d2bab44",
-                "pad": null
-            },
-            "layer": -100,
-            "locked": false,
-            "to": {
-                "junc": "6c4e2422-62ed-4805-adab-cb36fc762fab",
-                "pad": null
-            },
-            "width": 300000,
-            "width_from_net_class": false
-        },
         "2dc387ac-4fd3-474f-b942-fa2334abbd60": {
             "from": {
                 "junc": "deb349d5-b47e-4a63-a041-b807b73035cb",
@@ -5982,20 +5956,6 @@
             },
             "width": 300000,
             "width_from_net_class": true
-        },
-        "dd522d46-e17c-49e0-98ce-2a147017262b": {
-            "from": {
-                "junc": null,
-                "pad": "c3399785-bf15-49ae-a148-59ebcb08afa8/671b6d93-2bc4-4794-b8e4-72c02d29b0ed"
-            },
-            "layer": -100,
-            "locked": false,
-            "to": {
-                "junc": "44d1ce66-ac6d-4e80-a08d-eeac047312ec",
-                "pad": null
-            },
-            "width": 300000,
-            "width_from_net_class": false
         },
         "e5917617-bbe0-4906-963f-c9639ec2cee1": {
             "from": {
