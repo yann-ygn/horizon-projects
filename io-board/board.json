@@ -295,12 +295,6 @@
                 15800000
             ]
         },
-        "3d50351f-4ae3-49ae-9059-b1b4e03e2cca": {
-            "position": [
-                60700000,
-                37045000
-            ]
-        },
         "3d9d01ed-49fd-42b0-bf6f-e965c61a96d0": {
             "position": [
                 34000000,
@@ -6369,20 +6363,6 @@
             "to": {
                 "junc": null,
                 "pad": "2f0ec17e-a704-4bed-b9f5-f42d71e254a1/8d003a72-d904-4f1c-83ba-64164b3cd141"
-            },
-            "width": 300000,
-            "width_from_net_class": true
-        },
-        "bc9c2faa-6518-4de2-8466-181ca7547a46": {
-            "from": {
-                "junc": "3d50351f-4ae3-49ae-9059-b1b4e03e2cca",
-                "pad": null
-            },
-            "layer": 0,
-            "locked": false,
-            "to": {
-                "junc": "1b84fbce-1617-4d69-b388-2fd7b9199962",
-                "pad": null
             },
             "width": 300000,
             "width_from_net_class": true
