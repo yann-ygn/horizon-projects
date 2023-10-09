@@ -1,6 +1,6 @@
 {
     "arcs": {},
-    "default_model": "00000000-0000-0000-0000-000000000000",
+    "default_model": "06ca07c7-44fa-4d3d-b26a-0897c69b4c70",
     "dimensions": {},
     "grid_settings": {
         "current": {
@@ -126,7 +126,17 @@
         }
     },
     "manufacturer": "",
-    "models": {},
+    "models": {
+        "06ca07c7-44fa-4d3d-b26a-0897c69b4c70": {
+            "filename": "3d_models/cache/15ccebcf-4669-46be-a5da-5eb099cfd5ae/3d_models/J_HEADER_SMD_FEMALE_3PINS.stp",
+            "pitch": 0,
+            "roll": 49152,
+            "x": 0,
+            "y": 0,
+            "yaw": 0,
+            "z": 200000
+        }
+    },
     "name": "smd-connector-header-female-1x3pins",
     "pads": {
         "285aafa6-3c27-4c37-ab2d-51bc9bab3628": {
