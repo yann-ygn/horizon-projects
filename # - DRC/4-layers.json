@@ -661,7 +661,7 @@
                     "net_class": "9a8f019c-ebc6-4613-a2c1-b1dd77ba7821",
                     "net_name_regex": ""
                 },
-                "order": 3,
+                "order": 4,
                 "settings": {
                     "angle": 0,
                     "connect_style": "thermal",
@@ -674,7 +674,7 @@
                     "n_spokes": 4,
                     "style": "miter",
                     "text_style": "expand",
-                    "thermal_gap_width": 200000,
+                    "thermal_gap_width": 190000,
                     "thermal_spoke_width": 300000
                 }
             },
@@ -790,7 +790,7 @@
                     "-100": {
                         "def": 800000,
                         "max": 1800000,
-                        "min": 500000
+                        "min": 400000
                     },
                     "-2": {
                         "def": 200000,
@@ -800,7 +800,7 @@
                     "0": {
                         "def": 800000,
                         "max": 1800000,
-                        "min": 500000
+                        "min": 400000
                     }
                 }
             },
@@ -907,5 +907,5 @@
     },
     "rules_type": "board",
     "type": "rules",
-    "uuid": "96d86927-0889-460b-9b9f-95eb53042578"
+    "uuid": "dc330d5c-9c24-4613-9da6-cd639a8ec664"
 }
