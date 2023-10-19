@@ -27,7 +27,7 @@
         "layers": {
             "-1": {
                 "enabled": true,
-                "filename": "",
+                "filename": ".g1",
                 "layer": -1
             },
             "-100": {
@@ -46,13 +46,13 @@
                 "layer": -120
             },
             "-130": {
-                "enabled": true,
+                "enabled": false,
                 "filename": ".gbp",
                 "layer": -130
             },
             "-2": {
                 "enabled": true,
-                "filename": "",
+                "filename": ".g2",
                 "layer": -2
             },
             "0": {
@@ -81,9 +81,9 @@
                 "layer": 30
             }
         },
-        "output_directory": "",
-        "prefix": "test-jack",
-        "zip_output": false
+        "output_directory": "_output",
+        "prefix": "io-board",
+        "zip_output": true
     },
     "grid_settings": {
         "current": {
